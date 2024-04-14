@@ -21,7 +21,9 @@ analysis_data <- analysis_data %>%
 set.seed(302)
 
 ### Model data ####
-gaussian_model <-
+
+# Socio-economic models
+socioeconomic_gaussian_model <-
   stan_glm(
     percent_voted ~ percent_uneducated + income + unemployment_rate,
     data = analysis_data,
@@ -30,51 +32,102 @@ gaussian_model <-
     prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
     seed = 302
   )
-prior_summary(gaussian_model)
 
-# Round percent_voted to the nearest integer for Poisson and Negative Binomial models
-analysis_data$percent_voted <- round(analysis_data$percent_voted)
-analysis_data$percent_voted <- as.integer(analysis_data$percent_voted)
 
-poisson_model <-
+socioeconomic_poisson_model <-
   stan_glm(
-    percent_voted ~ percent_uneducated + income + unemployment_rate,
+    number_voted ~ percent_uneducated + income + unemployment_rate,
     data = analysis_data,
-    family = poisson(link = "log"),
+    family = poisson(),
     prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
     prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
     seed = 302
   )
-prior_summary(poisson_model)
 
 
-negative_binomial_model <-
+socioeconomic_negative_binomial_model <-
   stan_glm(
-    percent_voted ~ percent_uneducated + income + unemployment_rate,
+    number_voted ~ percent_uneducated + income + unemployment_rate,
     data = analysis_data,
     family = neg_binomial_2(link = "log"),
     prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
     prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
     seed = 302
   )
-prior_summary(negative_binomial_model)
 
+
+# Demographic models
+
+demographic_gaussian_model <-
+  stan_glm(
+    percent_voted ~ num_sub + population,
+    data = analysis_data,
+    family = gaussian(),
+    prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
+    prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
+    seed = 302
+  )
+
+
+demographic_poisson_model <-
+  stan_glm(
+    number_voted ~ num_sub + population,
+    data = analysis_data,,
+    family = poisson(),
+    prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
+    prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
+    seed = 302
+  )
+
+
+demographic_negative_binomial_model <-
+  stan_glm(
+    number_voted ~ num_sub + population,
+    data = analysis_data,
+    family = neg_binomial_2(link = "log"),
+    prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
+    prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
+    seed = 302
+  )
+
+prior_summary(socioeconomic_gaussian_model)
+prior_summary(socioeconomic_poisson_model)
+prior_summary(socioeconomic_negative_binomial_model)
+prior_summary(demographic_gaussian_model)
+prior_summary(demographic_poisson_model)
+prior_summary(demographic_negative_binomial_model)
 
 #### Save model ####
 saveRDS(
-  gaussian_model,
-  file = "models/gaussian_model.rds"
+  socioeconomic_gaussian_model,
+  file = "models/socioeconomic_gaussian_model.rds"
 )
 
 saveRDS(
-  poisson_model,
-  file = "models/poisson_model.rds"
+  socioeconomic_poisson_model,
+  file = "models/socioeconomic_poisson_model.rds"
 )
 
 saveRDS(
-  negative_binomial_model,
-  file = "models/negative_binomial_model.rds"
+  socioeconomic_negative_binomial_model,
+  file = "models/socioeconomic_negative_binomial_model.rds"
 )
+
+saveRDS(
+  demographic_gaussian_model,
+  file = "models/demographic_gaussian_model.rds"
+)
+
+saveRDS(
+  demographic_poisson_model,
+  file = "models/demographic_poisson_model.rds"
+)
+
+saveRDS(
+  demographic_negative_binomial_model,
+  file = "models/demographic_negative_binomial_model.rds"
+)
+
 
 
 

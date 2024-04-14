@@ -2,13 +2,13 @@
 title: "My title"
 subtitle: "My subtitle if needed"
 author: 
-  - First author
-  - Another author
+  - Janel Gilani
 thanks: "Code and data are available at: LINK."
 date: today
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
+toc: true
 number-sections: true
 bibliography: references.bib
 ---
@@ -37,6 +37,7 @@ bibliography: references.bib
 #install.packages("ggrepel")
 #install.packages("ggplot2")
 #install.packages("dplyr")
+#install.packages("patchwork")
 
 
 library(tidyverse) # a collection of data-related packages
@@ -48,6 +49,7 @@ library(dplyr)
 library(ggplot2)
 library(sf)
 library(ggrepel)
+library(patchwork)
 library(rstanarm)
 library(arrow)
 library(modelsummary)
@@ -81,7 +83,7 @@ The remainder of this paper is structured as follows. @sec-data....
 #referenced kable stying from https://github.com/christina-wei/INF3104-1-Covid-Clinics/blob/main/outputs/paper/covid_clinics.qmd
 head(election_data, 5) |>
   kable(
-    col.names = c("Ward ID", "Eligible Voter Turnout (%)"),
+    col.names = c("Ward ID", "Eligible Voter Turnout (%)", "Number of Voters", "Number of Subdivisions"),
     booktabs = TRUE,
     align = "c"
   )
@@ -97,7 +99,7 @@ head(election_data, 5) |>
 
 head(ward_data, 5) |>
   kable(
-    col.names = c("Ward ID", "Uneducated Population (%)", "Unemployment Rate (%)", "Income"),
+    col.names = c("Ward ID", "Population", "Uneducated Population (%)", "Unemployment Rate (%)", "Income"),
     booktabs = TRUE,
     align = "c"
   )
@@ -107,17 +109,17 @@ head(ward_data, 5) |>
 ```{r}
 #| echo: false
 #| message: false
-#| label: tbl-analysis_data
+#| label: tbl-analysis-data
 #| tbl-cap: Sample of Combined Ward Election, Income, Employment, and Education Data
 #| tbl-pos: "h"
 
 head(analysis_data, 10) |>
   arrange (ward_id) |>
-  relocate(c("ward_id", "ward_name", "percent_uneducated", "unemployment_rate", "income", "percent_voted")) |>
+  relocate(c("ward_id", "ward_name",  "population", "num_sub", "percent_uneducated", "unemployment_rate", "income", "percent_voted", "number_voted")) |>
   kable(
     booktabs = TRUE,
-    col.names = c("Ward ID", "Ward Name", "Uneducated Population (%)", "Unemployment Rate (%)", "Income", "Eligible Voter Turnout (%)"),
-    align = c("c", "l", "c", "c", "c", "c")
+    col.names = c("Ward ID", "Name",  "Pop.","Num. of SubDiv", "Uneducated Pop. (%)", "Unemployment Rate (%)", "Income", "Voter Turnout (%)", "Num. of Voters"),
+    align = c("c", "l", "c", "c", "c", "c", "c", "c", "c")
         ) 
 ```
 
@@ -166,7 +168,22 @@ summary <- analysis_data |>
     Median_Income = median(income, na.rm = TRUE),
     SD_Income = sd(income, na.rm = TRUE),
     Min_Income = min(income, na.rm = TRUE),
-    Max_Income = max(income, na.rm = TRUE)
+    Max_Income = max(income, na.rm = TRUE),
+    Mean_Population = mean(population, na.rm = TRUE),
+    Median_Population = median(population, na.rm = TRUE),
+    SD_Population = sd(population, na.rm = TRUE),
+    Min_Population = min(population, na.rm = TRUE),
+    Max_Population = max(population, na.rm = TRUE),
+    Mean_NumSub = mean(num_sub, na.rm = TRUE),
+    Median_NumSub = median(num_sub, na.rm = TRUE),
+    SD_NumSub = sd(num_sub, na.rm = TRUE),
+    Min_NumSub = min(num_sub, na.rm = TRUE),
+    Max_NumSub = max(num_sub, na.rm = TRUE),
+    Mean_NumVoters = mean(number_voted, na.rm = TRUE),
+    Median_NumVoters = median(number_voted, na.rm = TRUE),
+    SD_NumVoters = sd(number_voted, na.rm = TRUE),
+    Min_NumVoters = min(number_voted, na.rm = TRUE),
+    Max_NumVoters = max(number_voted, na.rm = TRUE)
   )
 long_summary_stats <-  summary |>
   pivot_longer(cols = everything(), names_to = "Statistic", values_to = "Value") |>
@@ -174,16 +191,21 @@ long_summary_stats <-  summary |>
   spread(key = Measure, value = Value) |>
   select(Variable, Mean, Median, SD, Min, Max)
 
-long_summary_stats$Variable <- c("Income", "Voter Turnout (%)", "Uneducated Population (%)", "Unemployment Rate (%)")
+long_summary_stats$Variable <- c("Income", "Number of Subdivisions", "Number of Voters", "Population", "Voter Turnout (%)", "Uneducated Population (%)", "Unemployment Rate (%)")
+
 
 kable(long_summary_stats,
       format = "markdown",
       digits = 2,
-      col.names = c("Variable", "Mean", "Median", "Standard. Deviation", "Min", "Max"),
+      col.names = c("Variable", "Mean", "Median", "Std. Dev", "Min", "Max"),
       row.names = FALSE,
       align = c('l', 'c', 'c', 'c', 'c', 'c'), 
-      )
+      ) %>%
+  kable_styling(latex_options = "hold_position")
+
+
 ```
+
 
 ```{r}
 #| echo: false
@@ -276,6 +298,36 @@ ggplot() +
 
 ```
 
+```{r}
+#| echo: false
+#| label: turnout_vs_population
+#| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Population"
+#| warning: false 
+  ggplot(data = analysis_data, aes(x = population, y = percent_voted, label = ward_id)) +
+  geom_point() +
+  geom_text_repel(hjust=-0.5, vjust=0.5) +
+  geom_smooth(method = "lm", color = "red", se = TRUE) +
+  theme_minimal() +
+  labs(x = "Population", y = "Eligible Voter Turnout (%)") +
+  scale_colour_viridis_d()
+
+```
+
+```{r}
+#| echo: false
+#| label: turnout_vs_numsub
+#| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Number of Subdivisions"
+#| warning: false 
+  ggplot(data = analysis_data, aes(x = num_sub, y = percent_voted, label = ward_id)) +
+  geom_point() +
+  geom_text_repel(hjust=-0.5, vjust=0.5) +
+  geom_smooth(method = "lm", color = "red", se = TRUE) +
+  theme_minimal() +
+  labs(x = "Number of Subdivisions", y = "Eligible Voter Turnout (%)") +
+  scale_colour_viridis_d()
+
+```
+
 # Model
 
 The goal of our modelling strategy is twofold. Firstly,...
@@ -315,30 +367,59 @@ Our results are summarized in @tbl-modelresults.
 #| warning: false
 #| message: false
 
-library(rstanarm)
+socioeconomic_gaussian_model <-
+  readRDS(file = here::here("models/socioeconomic_gaussian_model.rds"))
 
-first_model <-
-  readRDS(file = here::here("models/poisson_model.rds"))
+socioeconomic_poisson_model <-
+  readRDS(file = here::here("models/socioeconomic_poisson_model.rds"))
+
+socioeconomic_negative_binomial_model <-
+  readRDS(file = here::here("models/socioeconomic_negative_binomial_model.rds"))
+
+demographic_gaussian_model <-
+  readRDS(file = here::here("models/demographic_gaussian_model.rds"))
+
+demographic_poisson_model <-
+  readRDS(file = here::here("models/demographic_poisson_model.rds"))
+
+demographic_negative_binomial_model <-
+  readRDS(file = here::here("models/demographic_negative_binomial_model.rds"))
+
 ```
 
 ```{r}
 #| echo: false
 #| eval: true
-#| label: tbl-modelresults
-#| tbl-cap: "Explanatory models of flight time based on wing width and wing length"
+#| label: tbl-SEmodelresults
+#| tbl-cap: "Socio-economic explanatory models of voter turnout based on education, employment and income"
 #| warning: false
 
-modelsummary::modelsummary(
+  modelsummary::modelsummary(
   list(
-    "First model" = first_model
-  ),
+  "Multiple Linear Regression" = socioeconomic_gaussian_model,
+  "Poisson Regression" = socioeconomic_poisson_model),
   statistic = "mad",
-  fmt = 2
-)
+  fmt = 2)
+
+
 ```
 
 
 
+```{r}
+#| echo: false
+#| eval: true
+#| label: tbl-Dmodelresults
+#| tbl-cap: "Demographic explanatory models of voter turnout based on population and number of subdivisions"
+#| warning: false
+
+models <- list(
+  "Multiple Linear Regression" = demographic_gaussian_model,
+  "Poisson Regression" = demographic_poisson_model)
+
+modelsummary(models, statistic = "mad", fmt = 2)
+
+```
 
 # Discussion
 
@@ -382,15 +463,18 @@ In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. Th
 #| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
 
 
-analysis_data <- read_csv(file = here::here("data/analysis_data/analysis_data.csv"))
 analysis_data <- analysis_data %>%
-  mutate(income = income / 1000, percent_voted = as.integer(round(percent_voted)))
+  mutate(income = income / 1000)
 
-pp_check(first_model) +
+# Round percent_voted to the nearest integer for Poisson and Negative Binomial models
+rounded_analysis_data <- analysis_data %>%
+  mutate(percent_voted = as.integer(round(percent_voted)))
+
+pp_check(socioeconomic_gaussian_model) +
   theme_classic() +
   theme(legend.position = "bottom")
 
-posterior_vs_prior(first_model) +
+posterior_vs_prior(socioeconomic_gaussian_model) +
   theme_minimal() +
   scale_color_brewer(palette = "Set1") +
   theme(legend.position = "bottom") +
@@ -413,9 +497,9 @@ posterior_vs_prior(first_model) +
 #| fig-subcap: ["Trace plot", "Rhat plot"]
 #| layout-ncol: 2
 
-plot(first_model, "trace")
+plot(socioeconomic_gaussian_model, "trace")
 
-plot(first_model, "rhat")
+plot(socioeconomic_gaussian_model, "rhat")
 ```
 
 

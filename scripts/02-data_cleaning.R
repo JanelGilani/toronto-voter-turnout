@@ -20,15 +20,37 @@ library(arrow)
 raw_data_1 <- read_csv("data/raw_data/raw_election_data.csv")
 
 cleaned_election_data <- clean_names(raw_data_1)
+sub_data = 
+  cleaned_election_data |>
+  select(ward, sub) |>
+  group_by(ward) |>
+  count(
+    total = max(sub, na.rm = TRUE) 
+  ) |>
+  select(ward, n) |>
+  filter(n > 1) 
+sub_data = sub_data |>
+  rename(
+    num_sub = n,
+  ) |>
+  mutate(ward = as.numeric(ward))
+
+sub_data = sub_data |>
+  arrange(ward)
+
+#print(n =25, sub_data)
 
 cleaned_election_data <- cleaned_election_data %>%
   filter(grepl("Total", ward, ignore.case = TRUE) & !grepl("Grand Total", ward, ignore.case = TRUE))
 
 cleaned_election_data <- cleaned_election_data %>%
   mutate(ward = as.numeric(gsub(" Total", "", ward))) %>%
-  select(ward, percent_voted)
+  select(ward, percent_voted, number_voted)
 
 cleaned_election_data$percent_voted <- cleaned_election_data$percent_voted * 100
+
+cleaned_election_data <- cleaned_election_data %>%
+  left_join(sub_data, by = c("ward" = "ward"))
 
 #head(cleaned_election_data)
 
@@ -49,7 +71,7 @@ cleaned_ward_data <- cleaned_ward_data %>%
 
 cleaned_ward_data$percent_uneducated <- (cleaned_ward_data$num_uneducated / cleaned_ward_data$population) * 100
 
-cleaned_ward_data <- cleaned_ward_data[c("ward_id", "percent_uneducated", "unemployment_rate", "income")]
+cleaned_ward_data <- cleaned_ward_data[c("ward_id", "population", "percent_uneducated", "unemployment_rate", "income")]
 
 #head(cleaned_ward_data)
 
@@ -70,9 +92,9 @@ analysis_data <- cleaned_ward_data %>%
   mutate(ward_name = ward_names)
 
 analysis_data <- analysis_data %>%
-  select(ward_id, ward_name, everything())
+  select(ward_id, ward_name, num_sub, everything())
 
-#head(analysis_data)
+head(analysis_data)
 
 
 #### Save data ####

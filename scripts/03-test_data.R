@@ -21,6 +21,9 @@ class(analysis_data$percent_uneducated) == "numeric" # Check if percent_uneducat
 class(analysis_data$unemployment_rate) == "numeric" # Check if unemployment_rate is a double
 class(analysis_data$income) == "numeric" # Check if income is a double
 class(analysis_data$percent_voted) == "numeric" # Check if percent_voted is a double
+class(analysis_data$population) == "numeric" # Check if population is a double
+class(analysis_data$num_sub) == "numeric" # Check if number of subdivisions is a double
+class(analysis_data$number_voted) == "numeric" # Check if ward_id is a double
 
 length(unique(analysis_data$ward_id)) == 25 # Check if ward_id is unique
 length(unique(analysis_data$ward_id)) == nrow(analysis_data) # Check if ward_id is unique
@@ -34,7 +37,16 @@ max(analysis_data$unemployment_rate) <= 100 # Check if unemployment_rate is less
 min(analysis_data$income) >= 0 # Check if income is non-negative
 max(analysis_data$income) <= 1000000 # Check if income is less than or equal to 100000
 
+min(analysis_data$population) >= 0 # Check if population is non-negative
+max(analysis_data$population) <= 1000000 # Check if population is less than or equal to 100000
+
+min(analysis_data$num_sub) >= 0 # Check if number of subdivisions is non-negative
+max(analysis_data$num_sub) <= 100 # Check if number of subdivisions is less than or equal to 100
+
 min(analysis_data$percent_voted) >= 0 # Check if percent_voted is non-negative
 max(analysis_data$percent_voted) <= 100 # Check if percent_voted is less than or equal to 100
+
+min(analysis_data$number_voted) >= 0 # Check if number_voted is non-negative
+max(analysis_data$number_voted) <= 1000000 # Check if number_voted is less than or equal to 100000
 
 any(is.na(analysis_data)) == FALSE # Check if there are no missing values in the dataset
