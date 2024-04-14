@@ -1,0 +1,1562 @@
+Ward,Sub,Building Name,Building Address,Total Electors,Additions to the Voters List,Deletions to the Voters List,Corrections to the Voters List,School Board - Public,School Board - Catholic,School Board - French Public,School Board - French Catholic,School Board - Non Resident,Total Eligible Electors,Number Voted,% Voted,Rejected Ballots,Declined Ballots
+1,1,Msgr. John Corrigan School,100 Royalcrest Road,1558,17,20,7,1157,344,2,3,61,1567,275,0.18,0,0
+1,2,John D. Parker Junior School,202 Mount Olive Drive,1633,20,6,2,1203,448,5,0,0,1656,355,0.21,7,0
+1,3,St. Angela Catholic School,220 Mount Olive Drive,1252,17,5,1,919,340,3,1,3,1266,232,0.18,0,0
+1,5,North Kipling Community Centre,2 Rowntree Road,2653,24,31,9,2254,402,6,7,0,2669,284,0.11,0,0
+1,6,Smithfield Middle School,175 Mount Olive Drive,1843,15,25,3,1313,509,4,4,7,1837,268,0.15,1,0
+1,7,Claireville Junior School,350 Silverstone Drive,1865,19,23,5,1458,393,7,1,10,1869,326,0.17,0,0
+1,8,Platinum on the Humber III,1 Rowntree Road,345,2,5,0,311,32,0,1,0,344,75,0.22,0,0
+1,9,Platinum on the Humber II,3 Rowntree Road,438,10,5,1,364,79,0,0,0,443,99,0.23,0,1
+1,10,Platinum on the Humber I,5 Rowntree Road,439,6,9,0,368,73,0,0,0,441,69,0.16,0,0
+1,11,St. Andrew Catholic School,2533 Kipling Avenue,1984,48,36,3,1363,640,1,6,3,2013,214,0.11,2,0
+1,12,Highfield Junior School,85 Mount Olive Drive,2651,31,53,6,2092,558,0,2,4,2656,275,0.1,1,0
+1,13,Melody Village Junior Public School,520 Silverstone Drive,1565,21,12,2,1246,324,3,0,12,1585,286,0.18,0,1
+1,14,Beaumonde Heights Jr. Middle School,70 Monterrey Drive,1612,21,17,14,1151,460,3,6,3,1623,358,0.22,2,0
+1,15,Thistletown Lutheran Lodge,2715 Islington Avenue,768,4,14,5,501,239,5,0,17,762,137,0.18,0,0
+1,16,Rowntree Manor,2765 Islington Avenue,386,10,2,2,284,108,1,1,0,394,91,0.23,0,0
+1,17,St. John Vianney Catholic School,105 Thistle Down Boulevard,1615,33,9,19,858,760,5,15,2,1640,433,0.26,3,0
+1,18,Thistletown Community Centre,925 Albion Road,842,22,5,5,497,345,4,9,6,861,272,0.32,0,0
+1,19,Revera West Side,1145 Albion Road,61,22,45,0,29,9,0,0,0,38,28,0.74,0,0
+1,21,Greenholme Junior Middle School,10 Jamestown Crescent,2654,38,79,8,2014,599,2,5,2,2622,338,0.13,2,0
+1,22,Elmbank Junior Middle Academy,10 Pittsboro Drive,1833,33,18,2,1463,377,4,9,7,1860,250,0.13,0,0
+1,23,St. Dorothy Catholic School,155 John Garland Blvd.,799,11,8,4,578,223,0,1,0,802,168,0.21,0,0
+1,24,Albion Heights Public School,45 Lynmont Road,1585,13,31,3,1165,390,2,5,10,1572,342,0.22,1,0
+1,25,Antonio Mazzota Seniors Building,88 Humber College Blvd.,135,4,6,1,116,17,0,0,0,133,58,0.44,4,0
+1,26,Humber Valley Terrace by Revera,95 Humber College Blvd.,113,14,0,1,123,4,0,0,0,127,21,0.17,0,0
+1,27,Humber College LRC,205 Humber College Blvd.,2207,32,76,7,1813,337,2,0,14,2166,207,0.1,0,0
+1,28,King's Terrace,6 Humberline Drive,239,2,6,0,205,30,0,0,0,235,51,0.22,0,0
+1,29,Humberline Place,10 Humberline Drive,297,7,2,0,199,103,0,0,0,302,57,0.19,0,0
+1,30,Forest Manor,20 Humberline Drive,373,10,5,2,289,89,0,0,0,378,59,0.16,0,0
+1,31,Deerwood Creek Care Community,70 Humberline Drive,37,4,0,0,37,3,0,1,0,41,9,0.22,1,0
+1,32,Humberwood Community Centre,850 Humberwood Blvd.,3039,24,6,3,2746,332,7,0,3,3088,433,0.14,0,0
+1,33,Mansions of Humberwood,710 Humberwood Blvd.,1099,29,6,5,1007,114,1,1,0,1123,197,0.18,0,0
+1,34,Ascot Co-Operative Community Centre,920 Queen's Plate Drive,1612,20,21,2,1145,457,5,1,5,1613,185,0.11,0,0
+1,35,Martin Grove United Church,75 Pergola Road,1613,22,2,10,962,638,4,4,27,1635,444,0.27,0,0
+1,36,West Humber Junior Middle School,15 Delsing Drive,1587,15,12,9,1119,468,2,4,0,1593,381,0.24,0,0
+1,37,Msgr. Percy Johnson Catholic School,2170 Kipling Avenue,1599,14,42,4,1115,423,1,3,28,1570,247,0.16,0,0
+1,38,Kipling Acres,2233 Kipling Avenue,102,23,0,0,117,8,0,0,0,125,37,0.3,1,0
+1,39,West Acres Seniors Centre,65 Hinton Road,835,6,3,7,581,255,2,1,0,839,159,0.19,0,0
+1,40,Rivercrest Junior Public School,30 Harefield Drive,1773,37,15,8,1171,611,8,3,4,1797,435,0.24,0,0
+1,41,Thistletown Collegiate Institute,20 Fordwich Crescent,1007,14,11,2,697,312,3,0,0,1012,205,0.2,0,0
+1,42,Braeburn Junior School,15 Tandridge Crescent,1448,30,13,1,1027,439,5,3,0,1474,184,0.12,0,0
+1,47,The Elms Junior Middle School,45 Golfdown Drive,2478,25,55,6,1674,766,9,1,2,2452,387,0.16,0,1
+1,48,LINC,30 Barrhead Crescent,2005,15,11,4,1270,722,4,3,10,2009,395,0.2,0,0
+1,49,Rexdale Presbyterian Church,2314 Islington Avenue,1759,31,66,6,1242,464,4,1,12,1723,255,0.15,0,0
+1,51,Elmlea Junior School,50 Hadrian Drive,2025,27,30,8,1321,686,6,4,3,2020,482,0.24,0,3
+1,52,School of Experiential Education,40 McArthur Street,2736,30,48,10,1876,823,5,11,3,2718,487,0.18,0,0
+1,53,Dante Alighieri Academy,2 St. Andrews Blvd.,1129,21,7,1,568,570,2,2,0,1142,291,0.26,3,2
+1,54,St. Maurice Catholic School,45 Kingsview Blvd.,2363,32,34,7,1714,632,15,1,0,2362,373,0.16,0,0
+1,55,Kingsview Village Junior School,1 York Road,2000,68,26,35,1903,164,12,1,0,2080,313,0.15,0,1
+1,56,Islington 2000,2000 Islington Avenue,447,12,4,11,356,97,0,2,0,455,214,0.47,0,0
+1,57,Parkfield Junior School,31 Redgrave Drive,2421,22,22,7,1556,854,3,13,0,2426,585,0.24,1,0
+1,59,Richgrove Village,620 Martin Grove Road,690,16,16,4,567,123,1,0,0,691,184,0.27,0,0
+1,60,Willowridge Towers,22 Willowridge Road,936,21,11,4,696,248,3,1,0,948,159,0.17,2,0
+1,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,313,NA,0,0
+1,98,Humberwood Community Centre,850 Humberwood Blvd,NA,90,24,71,NA,NA,NA,NA,NA,NA,1485,NA,10,0
+1,99,North Kipling Community Centre,2 Rowntree Road,NA,222,26,51,NA,NA,NA,NA,NA,NA,2495,NA,2,3
+1 Total,NA,NA,NA,70485,1376,1064,388,51800,18441,161,137,258,70797,16962,0.24,43,12
+2,1,Transfiguration Catholic School,55 Ludstone Drive,1073,6,4,5,511,560,3,2,1,1077,277,0.26,0,0
+2,2,Kipling Collegiate Institute,380 The Westway,1955,19,33,8,1291,641,2,7,3,1944,331,0.17,1,0
+2,3,Dixon Grove Junior Middle School,315 The Westway,1286,32,14,13,549,745,4,10,0,1308,298,0.23,0,0
+2,4,Westway United Church,8 Templar Drive,1686,11,41,9,1127,513,5,7,7,1659,248,0.15,0,0
+2,6,Westway Junior School,25 Poynter Drive,1832,21,46,5,1154,642,6,4,0,1806,363,0.2,1,1
+2,7,Valleyfield Junior School,35 Saskatoon Drive,1891,13,17,5,996,880,6,5,5,1892,382,0.2,0,0
+2,8,St. Andrew's Presbyterian Church,1579 Royal York Road,1423,17,6,15,814,612,4,3,1,1434,304,0.21,0,0
+2,9,Humber Heights Long Term Care,2245 Lawrence Avenue West,67,30,1,0,95,1,0,0,0,96,73,0.76,4,0
+2,10,Westmount Junior School,95 Chapman Road,2142,16,22,15,1117,993,5,15,6,2136,385,0.18,0,2
+2,11,Humber Hill Tower,15 La Rose Avenue,474,9,8,5,326,149,0,0,0,475,139,0.29,0,0
+2,12,Richview Terrace,1 Richview Road,506,13,16,2,382,117,2,2,0,503,111,0.22,0,0
+2,13,Top of the Humber,61 Richview Road,406,8,1,2,272,139,0,2,0,413,128,0.31,0,0
+2,14,Ukrainian Canadian Care Centre,60 Richview Road,86,22,0,1,84,24,0,0,0,108,24,0.23,0,1
+2,15,St. Demetrius Catholic School,125 La Rose Avenue,2813,32,65,11,1862,882,8,23,4,2779,451,0.16,1,0
+2,16,St. Demetrius Residence,123 La Rose Avenue,274,19,40,13,153,98,0,2,0,253,121,0.48,1,0
+2,17,Humbervale Place,1447 Royal York Road,136,4,9,4,121,10,0,0,0,131,58,0.44,0,0
+2,18,Capstone Community Bible Church,1483 Royal York Road,1124,17,7,14,464,667,1,0,1,1133,277,0.24,0,0
+2,19,Hilltop Middle School,35 Trehorne Drive,1734,13,26,20,690,1011,2,4,14,1721,405,0.24,1,0
+2,20,Father Serra Catholic School,111 Sun Row Drive,1044,10,6,1,425,616,0,4,0,1045,261,0.25,1,0
+2,21,Richview Public Library,1806 Islington Avenue,2028,31,26,19,1209,838,1,3,2,2053,377,0.18,5,0
+2,22,Richview Seniors Residence,1540 Kipling Avenue,155,7,5,0,136,22,0,0,0,158,61,0.39,0,0
+2,23,Richview Seniors Residence,105 Clement Road,243,6,8,7,197,42,1,1,0,241,110,0.46,0,0
+2,25,St. Marcellus Catholic School,15 Denfield St,2991,23,98,17,2197,697,3,13,3,2913,492,0.17,0,0
+2,28,Delmanor Prince Edward,4180 Dundas Street West,79,17,10,0,71,14,1,0,0,86,58,0.67,0,0
+2,29,Briarcrest Junior Public School,60 Wellesworth Drive,2303,20,22,15,1605,687,3,4,0,2299,497,0.22,0,0
+2,30,Martingrove Collegiate Institute,50 Winterton Drive,2284,22,35,0,1709,542,3,10,2,2266,522,0.23,2,1
+2,31,John G. Althouse Middle School,130 Lloyd Manor Road,2099,21,13,11,1392,704,3,6,0,2105,593,0.28,2,0
+2,32,St. George's Junior School,70 Princess Anne Crescent,1913,21,25,7,1408,489,1,12,0,1910,506,0.26,4,0
+2,33,Richview Collegiate Institute,1738 Islington Avenue,1506,8,7,15,948,543,0,12,1,1504,281,0.19,0,0
+2,34,Holy Angels Catholic School,100 Allanhurst Drive,2856,24,42,19,1521,1290,11,14,4,2840,611,0.22,0,0
+2,35,Scarlett Heights Retirement Res.,4005 Eglinton Avenue West,39,31,29,1,31,10,0,0,0,41,36,0.88,0,0
+2,36,20 Fontenay Court,20 Fontenay Court,323,4,11,1,209,104,1,2,0,316,80,0.25,0,0
+2,37,Perspective,25 Fontenay Crt,278,13,8,2,235,48,0,0,0,283,97,0.34,0,0
+2,38,Royal York Gardens,1139 Royal York Road,477,5,14,2,414,50,3,1,0,468,129,0.28,0,0
+2,39,St. Giles Kingsway Presb. Church,15 Lambeth Road,2164,56,60,17,1707,419,8,22,5,2161,542,0.25,0,0
+2,40,Humber Valley Village Jr. School,65 Hartfield Road,2149,18,66,11,1662,421,4,16,0,2103,417,0.2,0,1
+2,41,Memorial Pool & Health Club,44 Montgomery Road,1832,20,12,25,1211,608,7,13,1,1840,453,0.25,1,0
+2,42,Rosethorn Junior School,2 Remington Drive,1912,20,8,2,1330,562,3,21,3,1919,440,0.23,1,0
+2,43,St. Gregory Catholic School,126 Rathburn Road,1938,32,11,4,1253,687,5,16,0,1961,470,0.24,0,0
+2,44,Josyf Cardinal Slipyj School,35 West Deane Park Drive,2341,24,39,11,1421,886,5,13,0,2325,520,0.22,0,0
+2,45,Summit Royal,625 The West Mall,847,6,25,9,590,233,2,3,0,828,208,0.25,0,0
+2,46,The Buckingham,714 The West Mall,761,7,19,1,554,195,0,1,0,750,197,0.26,0,0
+2,47,Wellesworth Jr. Public School,225 Wellesworth Drive,1466,15,13,9,983,475,0,11,1,1470,356,0.24,2,0
+2,48,Michael Power/St. Joseph School,105 Eringate Drive,1192,8,7,0,690,498,3,2,1,1194,249,0.21,0,0
+2,49,Etobicoke Olympium,590 Rathburn Road,1291,8,7,4,705,577,2,7,0,1291,218,0.17,0,0
+2,50,Centennial Park Place,25 Centennial Park Road,28,10,16,0,14,7,1,0,0,22,14,0.64,0,0
+2,51,Nativity of Our Lord Church,480 Rathburn Road,1730,5,6,8,1047,675,3,4,2,1731,295,0.17,0,0
+2,52,Mill Valley Junior School,411 Mill Road,2483,16,17,12,1853,618,6,11,0,2488,507,0.2,0,0
+2,54,Broadacres Junior School,45 Crendon Drive,2866,25,47,20,2047,783,8,9,1,2848,433,0.15,1,0
+2,55,The Grange,551 The West Mall,484,2,3,4,378,104,1,0,0,483,148,0.31,0,0
+2,58,The Westbury,495 The West Mall,47,0,0,0,43,4,0,0,0,47,22,0.47,0,0
+2,61,Burnhamthorpe CI,500 The East Mall,1691,14,43,21,1023,627,5,4,1,1660,307,0.19,0,1
+2,62,West Glen Junior School,47 Cowley Avenue,1837,20,39,13,1124,688,3,7,0,1822,323,0.18,0,0
+2,63,Eatonville Care Centre,420 The East Mall,106,19,0,0,95,30,0,0,0,125,28,0.22,0,0
+2,64,Our Lady Of Peace Catholic School,70 Mattice Ave,1224,13,11,6,767,442,2,8,9,1228,297,0.24,0,1
+2,65,Wedgewood Junior School,5 Swan Avenue,2013,18,17,19,1198,801,3,4,2,2008,522,0.26,0,0
+2,67,One Valhalla,5 Valhalla Inn Road,1008,19,7,1,929,84,2,3,0,1018,203,0.2,1,1
+2,68,Bloorlea Middle School,4050 Bloor Street West,2437,50,23,6,1774,672,11,12,0,2469,457,0.19,3,0
+2,70,Etobicoke Civic Centre,399 The West Mall,3049,49,59,2,2390,623,11,7,4,3035,434,0.14,0,0
+2,71,Wesburn Manor,400 The West Mall,84,14,1,0,87,10,0,0,0,97,18,0.19,0,0
+2,72,Eatonville Junior School,15 Rossburn Drive,1318,17,24,3,913,390,8,4,0,1315,282,0.21,2,0
+2,73,Bloordale Middle School,10 Toledo Road,1085,10,6,10,773,307,0,4,5,1089,223,0.2,0,0
+2,74,Millgate Manor Recreation Centre,303 Mill Road,1042,18,15,12,859,177,2,4,0,1042,316,0.3,0,0
+2,75,The Masters,300 Mill Road,397,8,9,4,339,53,0,4,0,396,188,0.47,2,0
+2,76,The Masters,288 Mill Road,366,8,19,5,274,74,6,2,0,356,154,0.43,0,0
+2,77,Millwood Junior Public School,222 Mill Road,1819,16,11,9,1217,591,5,11,0,1824,475,0.26,1,0
+2,78,St. Clement Catholic School,4319 Bloor Street West,1665,21,25,10,1113,535,3,4,5,1660,331,0.2,0,0
+2,79,Bloordale United Church,4258 Bloor Street West,1472,24,29,8,863,588,2,10,5,1468,351,0.24,0,0
+2,80,Dom Lipa Slovenian Linden Foundation,52 Neilson Drive,31,5,14,1,9,13,0,0,0,22,8,0.36,0,0
+2,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,967,NA,4,0
+2,98,Etobicoke Olympium,590 Rathburn Rd,NA,63,49,79,NA,NA,NA,NA,NA,NA,2670,NA,3,5
+2,99,Richview Library,1806 Islington Ave,NA,100,81,154,NA,NA,NA,NA,NA,NA,3655,NA,0,2
+2 Total,NA,NA,NA,89701,1343,1553,764,58950,29837,200,405,99,89491,26784,0.3,44,16
+3,1,Lambton Kingsway Jr. Middle School,525 Prince Edward Drive North,1878,43,26,9,1583,284,6,26,2,1901,593,0.31,1,0
+3,2,Kingsway Retirement Residence,4251 Dundas Street  West,75,10,60,0,22,3,0,0,0,25,17,0.68,0,0
+3,3,Kingsway Lambton United Church,85 The Kingsway,1922,1,15,8,1515,351,6,25,10,1907,534,0.28,0,0
+3,5,All Saints Kingsway Anglican Church,2850 Bloor Street West,2144,25,79,7,1769,296,10,11,5,2091,526,0.25,0,0
+3,6,Our Lady of Sorrows Catholic School,32 Montgomery Road,2073,23,39,5,1501,502,11,34,12,2060,588,0.29,0,3
+3,7,The Kingsway on the Park,1 Aberfoyle Crescent,435,9,10,1,357,78,0,1,0,436,223,0.51,0,0
+3,10,Islington Junior Middle School,44 Cordova Avenue,4683,60,171,30,3562,918,22,27,41,4570,888,0.19,3,1
+3,11,Montgomery Mills Apartments,24 Mabelle Avenue,1026,16,72,8,857,105,7,0,0,969,208,0.22,0,1
+3,13,Islington Manor,41 Mabelle Avenue,649,13,9,2,622,30,0,2,0,654,184,0.28,1,0
+3,14,Port Royal Place V and IV,7 Michael Power Place,358,12,11,1,310,50,1,0,0,361,126,0.35,0,0
+3,15,"Port Royal Place I, II, III",11 Michael Power Place,527,12,8,1,451,75,1,5,0,532,161,0.3,0,0
+3,16,Church of The Resurrection,1 Resurrection Road,2456,40,70,14,2058,354,6,8,0,2426,473,0.19,0,0
+3,17,Labdara Lithuanian Nursing Home,5 Resurrection Road,7,2,0,0,1,8,0,0,0,9,5,0.56,0,0
+3,18,Tapestry Village Gate West,15 Summerland Terrace,58,46,30,0,64,9,0,1,0,74,58,0.8,0,1
+3,19,Parc Nuvo,15 Viking Lane,391,10,7,2,336,53,1,3,0,393,114,0.29,0,0
+3,20,Nuvo at Essex,25 Viking Lane,841,20,18,12,719,116,3,7,0,845,311,0.37,0,0
+3,21,The Essex,5229 Dundas St W,750,21,20,17,616,132,0,3,0,751,263,0.35,0,0
+3,22,Residence at Kingsgate,101 Subway Crescent,396,14,7,5,331,61,5,4,0,401,129,0.33,0,2
+3,23,St. Elizabeth Catholic School,5 Redcar Avenue,2691,49,57,14,1764,874,16,21,9,2684,540,0.2,0,0
+3,24,Fairfield Seniors Centre,80 Lothian Avenue,3277,42,38,31,2353,870,8,35,29,3295,710,0.22,0,0
+3,25,Royal York Road United Church,851 Royal York Road,1873,22,16,25,1375,461,12,20,17,1885,526,0.28,0,0
+3,26,Norseman Junior Middle School,105 Norseman Street,2626,36,37,12,1700,865,4,36,22,2627,652,0.25,1,0
+3,27,Ivan Franko Home for the Aged,767 Royal York Road,32,18,8,2,28,14,0,0,0,42,20,0.5,0,1
+3,28,Bishop Allen Academy,721 Royal York Road,1122,10,20,9,758,335,2,19,0,1114,237,0.21,0,0
+3,29,Park Lawn Junior Middle School,71 Ballacaine Drive,2437,18,20,0,1900,480,11,36,2,2429,819,0.34,0,0
+3,30,Etienne Brule Public School,50 Cloverhill Road,2745,40,124,13,2098,548,8,3,1,2658,418,0.16,2,0
+3,31,St. Mark Catholic School,45 Cloverhill Road,2301,37,102,6,1565,642,10,16,5,2238,575,0.26,3,0
+3,32,Etobicoke School of the Arts,675 Royal York Road,1964,46,16,8,1292,658,3,14,28,1995,455,0.23,0,0
+3,33,Royal Canadian Legion Branch 643,110 Jutland Rd,2279,28,41,10,1508,708,3,7,40,2266,400,0.18,2,1
+3,34,Loggia,1040 The Queensway,391,5,4,1,349,43,0,0,0,392,104,0.27,0,0
+3,35,Kingsway Lambton Seniors Home,781 The Queensway,144,1,2,0,126,16,0,0,1,143,48,0.34,0,0
+3,36,St. Louis Catholic School,11 Morgan Avenue,1846,31,40,8,1257,556,1,16,6,1836,437,0.24,1,0
+3,37,Ourland Community Centre,18 Ourland Avenue,2468,53,33,12,1643,795,9,34,11,2492,618,0.25,0,3
+3,38,Edwards Manor,340 Royal York Road,256,8,7,2,236,20,0,1,0,257,85,0.33,0,0
+3,39,George R. Gauld Junior School,200 Melrose Street,2093,32,67,10,1534,495,8,11,7,2055,390,0.19,0,0
+3,40,The Tides at Mystic Pointe,185 Legion Road North,1054,28,17,3,957,100,2,6,0,1065,221,0.21,0,0
+3,41,Palace Place,1 Palace Pier Court,763,7,19,9,623,117,9,2,0,751,288,0.38,0,0
+3,42,Palace Pier,2045 Lake Shore Blvd. West,682,13,24,4,563,100,4,3,2,672,280,0.42,1,0
+3,43,Nevis Condominiums,88 Palace Pier Court,348,16,5,1,308,48,3,0,2,361,144,0.4,0,1
+3,44,Grenadier Landing,5 Marine Parade Drive,379,6,8,3,343,29,3,2,0,377,133,0.35,0,0
+3,45,Hearthstone by the Bay,3 Marine Parade Drive,175,3,9,0,156,13,0,0,0,169,88,0.52,1,0
+3,46,The Waterford,2083 Lake Shore Blvd. West,359,7,16,1,316,32,1,0,0,349,135,0.39,0,0
+3,47,Newport Beach,2111 Lake Shore Blvd. West,365,10,13,1,299,59,2,2,0,362,162,0.45,1,0
+3,48,The Explorer,58 Marine Parade Drive,347,7,5,1,307,39,2,1,0,349,106,0.3,0,0
+3,49,Voyager at Waterview,2121 Lake Shore Blvd W,616,14,9,2,547,68,2,4,0,621,162,0.26,3,0
+3,50,Nautilus at Waterview,16 Brookers Lane,443,11,7,4,398,45,3,1,0,447,106,0.24,0,0
+3,51,Waterscapes,80 Marine Parade Drive,317,17,2,0,307,23,0,2,0,332,88,0.27,0,0
+3,52,Lago at the Waterfront,56 Annie Craig Dr,436,12,6,2,426,15,1,0,0,442,80,0.18,0,0
+3,53,Ocean Club,60 Annie Craig Dr,445,14,7,0,437,13,0,2,0,452,89,0.2,0,0
+3,54,Jade Waterfront Condos,33 Shore Breeze Dr,362,5,4,2,351,12,0,0,0,363,50,0.14,0,0
+3,55,West Lake,2200 Lake Shore Blvd W,1148,25,47,5,1069,47,6,4,0,1126,166,0.15,0,0
+3,56,Key West,36 Park Lawn Rd,390,9,4,3,376,18,0,1,0,395,77,0.19,0,0
+3,57,South Beach,"88 Park Lawn Rd, Etobicoke",729,13,8,5,669,59,6,0,0,734,132,0.18,0,0
+3,58,Beyond the Sea,2230 Lake Shore Blvd. W,905,25,23,6,835,58,6,8,0,907,222,0.24,0,0
+3,59,Marina Del Rey Malibu Club,2261 Lake Shore Blvd. West,1110,32,26,7,959,141,6,11,0,1117,455,0.41,0,0
+3,60,Grand Harbour,2285 Lake Shore Blvd. West,592,12,17,7,523,55,5,4,0,587,246,0.42,3,0
+3,61,David Hornell Junior School,32 Victoria Street,1920,25,57,15,1528,331,7,14,9,1889,442,0.23,0,0
+3,62,Storefront Humber Inc,2445 Lake Shore Blvd. West,1963,25,49,3,1514,405,9,3,9,1940,311,0.16,0,0
+3,63,Griggs Manor,98 Cavell Avenue,1078,18,22,12,835,209,5,17,0,1066,324,0.3,3,0
+3,64,Mimico Public Library,47 Station Rd,2132,75,42,3,1654,468,10,20,11,2163,608,0.28,0,0
+3,65,Mimico Adult Centre,255 Royal York Road,2172,39,33,9,1761,396,9,15,1,2182,569,0.26,0,0
+3,67,Second Street Junior Middle School,71 Second Street,1827,30,56,1,1447,329,5,14,9,1804,515,0.29,0,0
+3,68,LAMP Community Health Centre,185 Fifth Street,1110,29,38,3,900,174,5,8,14,1101,246,0.22,0,0
+3,69,Woods Manor,2835 Lake Shore Blvd. West,139,2,6,0,124,11,0,0,0,135,55,0.41,0,0
+3,70,Seventh Street Junior School,101 Seventh Street,1774,29,55,0,1368,358,13,10,9,1758,585,0.33,3,0
+3,71,Eau du Soleil,30 Shore Breeze Dr,878,15,13,3,858,19,0,2,1,880,109,0.12,0,0
+3,72,Westlake Encore,10 Park Lawn Rd,473,14,3,0,463,20,2,0,0,485,82,0.17,0,0
+3,73,Lerette Manor,250 Twelfth Street,1496,52,45,11,1253,238,1,9,0,1501,336,0.23,1,8
+3,74,Lakeshore Collegiate Institute,350 Kipling Avenue,1331,14,35,8,1007,287,8,4,6,1312,239,0.18,0,0
+3,75,Twentieth Street Junior School,3190 Lake Shore Blvd. West,1883,24,44,11,1410,421,9,12,17,1869,411,0.22,0,0
+3,76,Lakeshore Lodge,3197 Lake Shore Blvd. West,4,19,0,0,20,3,0,0,0,23,23,1,1,0
+3,77,Holy Trinity Catholic School,6 Colonel Samuel Smith Park Drive,1776,38,53,8,1374,361,12,11,5,1763,431,0.24,0,0
+3,78,James S. Bell Junior Middle School,90 Thirty First Street,2616,56,105,29,2049,468,25,19,11,2572,548,0.21,1,1
+3,79,Long Branch Public Library,3500 Lake Shore Blvd. West,1732,38,36,7,1418,307,0,5,7,1737,360,0.21,0,0
+3,80,Vita on the Lake,70 Annie Craig Dr,2,30,0,0,26,5,1,0,0,32,32,1,0,0
+3,81,Ecole Elementaire Micheline-Saint-Cyr,85 Forty First St,2308,40,42,14,1787,504,13,7,3,2314,525,0.23,0,0
+3,82,Franklin Horner Community Centre,432 Horner Avenue,2589,34,32,21,1491,1079,4,1,19,2594,629,0.24,1,0
+3,83,Alderwood Pool,2 Orianna Drive,2361,53,37,31,1574,779,8,9,17,2387,595,0.25,1,0
+3,84,Lanor Junior Middle School,450 Lanor Avenue,2654,49,37,13,1765,874,12,14,4,2669,623,0.23,4,0
+3,85,St. Ambrose Catholic School,20 Coules Court,2303,32,39,6,1601,656,6,7,33,2303,543,0.24,0,1
+3,86,One Sherway (Tower 3 and 4),215 Sherway Gardens Road,655,11,20,1,578,64,2,1,0,645,138,0.21,0,0
+3,87,One Sherway (Tower 1 and 2),225 Sherway Gardens Road,808,19,20,2,721,83,1,6,1,812,222,0.27,0,0
+3,88,McCall Centre for Continuing Care,140 Sherway Drive,70,0,0,0,67,3,0,0,0,70,4,0.06,0,0
+3,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1158,NA,0,0
+3,98,Fairfield Seniors Centre,80 Lothian Avenue,NA,115,83,74,NA,NA,NA,NA,NA,NA,4023,NA,1,1
+3,99,Alderwood Pool,2 Orianna Drive,NA,118,56,83,NA,NA,NA,NA,NA,NA,2993,NA,4,0
+3 Total,NA,NA,NA,103233,2182,2618,719,79522,21748,402,687,438,102797,33544,0.33,43,25
+4,2,Warren Park Jr. Public School,135 Varsity Road,2732,60,28,8,2158,564,21,21,3,2767,701,0.25,0,0
+4,4,Humbercrest Public School,14 St Marks Road,2369,43,30,22,1848,501,19,15,4,2387,761,0.32,2,0
+4,5,King George Public School,25 Rexford Road,2539,70,52,12,1959,537,28,13,23,2560,767,0.3,1,0
+4,6,James Culnan Catholic School,605 Willard Avenue,2327,64,50,16,1820,468,38,10,18,2354,710,0.3,0,0
+4,7,Runnymede Healthcare Centre,625 Runnymede Road,0,35,0,0,24,10,0,0,1,35,35,1,1,0
+4,8,Annette Community Recreation Centre,333 Annette Street,2704,88,160,22,2053,553,24,13,2,2645,692,0.26,0,0
+4,9,St. John's Church,288 Humberside Avenue,1970,86,47,6,1713,255,24,16,0,2008,530,0.26,1,0
+4,10,Annette Street Library,145 Annette Street,2278,117,84,6,1916,354,23,10,23,2326,583,0.25,1,0
+4,11,Heintzman Place,60 Heintzman Street,875,28,15,3,778,92,6,9,0,885,390,0.44,0,0
+4,13,Keele Street Christian Church,97 Annette Street,1479,80,71,7,1299,150,16,12,23,1500,407,0.27,0,0
+4,14,Indian Road Crescent Public School,285 Indian Road Crescent,2213,80,48,11,1922,281,30,11,1,2245,708,0.32,4,0
+4,15,The Crossways Mall,2340 Dundas Street West,877,14,32,2,775,77,4,2,2,860,215,0.25,0,0
+4,17,St. Joan of Arc Church,1701 Bloor St. West,1976,114,97,11,1646,280,29,9,31,1995,635,0.32,3,2
+4,18,Vilnius Manor,1700 Bloor Street West,1795,108,50,15,1600,223,13,0,18,1854,559,0.3,0,0
+4,19,Keele Community Centre,181 Glenlake Avenue,1636,76,66,10,1420,202,23,7,0,1652,440,0.27,0,0
+4,20,60 Mountview Avenue,60 Mountview Avenue,313,3,16,7,274,26,0,1,0,301,100,0.33,0,0
+4,21,The Grenadier Retirement Residence,2100 Bloor Street West,170,30,25,0,150,24,0,1,0,175,68,0.39,0,1
+4,22,45 Oakmount Road,45 Oakmount Road,318,10,26,0,255,44,1,0,0,300,109,0.36,0,0
+4,23,High Park Residences,1830 Bloor St W,372,33,8,5,372,22,0,0,0,394,147,0.37,0,0
+4,24,22 Oakmount Road,22 Oakmount Road,290,11,26,7,234,34,7,0,0,275,99,0.36,0,0
+4,25,255 Glenlake Avenue,255 Glenlake Avenue,436,20,23,2,392,35,2,3,0,432,172,0.4,0,1
+4,26,111 Pacific Avenue,111 Pacific Avenue,577,10,27,0,530,21,6,3,0,560,164,0.29,0,0
+4,27,Park Place,299 Glenlake Avenue,276,10,7,2,255,20,5,1,0,281,114,0.41,0,1
+4,28,66 Pacific Avenue,66 Pacific Avenue,276,17,20,1,240,28,4,1,0,273,111,0.41,0,0
+4,29,35 High Park Avenue,35 High Park Avenue,296,10,11,6,270,21,3,1,1,296,115,0.39,0,0
+4,30,Parkside Apartments,65 High Park Avenue,448,18,25,3,415,24,1,0,0,440,152,0.35,0,0
+4,31,95 High Park Avenue,95 High Park Avenue,296,14,10,2,276,24,2,0,0,302,109,0.36,0,0
+4,33,100 High Park Avenue,100 High Park Avenue,376,14,4,4,350,34,1,0,0,385,105,0.27,0,0
+4,34,The Livemore High Park,50 High Park Ave,854,70,68,2,762,90,7,4,1,864,318,0.37,0,0
+4,35,High Park Green,100 Quebec Avenue,546,6,16,6,462,69,3,3,0,537,229,0.43,0,0
+4,36,High Park Green,50 Quebec Avenue,1189,32,55,4,1032,119,11,3,2,1167,404,0.35,0,0
+4,37,Runnymede Public Library,2178 Bloor St W,913,23,18,10,767,135,7,14,2,925,280,0.3,1,0
+4,38,Runnymede United Church,432 Runnymede Road,2620,54,38,12,2231,363,19,11,19,2643,792,0.3,5,1
+4,39,St. Pius X Catholic School,71 Jane Street,2934,78,67,31,2271,622,18,25,11,2947,893,0.3,0,0
+4,40,Swansea Town Hall,95 Lavinia Avenue,2511,51,62,22,1994,432,23,24,28,2501,759,0.3,0,0
+4,41,Morningside High Park Church,4 Morningside Avenue,1701,42,61,12,1432,203,18,22,6,1681,523,0.31,0,0
+4,42,Swansea Jr.Sr. Public School,207 Windermere Avenue,2729,16,84,17,2111,500,23,30,3,2667,655,0.25,0,0
+4,43,35 Ormskirk Ave,35 Ormskirk Ave,326,5,6,3,273,47,5,0,0,325,149,0.46,0,0
+4,44,The Southport,60 Southport Street,422,7,8,3,337,75,6,3,0,421,190,0.45,0,0
+4,45,Grenadier Gardens,45 Southport Street,513,5,3,2,409,103,2,2,0,516,162,0.31,0,0
+4,46,South Kingsway Village Rec Ctr,20 Southport Street,567,13,9,7,473,92,4,1,0,570,238,0.42,0,0
+4,47,Southampton,1 Ripley Avenue,192,7,0,5,168,25,3,2,0,198,127,0.64,0,0
+4,48,NXT at Windermere by the Lake,103 The Queensway,1270,25,38,6,1169,81,5,2,0,1257,278,0.22,0,0
+4,49,Windermere By The Lake,15 Windermere Ave,489,15,8,0,453,39,2,0,1,495,157,0.32,0,0
+4,50,Park Lake Residences,1900 Lake Shore Blvd West,330,18,6,1,310,27,2,3,0,342,109,0.32,0,0
+4,51,Howard Public School Jr.,30 Marmaduke Street,3775,190,107,24,3241,510,70,14,27,3862,1226,0.32,0,0
+4,53,St. Vincent de Paul Catholic School,116 Fermanagh Avenue,2890,142,76,36,2443,438,56,12,15,2964,1044,0.35,0,0
+4,54,High Park Public Library,228 Roncesvalles Avenue,2131,96,73,13,1840,276,27,8,8,2159,717,0.33,0,0
+4,55,Garden Avenue Public School,225 Garden Avenue,2374,137,40,15,2067,326,50,8,26,2477,875,0.35,0,0
+4,56,Copernicus Lodge,66 Roncesvalles Avenue,310,136,19,51,277,149,0,0,1,427,101,0.24,2,0
+4,57,Parkdale Activity Recreation Centre,1499 Queen Street West,1213,81,36,5,1073,149,19,3,21,1265,330,0.26,0,0
+4,58,Parkdale Jr. & Sr. Public School,75 Lansdowne Avenue,2834,115,58,10,2544,331,31,7,4,2917,774,0.27,0,0
+4,59,May Robinson Apartments,20 West Lodge Avenue,1766,79,65,6,1539,204,20,6,29,1798,451,0.25,0,0
+4,60,Parkdale Collegiate Institute,209 Jameson Avenue,2018,108,45,8,1835,262,17,6,4,2124,436,0.21,2,0
+4,61,White Eagle Residence,138 Dowling Avenue,58,6,0,0,43,21,0,0,0,64,12,0.19,0,0
+4,62,Springhurst Manor,1447 King Street West,796,42,35,10,709,95,7,0,0,811,188,0.23,0,0
+4,63,Holy Family Catholic School,141 Close Avenue,1683,67,35,10,1406,337,6,3,1,1753,352,0.2,0,0
+4,64,245 Dunn Avenue,245 Dunn Avenue,411,5,1,6,349,68,1,0,0,418,118,0.28,1,0
+4,65,Masaryk-Cowan Community Centre,220 Cowan Avenue,1547,62,55,5,1335,206,12,3,10,1566,348,0.22,0,0
+4,66,Elm Grove Living Centre,35 Elm Grove Avenue,61,17,0,0,66,12,0,0,0,78,27,0.35,0,0
+4,67,Parkdale United Church,1355 King St. West,2347,90,82,9,2130,218,15,5,2,2370,464,0.2,0,0
+4,68,Queen Victoria Public School,100 Close Avenue,2024,67,50,9,1786,277,13,1,1,2078,431,0.21,0,0
+4,69,Toronto Rehab - Bickle Centre,130 Dunn Avenue,115,15,6,0,110,11,0,3,0,124,17,0.14,1,0
+4,70,Lakeside Long Term Care Centre,150 Dunn Ave,0,29,0,0,28,1,0,0,0,29,29,1,1,0
+4,71,85 Spencer Avenue,85 Spencer Avenue,1078,36,48,2,940,133,4,3,0,1080,216,0.2,0,0
+4,72,Norwood Nursing Home,122 Tyndall Avenue,31,0,0,0,21,9,0,1,0,31,13,0.45,1,1
+4,73,102 Tyndall Avenue,102 Tyndall Avenue,843,26,16,3,672,183,7,0,0,862,203,0.24,2,0
+4,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1210,NA,1,0
+4,98,Annette Community Centre,333 Annette Street,NA,216,109,131,NA,NA,NA,NA,NA,NA,4144,NA,5,0
+4,99,Masaryk-Cowan Community Centre,220 Cowan Avenue,NA,317,73,90,NA,NA,NA,NA,NA,NA,2536,NA,0,1
+4 Total,NA,NA,NA,82625,3809,2634,776,70052,12142,843,391,372,83800,32223,0.38,35,8
+5,1,Country Club Towers A,2460 Weston Road,464,17,3,0,425,61,0,0,0,486,115,0.24,0,0
+5,2,Pelmo Park Community Centre,171 Pellatt Avenue,1558,22,17,12,793,759,1,0,11,1564,437,0.28,0,0
+5,3,Pelmo Park Public School,180 Gary Drive,2061,35,19,17,1101,964,8,3,0,2076,626,0.3,0,0
+5,4,Falstaff Community Centre,50 Falstaff  Avenue,2423,42,51,5,1499,925,0,1,1,2426,502,0.21,0,0
+5,5,Casa Abruzzo,338 Falstaff Avenue,218,7,9,1,170,46,0,0,0,216,105,0.49,0,1
+5,6,St. Fidelis Catholic School,9 Bannerman Street,2229,39,19,17,834,1414,2,1,3,2254,557,0.25,0,1
+5,7,North Park Nursing Home,450 Rustic Road,42,6,0,0,42,6,0,0,0,48,8,0.17,0,0
+5,8,Ecole Elementaire Mathieu da Costa,116 Cornelius Parkway,1661,24,10,13,678,975,8,13,3,1677,418,0.25,4,0
+5,9,St. Francis Xavier Catholic School,53 Gracefield Avenue,1640,16,18,0,693,944,1,2,0,1640,292,0.18,0,0
+5,10,Amesbury Middle School,201 Gracefield Avenue,1271,16,14,2,675,595,3,1,0,1274,250,0.2,2,0
+5,11,Chaminade College Catholic School,490 Queen's Drive,1390,4,27,0,609,748,0,2,3,1362,287,0.21,0,0
+5,12,Upwood Park Co-op,300 Queen's Drive,590,0,16,1,405,171,5,0,0,581,112,0.19,0,0
+5,13,Weston Gardens Retirement Living,303 Queen's Drive,105,18,75,0,24,22,1,1,0,48,41,0.85,0,0
+5,14,Maple Leaf Drive Seniors,10 Maple Leaf Drive,183,4,19,2,159,8,1,0,0,168,71,0.42,0,0
+5,15,Weston Memorial Jr. Public School,200 John Street,2260,68,45,10,1622,622,13,5,21,2283,682,0.3,0,0
+5,16,Weston Library,2 King Street,1595,21,35,6,1334,231,2,6,14,1587,267,0.17,0,2
+5,17,H. J. Alexander Community School,30 King Street,2005,61,46,4,1575,412,9,4,25,2025,479,0.24,0,1
+5,18,Humberview Co-op,2100 Weston Road,277,12,3,4,270,17,0,0,0,287,99,0.34,0,0
+5,19,Central King Seniors Residence,15 King Street,136,8,8,0,123,15,0,0,0,138,75,0.54,0,0
+5,20,Eagle Manor,1901 Weston Road,320,7,15,0,303,5,2,2,0,312,71,0.23,0,0
+5,21,5 Bellevue Crescent,5 Bellevue Crescent,397,8,5,1,355,46,1,0,0,402,86,0.21,0,0
+5,22,River Ridge,1 Hickory Tree Road,533,13,18,2,408,116,2,2,0,528,196,0.37,0,0
+5,23,C.R. Marchant Middle School,1 Ralph Street,2607,58,58,7,2042,527,2,4,41,2616,506,0.19,0,0
+5,24,Weston Terrace Care Community,2005 Lawrence Avenue West,121,8,0,0,74,54,0,1,0,129,8,0.06,1,0
+5,25,Portage Trail CJS/CMS,100 Sidney Belsey Crescent,2975,5,38,1,2119,806,8,5,8,2946,646,0.22,1,1
+5,26,Harding Square,5 Harding Avenue,181,12,5,5,156,35,0,0,0,191,43,0.23,0,0
+5,27,St. Bernard Catholic School,12 Duckworth Street,2739,40,62,7,1762,939,9,3,9,2722,390,0.14,1,0
+5,28,Brookhaven Public School,70 Brookhaven Drive,3206,33,37,10,2069,1118,2,6,8,3203,600,0.19,0,0
+5,29,Lawrence Park,1577 Lawrence Avenue West,529,12,23,9,373,143,0,1,0,517,112,0.22,0,0
+5,30,Amesbury Community Centre,1507 Lawrence Avenue West,1955,25,57,7,1325,601,2,1,1,1930,261,0.14,0,0
+5,31,George Anderson Public School,30 George Anderson Drive,1586,29,32,4,718,837,0,7,23,1585,343,0.22,0,0
+5,33,Maple Creek,10 Martha Eaton Way,627,12,17,0,472,148,2,1,0,623,164,0.26,2,0
+5,34,Amesbury Heights,15 Martha Eaton Way,449,8,3,0,343,111,0,3,0,457,73,0.16,0,0
+5,35,Greenborough Community Church,2000 Keele Street,1913,25,60,17,1052,816,5,4,0,1877,338,0.18,0,0
+5,36,Harold & Grace Baker Centre,1 Northwestern Avenue,77,19,54,0,29,13,0,0,0,42,30,0.71,0,0
+5,37,Vila Gaspar,33 Gabian Way,476,9,7,1,340,137,0,0,0,477,117,0.25,0,1
+5,38,Plaut Manor,2480 Eglinton Avenue West,701,8,6,4,518,171,1,1,12,703,141,0.2,2,0
+5,39,Charles E. Webster Public School,1900 Keele Street,2489,38,31,6,1631,843,9,2,10,2495,432,0.17,2,0
+5,41,Silverthorn Community School,300 Kane Avenue,4242,64,40,20,2388,1841,8,7,27,4271,835,0.2,3,1
+5,42,York Recreation Centre,115 Black Creek Drive,1962,33,11,12,1349,599,9,4,20,1981,336,0.17,0,0
+5,45,Bala Avenue Community School,6 Bala Avenue,3314,70,29,10,2603,743,3,3,10,3362,566,0.17,2,0
+5,46,Our Lady of Victory Residence,200 Dora Spencer Road,164,5,5,0,149,14,1,0,0,164,50,0.3,0,0
+5,48,West Park Long Term Care Centre,82 Buttonwood Avenue,219,41,167,1,86,7,0,0,0,93,52,0.58,2,2
+5,49,Emmett House,85 Emmett Avenue,468,12,2,2,326,152,0,0,0,478,154,0.32,0,0
+5,51,The Winston House,75 Emmett Avenue,658,24,3,1,538,141,2,1,0,682,234,0.34,0,0
+5,52,Lambton Square,270 Scarlett Road,373,9,14,8,262,104,0,2,0,368,177,0.48,1,0
+5,53,Lambton Square,260 Scarlett Road,370,13,7,0,291,83,1,1,0,376,191,0.51,0,0
+5,54,Lambton Square,240 Scarlett Road,365,10,10,3,274,89,0,1,0,364,171,0.47,0,0
+5,55,Lambton Square,250 Scarlett Road,354,0,4,0,259,87,2,1,0,349,152,0.44,0,0
+5,56,Roselands Junior Public School,990 Jane Street,1891,26,28,12,1300,574,7,6,4,1891,439,0.23,0,0
+5,57,Outlook Manor,55 Outlook Avenue,252,7,2,4,238,19,0,0,0,257,106,0.41,2,0
+5,58,Lambton Park Community School,50 Bernice Crescent,2492,42,40,9,1735,729,8,21,3,2496,710,0.28,0,0
+5,59,George Syme Community School,69 Pritchard Avenue,869,24,3,2,679,211,1,0,2,893,207,0.23,1,0
+5,60,David Appleton Community Centre,33 Pritchard Avenue,1518,56,19,5,1036,487,13,9,10,1555,430,0.28,1,0
+5,61,George Bell Arena,215 Ryding Avenue,1328,25,24,11,909,396,7,3,18,1333,342,0.26,0,0
+5,62,Rockcliffe Middle School,400 Rockcliffe Blvd.,2148,18,16,5,1719,416,6,4,9,2154,320,0.15,2,0
+5,63,Frank Oke Secondary School,500 Alliance Avenue,2429,53,48,16,1567,847,6,11,6,2437,555,0.23,0,0
+5,64,Our Lady of Victory Catholic School,70 Guestville Avenue,2347,39,27,7,1563,762,7,3,24,2359,555,0.24,1,0
+5,65,Mount Dennis Apartments,101 Humber Blvd.,193,5,1,0,184,13,0,0,0,197,50,0.25,1,0
+5,66,Santa Maria Catholic School,25 Avon Avenue,2518,32,22,3,1634,862,12,2,20,2530,462,0.18,0,3
+5,67,Silverthorn Place,600 Rogers Road,211,14,1,1,211,13,0,0,0,224,114,0.51,1,0
+5,68,Villa Bello Horizonte,1500 Keele Street,202,1,4,0,154,44,0,0,0,198,80,0.41,2,2
+5,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,465,NA,0,0
+5,98,Amesbury Community Centre,1507 Lawrence Ave West,NA,90,22,78,NA,NA,NA,NA,NA,NA,2020,NA,0,0
+5,99,York Recreation Centre,115 Black Creek Drive,NA,109,69,80,NA,NA,NA,NA,NA,NA,2054,NA,0,2
+5 Total,NA,NA,NA,76876,1611,1580,465,50574,25634,192,161,346,76907,21807,0.28,34,17
+6,1,West Don Apartments,6250 Bathurst Street,1769,18,30,5,1621,129,6,0,1,1757,364,0.21,0,0
+6,3,Primrose,1121 Steeles Avenue West,925,19,19,8,871,51,4,0,0,926,292,0.32,0,0
+6,4,Garden View Terrace,1875 Steeles Avenue West,197,1,3,0,144,48,3,0,0,195,50,0.26,0,0
+6,5,Rockford Public School,60 Rockford Road,3563,28,33,8,3202,340,7,5,4,3558,618,0.17,1,0
+6,6,Valencia Towers,6030 Bathurst Street,286,5,2,0,237,51,0,0,0,288,73,0.25,0,0
+6,7,Antibes Community Centre,140 Antibes Drive,2864,17,69,17,2407,391,11,2,0,2811,461,0.16,0,0
+6,8,Antibes Court,100 Antibes Drive,316,6,5,0,289,25,0,4,0,318,106,0.33,0,0
+6,10,115 Antibes Drive,115 Antibes Drive,370,9,5,4,354,18,0,0,0,372,122,0.33,0,0
+6,11,The Hemispheres I,133 Torresdale Avenue,271,2,5,0,251,17,0,0,0,268,84,0.31,0,0
+6,12,Hemisphere II,131 Torresdale Avenue,262,2,0,0,259,4,0,1,0,264,93,0.35,0,0
+6,13,Northview Heights Secondary School,550 Finch Avenue West,2575,22,66,7,2082,437,6,2,0,2527,412,0.16,0,0
+6,14,Valleyview Residence,541 Finch Avenue West,0,28,0,0,28,0,0,0,0,28,28,1,0,0
+6,15,Herbert H. Carnegie Centennial Centre,580 Finch Avenue West,2325,16,71,2,1891,291,9,3,81,2275,385,0.17,0,0
+6,16,Advent Forestview Retirement Residence,537 Finch Avenue West,0,26,0,0,26,0,0,0,0,26,26,1,0,0
+6,18,Charles H. Best Middle School,285 Wilmington Avenue,1102,14,12,0,956,146,1,2,0,1105,230,0.21,1,0
+6,19,Irving W. Chapley Community Centre,205 Wilmington Avenue,1681,17,35,3,1352,296,1,3,17,1669,242,0.14,1,0
+6,20,St. Bernard's Residence,685 Finch Avenue West,36,5,0,2,3,38,0,0,0,41,17,0.41,0,0
+6,21,Beth Emeth Bais Yehuda,100 Elder St,1923,20,24,9,1478,426,14,2,1,1921,342,0.18,1,0
+6,22,William Lyon MacKenzie Collegiate,20 Tillplain Road,2531,20,38,15,1820,624,11,2,62,2519,406,0.16,0,0
+6,23,Metro Place Condos,1070 Sheppard Avenue West,1077,16,26,4,971,86,5,5,1,1068,207,0.19,0,0
+6,24,Kensington Place Retirement Res.,866 Sheppard Avenue West,46,13,22,0,37,0,0,0,0,37,24,0.65,0,0
+6,25,Southside Condos,"31 Tippett Rd, North York",302,21,2,0,309,12,0,0,0,321,79,0.25,0,1
+6,26,B'nai Brith Canada,15 Hove Street,1676,22,13,7,1307,341,8,3,28,1687,294,0.17,0,0
+6,27,Sheppard Place,4455 Bathurst Street,1607,13,26,8,1419,165,2,3,7,1596,302,0.19,2,0
+6,28,Earl Bales Community Centre,4169 Bathurst Street,1529,20,19,0,1296,212,10,0,8,1526,263,0.17,0,0
+6,29,B'Nai Brith Seniors Building,4300 Bathurst Street,196,2,6,1,191,1,0,0,0,192,58,0.31,0,1
+6,30,B'nai Brith Upper Canada Lodge,4266 Bathurst Street,164,0,2,0,161,1,0,0,0,162,72,0.44,0,0
+6,31,St. Robert Catholic School,70 Bainbridge Avenue,2610,34,44,12,2076,519,4,2,2,2603,499,0.19,1,0
+6,32,Dublin Heights Public School,100 Bainbridge Avenue,2570,35,20,5,1910,649,8,10,9,2586,539,0.21,4,0
+6,33,Faywood Arts-Based School,95 Faywood Blvd.,3525,56,86,9,2772,687,7,11,23,3500,775,0.22,0,0
+6,34,Summit Heights Public School,139 Armour Blvd.,2347,23,38,4,2112,208,3,0,9,2332,600,0.26,0,1
+6,36,Gramercy Park,525 Wilson Avenue,604,18,18,1,537,66,0,1,0,604,162,0.27,2,0
+6,37,The Station,555 Wilson Ave,368,18,7,2,344,32,0,2,0,378,90,0.24,0,0
+6,38,Ancaster Community Centre,41 Ancaster Road,1672,12,7,9,647,991,9,5,28,1680,317,0.19,0,0
+6,39,Aptus Treatment Centre,111 Anthony Road,1726,24,19,13,909,801,1,5,14,1730,279,0.16,0,0
+6,40,Downsview Public School,2829 Keele Street,2691,57,50,21,1923,723,8,10,35,2699,370,0.14,4,0
+6,41,Blaydon Public School,25 Blaydon Avenue,1879,12,12,8,992,857,3,24,0,1876,356,0.19,2,0
+6,42,St. Raphael Catholic School,3 Gade Drive,2706,18,39,4,1545,1110,8,8,11,2682,393,0.15,0,0
+6,43,Roding Community Centre,600 Roding Street,1374,15,15,2,443,925,1,5,0,1374,336,0.24,0,0
+6,44,Highview Public School,22 Highview Avenue,2141,9,21,10,1425,694,2,1,8,2130,337,0.16,0,1
+6,45,Downsview Acres,2195 Jane Street,266,7,3,1,256,12,0,2,0,270,79,0.29,0,0
+6,46,Tumpane Public School,48 Tumpane Street,1640,16,19,8,775,849,3,10,1,1638,306,0.19,1,0
+6,48,Beverley Heights Middle School,26 Troutbrooke Drive,2273,14,19,4,1336,920,2,8,2,2268,365,0.16,0,0
+6,49,Fairway Downs,2645 Jane Street,419,2,1,5,240,174,0,5,0,419,111,0.26,0,0
+6,50,Calico Public School,35 Calico Drive,1645,17,4,2,880,768,1,9,1,1659,330,0.2,3,0
+6,51,St. Martha Catholic School,1865 Sheppard Avenue West,961,10,4,1,517,449,0,0,0,966,241,0.25,2,0
+6,52,Stilecroft Public School,50 Stilecroft Drive,1354,7,12,2,698,641,2,7,0,1348,253,0.19,0,0
+6,53,Sheppard Public School,1430 Sheppard Avenue West,2398,17,25,6,1665,711,4,2,8,2390,371,0.16,0,0
+6,55,St. Jerome Catholic School,111 Sharpecroft Blvd.,1625,8,15,5,919,693,1,5,0,1618,284,0.18,1,0
+6,56,Downsview Long Term Care,3595 Keele Street,67,24,2,0,52,34,0,0,3,89,31,0.35,0,0
+6,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,458,NA,0,0
+6,98,Ancaster Community Centre,41 Ancaster Road,NA,22,22,22,NA,NA,NA,NA,NA,NA,1039,NA,3,0
+6,99,Irving W. Chapley Community Centre,205 Wilmington Ave,NA,96,76,40,NA,NA,NA,NA,NA,NA,2553,NA,2,2
+6 Total,NA,NA,NA,68454,953,1111,296,49935,17663,165,169,364,68296,17124,0.25,31,6
+7,1,Venerable John Merlini School,123 Whitfield Avenue,1958,17,14,5,781,1167,6,6,0,1960,546,0.28,1,0
+7,2,Humber Summit Library,2990 Islington Avenue,1035,18,14,2,431,576,3,10,19,1039,259,0.25,1,1
+7,3,St. Roch Catholic School,174 Duncanwoods Drive,1370,21,31,9,818,529,0,7,6,1360,292,0.22,0,1
+7,4,Humber Summit Middle School,60 Pearldale Avenue,2166,35,48,2,1496,643,0,8,7,2154,462,0.21,0,0
+7,5,Gracedale Public School,186 Gracedale Blvd.,1595,10,14,5,956,597,4,0,37,1594,328,0.21,1,0
+7,6,Blacksmith Public School,45 Blacksmith Crescent,2316,25,16,6,1505,816,3,6,0,2330,388,0.17,8,0
+7,9,John Booth Memorial Arena,230 Gosford Boulevard,1424,19,13,14,823,605,0,2,5,1435,240,0.17,4,0
+7,10,Driftwood Community Centre,4401 Jane Street,2048,31,32,9,1702,330,6,11,2,2051,309,0.15,0,0
+7,11,Edgeley Apartments,35 Shoreham Drive,312,12,4,3,304,18,0,0,0,322,102,0.32,5,0
+7,13,York University - New Student Centre,4700 Keele Street,1676,22,87,2,1349,230,12,13,5,1609,81,0.05,2,0
+7,14,Gosford Public School,30 Gosford Boulevard,1766,26,15,1,1315,437,2,3,22,1779,363,0.2,0,1
+7,15,Norfinch Care Community,22 Norfinch Drive,20,5,0,0,17,8,0,0,0,25,23,1,0,2
+7,16,Recreation Centre,15 San Romanoway,1152,23,43,6,796,334,1,0,0,1131,192,0.17,0,0
+7,17,Driftwood Public School,265 Driftwood Avenue,2493,35,41,6,1753,733,3,1,0,2490,341,0.14,3,0
+7,19,Bristol House,10 Tobermory Drive,298,4,4,7,222,77,0,0,0,299,90,0.3,0,0
+7,20,Yorkwoods Apartments,500 Murray Ross Parkway,441,0,15,2,361,62,3,0,0,426,97,0.23,0,0
+7,25,James Cardinal McGuigan School,1440 Finch Avenue West,2551,36,34,8,2008,524,11,6,3,2552,400,0.16,2,0
+7,26,Four Winds,31 Four Winds Drive,645,24,9,5,497,156,1,4,1,659,198,0.3,4,0
+7,28,Derrydown Public School,120 Derrydown Road,1557,48,19,6,1011,563,2,3,8,1587,359,0.23,1,0
+7,29,Northwood Apartments,3680 Keele Street,204,19,1,0,205,16,0,0,0,221,67,0.3,0,0
+7,30,Elia Middle School,215 Sentinel Road,1741,12,24,8,1229,491,5,2,0,1727,311,0.18,1,0
+7,31,C.W. Jefferys Collegiate Institute,340 Sentinel Road,2038,16,23,6,1504,521,3,7,0,2035,289,0.14,0,0
+7,32,Lamberton Public School,33 Lamberton Blvd.,1395,12,11,15,791,604,1,2,0,1398,363,0.26,0,0
+7,33,Topcliff Public School,65 Topcliff Avenue,1350,13,17,9,1026,317,1,1,1,1346,278,0.21,0,0
+7,35,Yorkwoods Public School,25 Yorkwoods Gate,2347,15,36,4,1754,544,5,16,8,2327,343,0.15,1,0
+7,38,Oakdale Park Middle School,315 Grandravine Drive,1140,7,11,1,753,378,0,1,2,1134,122,0.11,0,0
+7,39,St. Francis De Sales School,333 Firgrove Crescent,2794,24,173,5,1921,704,3,2,15,2645,390,0.15,3,0
+7,40,Hawthorne Place Care Centre,2045 Finch Avenue West,288,0,57,0,230,1,0,0,0,231,53,0.23,0,0
+7,42,Lori Gardens Apartments,2405 Finch Avenue West,364,1,17,0,269,79,0,0,0,348,92,0.26,0,0
+7,43,Weston Towers,3400 Weston Road,339,10,19,3,246,82,1,1,0,330,72,0.22,0,0
+7,44,Century Gardens,3390 Weston Road,345,7,11,0,272,68,1,0,0,341,98,0.29,0,0
+7,45,Daystrom Public School,25 Daystrom Drive,2572,18,100,11,1707,762,4,8,11,2492,474,0.19,0,0
+7,46,Nile Academy,5 Blue Haven Crescent,1887,27,40,13,1413,455,4,1,1,1874,387,0.21,3,1
+7,47,Gulfstream Public School,20 Gulfstream Road,1414,21,25,9,785,613,3,8,3,1412,293,0.21,0,0
+7,48,St. Jude Catholic School,3251 Weston Road,1938,22,39,3,1031,780,2,5,102,1920,354,0.18,1,0
+7,49,Stanley Public School,75 Stanley Road,2022,21,51,2,1313,667,4,0,12,1996,244,0.12,0,0
+7,50,Domenico DiLuca Community Centre,25 Stanley Road,1925,9,27,5,972,908,1,15,9,1905,328,0.17,0,0
+7,52,Blessed Margherita Catholic School,108 Spenvalley Drive,2150,18,30,6,981,1148,1,3,6,2139,373,0.17,1,0
+7,53,Arleta Manor,7-11 Arleta Ave,372,19,3,6,360,28,0,0,0,388,153,0.4,0,1
+7,54,Northwood Community Centre,15 Clubhouse Court,1401,16,8,9,574,834,0,2,0,1410,302,0.21,2,0
+7,55,Chalkfarm Public School,100 Chalkfarm Drive,1999,14,18,4,1349,638,6,3,0,1996,312,0.16,0,1
+7,56,Ghana Calvary Methodist United Church,65 Mayall Avenue,2258,24,7,0,1403,851,1,2,20,2277,335,0.15,0,0
+7,57,Carmine Stefano Community Centre,3100 Weston Rd,2989,30,40,23,1925,1046,8,3,0,2982,549,0.18,3,0
+7,59,St. Basil the Great College School,20 Starview Lane,2499,22,36,8,991,1475,2,10,8,2486,575,0.23,0,0
+7,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,249,NA,0,0
+7,98,Domenico DiLuca Community Centre,25 Stanley Road,NA,23,7,38,NA,NA,NA,NA,NA,NA,1161,NA,1,1
+7,99,Driftwood Community Centre,4401 Jane Street,NA,45,24,13,NA,NA,NA,NA,NA,NA,979,NA,1,1
+7 Total,NA,NA,NA,66594,876,1308,299,43149,22415,113,172,313,66162,14616,0.22,49,10
+8,1,Armour Heights Public School,148 Wilson Avenue,1780,16,39,3,1519,232,6,1,3,1761,316,0.18,1,0
+8,2,The Four Thousand,4000 Yonge Street,438,14,23,8,385,41,1,2,0,429,173,0.4,0,0
+8,3,Loretto Abbey Catholic S. S.,101 Mason Blvd.,1529,14,20,5,1319,193,5,2,3,1522,391,0.26,0,0
+8,4,Armour Heights Presb. Church,105 Wilson Avenue,1736,18,11,7,1485,253,5,5,0,1748,415,0.24,0,0
+8,5,Armour Heights Community Centre,2140 Avenue Road,1353,19,41,4,1128,184,3,7,11,1333,279,0.21,3,0
+8,6,Marjory Carton Apartments,193 Wilson Avenue,127,1,12,0,108,9,1,0,0,118,28,0.24,0,0
+8,7,St. Margaret Catholic School,85 Carmichael Avenue,2179,28,35,0,1880,280,6,6,2,2174,408,0.19,0,0
+8,9,The Empress House,3636 Bathurst Street,300,16,14,0,256,46,0,0,0,302,132,0.44,0,0
+8,10,Reuben Cipin Residence,2 Neptune Drive,1403,36,45,7,944,446,5,0,0,1395,335,0.24,1,0
+8,11,Baycrest Health Sciences,3560 Bathurst Street,249,101,147,14,203,0,0,0,0,203,81,0.43,3,7
+8,12,Baycrest Terrace,55 Ameer Avenue,105,50,104,0,48,1,0,1,1,51,51,1,1,0
+8,13,St. Margaret Annex SS Fleming,50 Ameer Avenue,1769,29,36,9,1311,440,5,0,5,1761,335,0.19,0,0
+8,14,Flemington Public School,10 Flemington Road,1880,77,83,2,1538,319,8,6,1,1872,397,0.21,1,0
+8,15,Lawrence Heights Middle School,50 Highland Hill,2439,48,44,25,1641,762,13,11,22,2449,421,0.17,4,0
+8,16,Yorkdale Secondary School,38 Orfus Road,508,8,6,1,201,278,1,0,30,510,142,0.28,0,0
+8,17,Joyce Public School,26 Joyce Parkway,1187,23,24,12,428,736,4,2,10,1180,249,0.21,2,2
+8,18,50 Lotherton Ptwy,50 Lotherton Ptwy,1212,16,8,1,1043,178,1,0,0,1222,249,0.2,0,0
+8,20,Glen Long Community Centre,35 Glen Long Avenue,1421,15,19,11,674,717,9,5,10,1415,247,0.17,0,0
+8,21,Beth Torah Synagogue,47 Glenbrook Avenue,1505,23,20,9,809,682,9,1,5,1506,340,0.23,0,1
+8,22,Villa Colombo,40 Playfair Avenue,608,2,0,0,353,255,0,0,2,610,18,0.03,0,0
+8,24,Casa Del Zotto,3010 Dufferin Street,274,6,2,5,162,116,0,0,0,278,127,0.46,0,0
+8,25,Caboto Terrace,3050 Dufferin Street,347,5,29,10,216,107,0,1,0,324,126,0.39,0,0
+8,26,Treviso 2,830 Lawrence Ave W,729,10,17,6,650,63,1,1,0,715,131,0.18,0,0
+8,27,Treviso 1,800 Lawrence Ave W,439,12,10,12,381,56,3,1,0,441,108,0.25,0,1
+8,29,Bathurst Place,3036 Bathurst Street,1605,15,20,4,1510,80,5,2,5,1602,344,0.22,0,1
+8,30,Barbara Frum Community Centre,20 Covington Road,1916,38,25,3,1652,271,5,1,1,1930,487,0.25,0,0
+8,31,Crystal Towers,2 Covington Road,382,1,12,0,351,17,2,0,0,370,174,0.47,0,1
+8,32,Saranac Apartments,3174 Bathurst Street,159,5,4,0,155,4,0,1,0,160,54,0.34,0,0
+8,34,National Council of Jewish Women,3270 Bathurst Street,213,3,11,3,156,50,0,0,0,206,61,0.3,0,0
+8,35,Ledbury Park Public School,95 Falkirk Street,2487,26,47,16,2228,208,16,2,12,2466,526,0.21,0,0
+8,36,Melrose Community Church,375 Melrose Avenue,2239,27,26,6,1993,233,5,3,15,2249,431,0.19,0,0
+8,37,John Wanless Public School,245 Fairlawn Avenue,2675,32,14,6,2374,300,9,10,0,2693,741,0.28,1,0
+8,39,Blessed Sacrament Catholic School,24 Bedford Park Ave,2671,42,27,10,2238,402,27,4,16,2687,757,0.28,2,0
+8,40,Lawrence Park Collegiate Institute,125 Chatsworth Drive,1981,28,55,8,1770,174,4,6,1,1955,526,0.27,1,0
+8,42,Glenview Senior Public School,401 Rosewell Avenue,1239,9,49,5,1104,77,10,9,0,1200,304,0.25,0,0
+8,43,Glenview Presbyterian Church,1 Glenview Avenue,2407,58,30,8,2205,207,8,9,8,2437,673,0.28,1,0
+8,44,Shaarei Shomayim Congregation,470 Glencairn Avenue,2287,23,20,2,2175,87,15,6,6,2289,416,0.18,0,0
+8,45,Glen Park Public School,101 Englemount Avenue,2353,39,54,14,1993,335,8,2,0,2338,517,0.22,2,1
+8,46,Viewmount Community Centre,169 Viewmount Avenue,915,17,10,0,849,72,3,1,0,925,181,0.2,0,0
+8,47,Sts. Cosmas & Damian School,111 Danesbury Avenue,2938,34,58,6,1644,1233,8,7,24,2916,542,0.19,0,0
+8,48,Medhanie Alem Eritrean Orthodox Church,1 Ramsden Road,2309,36,38,7,1152,1115,6,0,33,2306,437,0.19,0,0
+8,49,Maria A. Shchuka Library,1745 Eglinton Avenue West,2409,37,39,8,1471,883,10,3,43,2410,478,0.2,5,0
+8,50,Roselawn Marlee Apartments,855 Roselawn Avenue,2490,40,45,11,2006,467,11,3,1,2488,578,0.23,0,0
+8,51,The Ascot,135 Marlee Avenue,297,11,18,3,257,29,4,0,0,290,116,0.4,0,0
+8,52,Fernwood Apartments,145 Marlee Avenue,537,17,36,1,418,93,2,0,5,518,166,0.32,0,0
+8,53,The Castlefield,377 Ridelle Avenue,343,11,6,1,292,56,0,1,0,349,89,0.26,0,0
+8,54,Briar Hill Towers,155 Marlee Avenue,462,5,4,0,420,40,3,0,0,463,140,0.3,0,0
+8,55,Ridley Towers,370 Ridelle Avenue,278,7,3,2,240,42,1,0,0,283,93,0.33,1,0
+8,56,The Allenway,360 Ridelle Avenue,485,8,7,2,426,56,2,0,0,484,150,0.31,0,0
+8,57,West Preparatory Public School,70 Ridge Hill Drive,2545,27,39,5,2452,59,8,0,21,2540,659,0.26,0,1
+8,58,Forest Hill Place,645 Castlefield Avenue,128,6,40,1,94,0,0,0,0,94,41,0.44,0,0
+8,59,Dorothy Klein Seniors Residence,668 Roselawn Avenue,141,7,4,0,126,18,0,0,0,144,63,0.44,0,0
+8,60,Forest Hill Collegiate Institute,730 Eglinton Avenue West,1912,22,89,12,1712,118,7,6,3,1846,431,0.23,0,0
+8,61,North Preparatory Junior School,1100 Spadina Road,2316,23,66,12,2062,205,5,2,4,2278,523,0.23,0,0
+8,62,Allenby Jr. Public School,391 St. Clements Avenue,2671,35,28,4,2554,106,12,6,0,2678,706,0.26,0,0
+8,63,Marshall McLuhan Secondary School,1107 Avenue Road,1806,53,35,5,1696,108,8,6,7,1825,471,0.26,1,0
+8,64,Amica on the Avenue,1066 Avenue Rd,30,20,0,0,50,0,0,0,0,50,31,0.62,0,0
+8,65,Eglinton St. Georges United Church,35 Lytton Blvd,1931,32,32,4,1783,117,13,5,9,1927,548,0.28,1,0
+8,66,500 Duplex Avenue,500 Duplex Avenue,371,18,36,2,325,22,3,3,0,353,139,0.39,0,0
+8,67,Northern District Library,40 Orchard View Blvd.,1992,50,54,9,1850,125,12,4,4,1995,494,0.25,0,0
+8,68,Berkshire House,411 Duplex Avenue,362,5,13,1,321,34,0,0,0,355,99,0.28,0,0
+8,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1024,NA,0,0
+8,98,Armour Heights Community Centre,2140 Avenue Road,NA,95,53,57,NA,NA,NA,NA,NA,NA,3537,NA,7,0
+8,99,Glen Long Community Centre,35 Glen Long Avenue,NA,56,50,54,NA,NA,NA,NA,NA,NA,1836,NA,6,1
+8 Total,NA,NA,NA,79799,1605,1986,443,64786,13837,318,154,323,79418,25082,0.32,44,16
+9,1,St. Hilda's Anglican Church,2353 Dufferin Street,2144,41,31,8,1235,900,6,2,16,2159,409,0.19,0,0
+9,2,St. John Bosco Catholic School,75 Holmesdale Road,2275,27,21,13,1192,1079,14,5,2,2292,456,0.2,1,0
+9,3,F.H. Miller Jr. Public School,300 Caledonia Road,1838,25,25,6,1027,801,6,1,5,1840,309,0.17,0,0
+9,4,St. Nicholas of Bari School,363 Rogers Road,1727,35,21,2,861,863,12,2,10,1748,284,0.16,3,0
+9,5,St. Matthew Catholic School,18 Lavender Road,1308,10,15,8,714,574,4,0,12,1304,217,0.17,0,0
+9,6,Rawlinson Community School,231 Glenholme Avenue,2427,72,39,15,1757,652,17,10,25,2461,626,0.25,0,0
+9,7,Oakwood Collegiate,991 St. Clair Ave West,2357,65,58,10,1968,352,20,10,21,2371,582,0.25,1,0
+9,8,St. Clare Catholic School,124 Northcliffe Blvd.,2085,63,42,7,1344,743,11,10,2,2110,503,0.24,0,1
+9,9,Stella Maris Catholic School,31 Ascot Avenue,2375,40,31,13,1294,1069,10,9,16,2398,463,0.19,0,0
+9,10,Dufferin/St. Clair Library,1625 Dufferin Street,1545,57,25,15,1244,305,18,1,12,1580,434,0.27,0,0
+9,11,Loretto College Catholic School,151 Rosemount Avenue,3070,87,34,16,1887,1194,6,6,37,3130,651,0.21,0,0
+9,12,J.J. Piccininni Community Centre,1369 St Clair Avenue West,2256,64,21,7,1285,977,18,8,19,2307,477,0.21,0,0
+9,13,Cornerstone Baptist Tabernacle,21 Blackthorn Avenue,1837,31,17,6,1101,727,7,3,14,1852,367,0.2,0,0
+9,14,St. Clair Silverthorn Public Library,1748 St Clair Ave W,871,9,13,4,558,298,4,0,6,866,167,0.19,1,0
+9,15,Carleton Village Public School,315 Osler St,1208,35,24,5,848,355,11,2,7,1223,305,0.25,0,0
+9,16,Davenport-Perth Centre,1900 Davenport Road,1240,39,26,5,804,432,4,7,13,1260,258,0.2,0,0
+9,17,Pelham Park Gardens,61 Pelham Park Gardens,504,29,7,1,418,106,1,1,0,526,105,0.2,0,0
+9,18,Ecole elementaire Charles-Sauriol,55 Pelham Avenue,2080,82,30,16,1585,531,24,5,2,2147,494,0.23,1,0
+9,19,St. Rita Catholic School,178 Edwin Avenue,714,34,21,4,525,181,8,2,17,733,235,0.32,0,0
+9,20,St. Luigi Catholic School,2 Ruskin Avenue,2084,89,73,11,1454,606,20,7,13,2100,648,0.31,0,0
+9,21,Fuse 1 & 2,1410 Dupont Street,687,27,11,3,668,30,3,1,0,702,198,0.28,0,0
+9,22,St. Mary of the Angels School,1477 Dufferin Street,2233,78,29,7,1450,798,16,2,18,2284,554,0.24,0,0
+9,23,Wallace-Emerson Community Centre,1260 Dufferin Street,2837,106,38,11,2244,622,16,11,21,2914,626,0.21,3,0
+9,24,Dovercourt Public School,228 Bartlett Avenue,1937,86,28,8,1525,431,21,12,11,2000,562,0.28,4,1
+9,25,Dovercourt Boys and Girls Club,180 Westmoreland Avenue,1568,84,35,5,1102,475,16,12,7,1612,525,0.33,2,0
+9,26,The Salvation Army,789 Dovercourt Road,1775,124,40,2,1461,375,14,3,11,1864,548,0.29,0,0
+9,27,St. Anthony Catholic School,130 Shanly St,1126,57,19,6,847,301,7,0,9,1164,357,0.31,0,0
+9,28,New Horizons Tower,1140 Bloor Street West,84,29,27,0,76,9,1,0,0,86,49,0.57,0,0
+9,30,Pauline Jr. Public School,100 Pauline Avenue,1737,66,39,9,1167,584,11,1,3,1766,435,0.25,0,0
+9,31,St. Sebastian Catholic School,717 Brock Avenue,1880,78,31,11,1334,577,17,0,11,1939,465,0.24,0,0
+9,32,Tamil Co-Op Homes,20 Wade Avenue,807,47,23,4,661,147,4,5,16,833,190,0.23,0,0
+9,33,Rankin Apartments,55 Rankin Crescent,1266,56,16,3,1183,105,12,3,8,1311,413,0.32,0,0
+9,34,Perth Avenue Co-Op,120 Perth Avenue,2227,66,60,3,1811,392,21,9,5,2238,679,0.3,2,1
+9,35,Ecole Saint-Frere-Andre,330 Lansdowne Avenue,2445,177,48,7,1821,751,15,3,15,2605,616,0.24,3,0
+9,36,St. Mary Catholic Academy,66 Dufferin Park Avenue,1487,81,41,6,1267,228,24,2,4,1525,454,0.3,0,0
+9,37,Portuguese Speaking Presb. Church,100 Hepbourne Street,1971,94,42,3,1757,232,21,6,12,2028,613,0.3,1,0
+9,38,Dewson Street Public School,65 Concord Avenue,2220,177,79,10,1942,335,31,8,17,2333,632,0.27,3,0
+9,39,St. Helen Catholic School,1196 College Street,3107,150,55,17,2115,1014,29,9,50,3217,680,0.21,0,3
+9,40,Bill McMurray Residence,180 Sheridan Avenue,72,10,0,0,81,1,0,0,0,82,27,0.33,0,0
+9,41,Shirley Street Public School,38 Shirley Street,1715,108,28,2,1318,454,12,4,16,1804,463,0.26,0,0
+9,42,Mary McCormick Recreation Centre,66 Sheridan Avenue,2491,132,55,10,1859,668,19,12,32,2590,572,0.22,0,0
+9,43,St. Anne's Place,661 Dufferin Street,9,23,2,0,28,2,0,0,0,30,30,1,0,0
+9,44,Ossington/Old Orchard Public School,380 Ossington Avenue,1801,123,48,7,1436,408,22,1,18,1885,482,0.26,1,0
+9,45,Terra Nova,1289 Dundas Street West,169,6,2,0,124,49,0,0,0,173,71,0.46,0,8
+9,46,Fairview Nursing Home,14 Cross Street,30,2,1,0,23,8,0,0,0,31,4,0.13,0,0
+9,47,Alexander Muir/Gladstone School,108 Gladstone Avenue,3303,123,109,6,2677,582,37,10,13,3319,666,0.2,1,8
+9,48,The Carnaby,20 Minowan Miikan Lane,597,24,17,1,580,13,5,4,0,602,168,0.28,0,0
+9,49,Bohemian Embassy,1169 Queen Street West,336,40,8,1,354,8,4,2,0,368,123,0.34,0,1
+9,50,Epic on Triangle Park,68 Abell St,453,17,22,1,433,12,1,2,0,448,94,0.21,0,0
+9,51,Westside Gallery Lofts,150 Sudbury Street,679,27,13,2,657,34,4,0,0,695,209,0.3,0,1
+9,52,45 Lisgar Street,45 Lisgar Street,471,39,13,1,476,17,3,3,1,500,161,0.33,0,3
+9,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,827,NA,0,0
+9,98,J.J Piccininni Community Centre,1369 St Clair Avenue West,NA,176,66,34,NA,NA,NA,NA,NA,NA,2565,NA,2,2
+9,99,Mary McCormick Recreation Centre,66 Sheridan Avenue,NA,210,68,48,NA,NA,NA,NA,NA,NA,1821,NA,0,2
+9 Total,NA,NA,NA,79465,3577,1687,400,57578,22407,607,216,547,81355,24869,0.31,29,31
+10,1,Givins/Shaw Public School,49 Givins Street,2680,149,67,9,2156,550,27,9,36,2778,627,0.23,1,0
+10,2,Trinity Community Recreation Centre,155 Crawford Street,2984,89,94,7,2589,334,37,19,9,2988,584,0.2,1,0
+10,3,Maynard Nursing Home,28 Halton Street,32,3,24,0,7,4,0,0,0,11,4,0.45,0,1
+10,4,Centre for Addiction and Mental Health,1025 Queen St W,0,17,0,0,17,0,0,0,0,17,17,1,0,0
+10,5,DNA3,1030 King St W,603,41,16,3,606,18,3,3,1,631,157,0.25,0,0
+10,6,DNA II,1005 King Street West,642,17,15,3,594,39,6,1,0,640,161,0.25,0,0
+10,7,Bridge Condominiums,38 Joe Shuster Way,602,31,19,0,590,23,0,1,0,614,144,0.23,2,0
+10,8,Toy Factory Lofts,43 Hanna Avenue,1941,100,11,8,1956,66,5,6,0,2033,383,0.19,0,0
+10,9,Battery Park at Liberty Village,50 Lynn Williams St,1015,42,12,2,980,55,4,6,0,1045,218,0.21,0,0
+10,10,King West Condos in Liberty Village,75 East Liberty Street,1257,51,19,7,1232,54,3,0,2,1291,301,0.23,0,1
+10,11,Liberty Towers,59 East Liberty Street,652,25,2,2,627,42,3,4,0,676,163,0.24,0,0
+10,12,Niagara Street Public School,222 Niagara Street,2440,80,50,8,2101,337,24,10,6,2478,546,0.22,1,0
+10,13,St. Matthias Anglican Church,45 Bellwoods Avenue,1807,92,37,6,1583,259,21,4,15,1882,409,0.22,0,0
+10,14,Scadding Court Community Centre,707 Dundas Street West,1796,80,50,5,1485,317,16,4,12,1834,341,0.19,0,0
+10,15,The Meeting Place,588 Queen Street West,0,14,0,0,14,0,0,0,0,14,14,1,0,0
+10,16,Alexandra Park,91 Augusta Avenue,604,30,12,2,598,21,1,0,2,622,156,0.25,2,0
+10,17,Alexandra Park Community Centre,105 Grange Court,1171,135,52,0,1143,61,4,3,47,1258,294,0.23,0,0
+10,18,Ogden Public School,33 Phoebe Street,1510,88,27,9,1478,61,10,2,25,1576,416,0.26,0,0
+10,19,Beverley Manor,168 John Street,188,2,5,0,176,9,0,0,0,185,56,0.3,0,0
+10,20,University Settlement Rec Centre,23 Grange Road,2473,71,77,9,2286,143,14,13,12,2468,514,0.21,0,0
+10,21,Sheraton Centre Hotel,123 Queen St W,1597,23,58,4,1485,55,2,3,16,1561,167,0.11,0,0
+10,22,Block 32,150 Dan Leckie Way,1279,42,13,3,1210,99,3,1,0,1313,231,0.18,0,0
+10,23,N2,15 Fort York Blvd,1155,30,10,1,1122,47,2,6,0,1177,144,0.12,0,0
+10,24,John Gibson House,229 Crawford St,1,17,1,0,13,4,0,0,0,17,17,1,1,0
+10,25,Allan A. Lamport Stadium,1155 King St W,2452,107,67,5,2187,259,18,9,21,2494,462,0.19,0,2
+10,26,Parade,21 Iceboat Terrace,1407,24,14,8,1345,60,10,7,1,1423,151,0.11,0,1
+10,27,St. Andrew's Centre,73 Simcoe St,2766,59,181,7,2415,107,12,5,108,2647,320,0.12,0,0
+10,28,Metro Hall,55 John Street,3725,96,78,7,3627,92,16,3,12,3750,459,0.12,0,0
+10,29,Cinema Tower,21 Widmer Street,403,14,11,1,395,9,1,0,0,405,72,0.18,0,0
+10,30,The Pinnacle on Adelaide,295 Adelaide Street West,451,18,9,0,448,9,0,0,1,458,83,0.18,0,0
+10,31,The Bond,290 Adelaide Street West,0,40,0,0,40,0,0,0,0,40,40,1,0,0
+10,32,Picasso,318 Richmond St W,315,13,1,3,315,9,1,1,0,326,75,0.23,0,0
+10,33,Peter Street Condos,101 Peter St,326,9,5,1,318,6,2,3,1,330,28,0.08,0,0
+10,34,Charlie,8 Charlotte St,280,13,7,1,277,7,1,1,0,286,55,0.19,0,0
+10,35,The Hudson Condos,438 King St W,332,8,15,4,304,21,2,1,0,328,97,0.3,0,0
+10,36,M5V Condominiums,375 King Street West,314,21,12,1,315,7,1,0,0,323,70,0.22,0,0
+10,37,King Blue Condos,355 King St W,435,15,2,0,446,1,1,0,0,448,52,0.12,0,0
+10,38,Portland Place,163 Portland Street,59,0,4,0,49,3,3,0,0,55,25,0.45,0,0
+10,39,Fashion House,560 King St W,184,10,2,0,185,5,1,0,0,191,56,0.29,0,0
+10,40,University Plaza Condos,140 Simcoe Street,276,8,16,0,245,21,1,0,0,267,52,0.19,0,0
+10,41,Musee,525 Adelaide St W,532,16,8,0,531,6,0,0,0,537,101,0.19,0,0
+10,42,OneEleven Condos,111 Bathurst St,218,4,10,0,206,2,3,0,0,211,45,0.21,0,0
+10,43,St. Mary Catholic School,20 Portugal Square,3040,95,92,6,2839,144,20,7,29,3039,497,0.16,1,0
+10,44,Niagara Neighbourhood Housing Co-op,180 Niagara Street,1805,84,31,6,1733,102,16,5,5,1861,381,0.2,0,0
+10,45,Citysphere,801 King Street West,481,20,7,2,461,32,2,2,0,497,157,0.32,0,0
+10,46,Minto Westside,27 Bathurst St,502,51,4,1,543,10,2,0,0,555,116,0.21,0,1
+10,47,The Summit,701 King Street West,951,32,23,5,868,73,10,9,1,961,266,0.28,0,0
+10,48,Thompson Residences,629 King St W,63,2,1,0,63,1,0,0,0,64,7,0.11,0,0
+10,50,Reve Condominiums,560 Front Street West,327,16,7,1,310,23,0,4,0,337,71,0.21,0,0
+10,51,Fortune at Fort York,65 Grand Magazine St,256,12,0,1,262,5,1,0,0,268,41,0.15,0,0
+10,52,Canoe Landing Community Rec Centre,45 Fort York Blvd,3555,58,71,1,3332,188,18,9,2,3549,472,0.13,0,0
+10,53,Atlantis Aquarius,231 Fort York Blvd,2195,60,32,6,2090,121,6,4,2,2223,372,0.17,0,0
+10,54,York Harbour Club Condo,38 Grand Magazine Street,527,31,8,4,521,25,2,2,1,551,125,0.23,0,0
+10,55,West Harbour City 1,628 Fleet Street,690,26,26,9,617,66,3,3,1,690,174,0.25,0,0
+10,56,West Harbour City 2,21 Grand Magazine Street,440,16,2,2,414,37,3,0,0,454,123,0.27,0,0
+10,57,Quay West at Tip Top,90 Stadium Road,709,21,9,2,675,41,2,3,0,721,149,0.21,3,0
+10,58,Malibu Harbourfront,600 Fleet Street,553,16,9,2,516,40,1,2,0,559,127,0.23,0,0
+10,59,Waterfront Neighbourhood Centre,627 Queen's Quay West,3732,63,103,10,3335,314,28,17,1,3695,655,0.18,0,0
+10,60,Panorama,38 Dan Leckie Way,398,14,7,2,381,25,0,0,0,406,76,0.19,0,0
+10,61,Fort York Library,190 Fort York Blvd.,1782,44,27,6,1731,55,6,9,2,1803,226,0.13,0,0
+10,62,The Lakefront,17 Bathurst St,312,24,6,0,323,7,0,0,0,330,62,0.19,0,0
+10,63,Zen King West,19 Western Battery Rd,339,24,4,0,356,7,0,0,0,363,73,0.2,0,0
+10,64,Ward's Island Assoc. Clubhouse,20 Withrow St,582,1,14,0,556,8,5,2,0,571,289,0.51,0,0
+10,65,Harbour View Estates,11 Mariner Terrace,1900,36,68,11,1734,110,17,6,0,1867,271,0.15,0,0
+10,66,Ten York,10 York St,468,13,1,0,467,12,0,1,0,480,47,0.1,0,0
+10,67,Westin Harbour Castle,1 Harbour Square,5009,72,100,15,4655,286,23,18,2,4984,557,0.11,2,0
+10,68,The Optima,81 Navy Wharf Court,504,12,18,2,448,46,3,1,0,498,101,0.2,0,0
+10,69,The Apex,381 Front Street West,1549,44,35,10,1424,116,11,5,0,1556,284,0.18,0,0
+10,70,Fly Condos,352 Front St W,436,11,6,0,425,15,1,0,0,441,82,0.19,0,0
+10,71,Element Condominium,20 Blue Jays Way,396,15,7,2,373,26,0,4,1,404,107,0.26,0,0
+10,72,The Icon,270 Wellington Street West,663,27,9,3,610,59,8,3,0,680,141,0.21,0,0
+10,73,The Tridel,300 Front Street West,392,9,5,1,385,10,0,0,1,396,42,0.11,0,0
+10,74,The Tower at King West Liberty Village,125 Western Battery Road,504,27,15,4,491,25,2,0,0,518,126,0.24,0,0
+10,75,Lighthouse West,15 Lower Jarvis St,618,23,9,3,621,12,0,0,0,633,115,0.18,0,0
+10,76,Monde Condos,12 Bonnycastle St,380,19,1,0,391,6,1,0,0,398,79,0.2,0,0
+10,77,George Brown College,51 Dockside Dr,600,26,9,1,595,12,1,5,1,614,157,0.26,0,0
+10,78,Residences of Maple Leaf Square,55 Bremner Blvd,690,15,9,2,676,15,4,0,0,695,81,0.12,0,0
+10,79,Harbour Plaza Residences,88 Harbour St,836,15,13,1,819,16,1,4,0,840,70,0.08,0,0
+10,80,Number One York Quay,77 Harbour Square,1038,18,18,15,947,75,9,5,2,1038,264,0.25,0,0
+10,81,Harbourside,55 Harbour Square,878,19,34,5,790,61,5,7,0,863,290,0.34,0,1
+10,82,33 Harbour Square,33 Harbour Square,758,21,28,3,679,60,9,1,2,751,252,0.34,0,0
+10,83,Pier 27,39 Queens Quay East,976,24,16,3,954,27,3,0,0,984,175,0.18,0,0
+10,84,Residences of the World Trade Centre,10 Queen's Quay West,909,40,42,2,832,65,7,5,0,909,263,0.29,0,0
+10,85,The Pinnacle,16 Yonge Street,1913,27,67,5,1771,90,5,8,0,1874,275,0.15,0,0
+10,86,18 Yonge,18 Yonge St,484,18,27,2,445,26,3,3,0,477,98,0.21,0,4
+10,88,25 The Esplanade,25 The Esplanade,749,25,14,0,695,54,3,7,0,759,239,0.31,0,0
+10,89,Old York Tower,85 The Esplanade,731,10,21,8,610,96,4,8,0,718,224,0.31,0,0
+10,90,St. Michael Catholic School,50 George Street South,3051,131,111,20,2629,310,70,73,1,3083,787,0.26,2,1
+10,91,15 Scadding Avenue,15 Scadding Avenue,240,15,3,0,190,61,2,0,0,253,86,0.34,0,0
+10,93,Young Centre for the Performing Arts,50 Tank House Lane,1485,40,26,6,1403,74,12,6,0,1495,371,0.25,0,0
+10,94,Aqualina at Bayside,15 Merchants' Wharf,96,2,0,0,98,2,0,0,0,100,29,0.29,0,0
+10,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1074,NA,3,0
+10,98,Trinity Community Recreation Centre,155 Crawford Street,NA,134,60,39,NA,NA,NA,NA,NA,NA,1713,NA,0,0
+10,99,Canoe Landing Community Rec Centre,45 Fort York Blvd,NA,129,66,69,NA,NA,NA,NA,NA,NA,2127,NA,4,1
+10 Total,NA,NA,NA,94396,3471,2434,424,87779,6313,587,373,381,95433,23293,0.24,23,13
+11,1,Essex Public School,50 Essex Street,2693,186,43,23,2336,451,37,8,7,2839,940,0.33,2,0
+11,2,Bob Abate Community Recreation Centre,485 Montrose Avenue,2891,168,86,9,2337,559,41,10,29,2976,851,0.29,2,1
+11,3,The O'Neill Centre,33 Christie Street,80,15,0,0,61,34,0,0,0,95,21,0.22,0,0
+11,5,Palmerston Avenue Public School,734 Palmerston Avenue,2683,173,66,6,2444,263,27,14,51,2799,928,0.33,0,0
+11,6,St. Albans Boys and Girls Club,843 Palmerston Avenue,1588,100,51,8,1489,123,14,5,8,1639,643,0.39,1,0
+11,8,Royal St. George's College,100 Howland Avenue,2252,170,76,11,2172,133,38,9,5,2357,758,0.32,4,0
+11,9,Native Canadian Centre of Toronto,16 Spadina Road,2701,111,93,10,2554,125,30,10,4,2723,737,0.27,0,1
+11,10,Wigwamen Terrace,14 Spadina Rd,112,10,0,0,111,11,0,0,0,122,52,0.43,0,0
+11,11,Toronto Baha'i Centre,288 Bloor St W,2173,55,101,6,1974,92,19,6,29,2120,570,0.27,2,1
+11,12,Friends House,60 Lowther Avenue,2071,104,133,15,1892,129,14,5,4,2044,557,0.27,0,0
+11,13,The Annex Retirement Residence,123 Spadina Road,68,22,1,0,88,2,0,0,0,90,31,0.34,0,0
+11,14,St. George Care Community,225 St. George St,96,1,54,0,37,2,2,2,0,43,15,0.35,0,0
+11,15,250 Davenport Road,250 Davenport Road,423,15,9,2,381,46,1,1,0,429,99,0.23,0,0
+11,16,Church of the Messiah,240 Avenue Road,2306,155,99,4,2181,137,30,11,6,2365,570,0.24,0,0
+11,17,Ramsden Place Apartments,50 Hillsboro Avenue,437,5,9,0,407,21,3,1,0,432,134,0.31,0,0
+11,18,Hazelton Place,111 Avenue Road,146,48,2,0,174,17,0,1,0,192,65,0.34,0,0
+11,19,Toronto Reference Library,789 Yonge St,2049,42,45,5,1956,63,12,8,6,2045,374,0.18,0,0
+11,20,Jesse Ketchum Public School,61 Davenport Road,2318,47,29,3,2159,150,10,8,12,2339,548,0.23,0,0
+11,21,Belmont House,55 Belmont Street,40,41,18,0,58,5,0,0,0,63,53,0.84,1,0
+11,22,McMurrich Place,18 Davenport Road,1363,33,29,10,1275,76,10,4,3,1368,361,0.26,1,0
+11,23,St. Clare's Multifaith Housing Society,877 Yonge Street,77,7,7,0,65,11,0,1,0,77,7,0.09,0,0
+11,24,Rosedale Junior Public School,22 South Drive,2028,20,26,5,1887,114,15,7,4,2027,437,0.22,2,0
+11,25,Deer Park Public Library,40 St Clair Ave E,1248,33,36,9,1168,61,9,6,2,1246,356,0.29,2,0
+11,27,Our Lady of Perpetual Help School,1 1/2 Garfield Avenue,3224,67,26,12,2747,483,25,7,5,3267,866,0.27,0,0
+11,28,Bennington Heights Public School,76 Bennington Heights Drive,393,4,6,5,341,36,9,5,0,391,79,0.2,0,0
+11,29,Rosedale United Church,159 Roxborough Drive,1964,15,28,14,1675,255,15,9,0,1954,447,0.23,0,0
+11,30,Rosedale Presbyterian Church,129 Mount Pleasant Road,2090,44,47,13,1911,145,25,13,0,2094,492,0.23,0,0
+11,31,Kensington Apartments,21 Dale Avenue,546,15,17,1,489,46,8,1,0,544,217,0.4,0,2
+11,33,The Bellagio on Bloor,300 Bloor Street East,380,6,6,4,353,23,4,0,0,380,141,0.37,0,0
+11,34,Rosedale Glen,278 Bloor Street East,275,7,0,1,265,14,3,0,0,282,146,0.52,1,0
+11,35,The Milan,825 Church St,267,13,3,1,276,2,0,0,0,278,83,0.3,0,0
+11,36,18 Yorkville,18 Yorkville Ave,358,9,2,1,339,25,0,3,0,367,87,0.24,0,0
+11,37,Eight Park Road,8 Park Road,304,11,5,1,286,21,3,0,0,310,78,0.25,0,0
+11,38,Residences on Bloor,235 Bloor Street East,465,4,14,2,410,38,3,4,0,455,102,0.22,0,0
+11,39,Couture Condominium,28 Ted Rogers Way,390,22,8,0,388,10,6,0,0,404,95,0.24,0,0
+11,40,X The Condominium,110 Charles Street East,403,16,6,4,397,10,2,4,0,413,89,0.22,0,0
+11,41,Toronto Grace Hospital,650 Church Street,0,20,0,0,20,0,0,0,0,20,20,1,0,0
+11,42,St. Andrew's United Church,117 Bloor Street East,1147,28,33,3,1066,57,9,3,5,1140,207,0.18,0,0
+11,43,Bloor Street Neighbourhood,35 Hayden St,282,10,3,1,283,5,0,1,0,289,69,0.24,0,0
+11,44,Casa 2,42 Charles St E,174,9,6,1,174,2,1,0,0,177,39,0.22,0,0
+11,45,One Bloor,1 Bloor St E,502,16,11,1,498,6,2,0,0,506,65,0.13,0,0
+11,46,The Uptown Residences,35 Balmuto St,220,6,5,1,206,13,1,1,0,221,53,0.24,1,0
+11,47,Manulife Centre,44 Charles Street West,911,22,28,1,820,71,5,5,4,905,299,0.33,0,0
+11,49,U Condominiums,1080 Bay St,449,5,6,0,441,3,0,2,0,446,50,0.11,0,0
+11,51,U of T - Carr Hall,100 St Joseph St,1814,49,198,17,1451,185,6,6,19,1667,325,0.19,1,0
+11,52,Old Victoria University,91 Charles St W,1717,90,180,3,1538,65,10,1,14,1628,309,0.19,0,0
+11,53,Hart House,7 Hart House Circle,1519,51,470,1,1079,7,2,3,8,1099,63,0.06,0,0
+11,54,Senator Croll Apartments,341 Bloor Street West,336,5,10,5,303,27,1,0,0,331,94,0.28,0,0
+11,55,The Wolfond Centre,36 Harbord Street,1127,55,74,7,1016,71,16,4,7,1114,304,0.27,0,0
+11,57,St. Vladimir Institute,620 Spadina Avenue,1608,63,80,1,1484,84,17,3,9,1597,226,0.14,0,0
+11,58,Tranzac Club,292 Brunswick Avenue,1216,74,46,0,1130,92,10,3,9,1244,362,0.29,0,0
+11,59,Harbord Collegiate Institute,286 Harbord Street,1965,144,70,4,1748,253,19,7,21,2048,563,0.27,2,0
+11,60,Montrose Public School,301 Montrose Avenue,2089,143,50,19,1580,557,30,6,15,2188,582,0.27,2,0
+11,62,Pope Francis Catholic School,319 Ossington Avenue,2458,129,66,16,1741,719,40,6,13,2519,589,0.23,4,0
+11,63,Bellwoods Park House,300 Shaw Street,19,3,7,0,16,0,0,0,0,16,11,0.69,0,0
+11,64,Leonardo Court,72 Clinton Street,179,4,2,1,169,12,0,0,0,181,70,0.39,0,0
+11,65,St. Francis of Assisi School,80 Clinton Street,1656,83,37,8,1311,351,13,4,22,1701,434,0.26,0,1
+11,66,Clinton Street Public School,460 Manning Avenue,1328,99,57,6,1145,192,24,3,10,1374,427,0.31,0,1
+11,67,College Street United Church,452 College Street,2222,152,67,7,1911,352,23,1,32,2319,677,0.29,2,0
+11,69,King Edward Public School,112 Lippincott Street,1188,112,39,0,1137,103,11,4,10,1265,346,0.27,0,0
+11,70,Kensington Gardens North,45 Brunswick Avenue,49,0,0,0,49,0,0,0,0,49,2,0.04,0,0
+11,71,Kensington Gardens South,25 Brunswick Avenue,103,0,0,0,101,2,0,0,0,103,2,0.02,0,0
+11,72,St.Stephen-In-The-Fields Church,103 Bellevue Ave,1538,66,48,2,1410,109,10,0,41,1570,243,0.15,0,0
+11,73,Kensington Manor,34 Oxford Street,979,45,20,8,946,38,9,1,13,1007,228,0.23,0,1
+11,74,The Scott Mission,502 Spadina Avenue,0,12,0,0,12,1,0,0,0,13,13,1,0,0
+11,76,Cecil Community Centre,58 Cecil Street,1481,88,73,2,1422,49,11,2,24,1508,262,0.18,0,2
+11,77,Mon Sheong Home for the Aged,36 D'Arcy Street,74,14,0,0,88,0,0,0,0,88,18,0.2,0,0
+11,78,St. Patrick's Parish Church,137 Mc Caul St,1337,65,72,5,1231,83,8,2,10,1334,221,0.17,0,0
+11,79,One Park Lane,280 Simcoe Street,472,24,7,9,443,36,7,4,0,490,164,0.33,0,0
+11,80,Chelsea Hotel,33 Gerrard St W,2029,107,184,12,1830,96,8,6,16,1956,392,0.2,0,0
+11,81,Horizon on Bay,633 Bay Street,556,8,19,0,499,35,6,4,0,544,130,0.24,0,0
+11,82,Aura at College Park,388 Yonge Street,508,27,13,2,506,10,4,0,3,523,76,0.15,2,0
+11,83,The Liberties,717 Bay Street,649,18,20,2,601,36,4,5,0,646,147,0.23,0,1
+11,84,Residences of College Park I & II,761 Bay St,947,22,16,2,919,32,0,1,0,952,173,0.18,0,0
+11,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1247,NA,3,0
+11,98,Cecil Community Centre,58 Cecil Street,NA,213,79,18,NA,NA,NA,NA,NA,NA,2278,NA,3,1
+11,99,Rosedale United Church,159 Roxborough Drive,NA,69,70,55,NA,NA,NA,NA,NA,NA,1881,NA,0,1
+11 Total,NA,NA,NA,79750,3944,3347,405,71407,7487,722,251,480,80347,25690,0.32,38,13
+12,1,Lewis Garnsworthy Residence,2353 Dufferin Street,237,9,30,1,201,14,0,1,0,216,74,0.34,0,0
+12,2,Doug Saunders Apartments,1775 Eglinton Avenue West,580,21,5,1,459,134,1,0,3,597,175,0.29,1,0
+12,3,St. Thomas Aquinas School,636 Glenholme Avenue,2184,41,47,10,1564,580,15,4,20,2183,461,0.21,4,0
+12,4,Fairbank Community Centre,2213 Dufferin Street,1976,35,42,5,1164,783,7,1,16,1971,438,0.22,4,1
+12,5,D'Arcy McGee Catholic School,20 Bansley Avenue,3385,67,44,9,2296,1058,22,14,18,3408,658,0.19,0,2
+12,7,Pine Villa Residence,1035 Eglinton Avenue West,33,19,29,0,18,5,0,0,0,23,19,0.83,3,0
+12,8,Cedarvale Community School,145 Ava Road,1862,22,20,0,1746,105,10,1,3,1865,560,0.3,5,0
+12,9,Glen Gardens Apartments,989 Eglinton Avenue West,933,20,22,2,876,46,1,1,6,930,287,0.31,1,1
+12,10,Beth Tzedec Synagogue,1700 Bathurst Street,1711,27,50,2,1594,87,12,1,0,1694,343,0.2,1,0
+12,11,Forest Hill Public Library,700 Eglinton Avenue West,1621,22,56,0,1517,64,3,0,2,1586,338,0.21,0,0
+12,12,Oriole Park Jr. Public School,80 Braemar Avenue,2751,108,95,13,2551,188,14,8,13,2774,643,0.23,0,2
+12,13,North Toronto Memorial C.C.,200 Eglinton Ave W,2332,60,43,1,2171,148,15,7,16,2357,467,0.2,0,0
+12,14,Quantum - South Tower,2181 Yonge St,362,12,9,1,349,14,1,0,0,364,108,0.3,0,0
+12,15,Quantum 2 - North Tower,2191 Yonge Street,607,14,3,2,585,23,9,1,0,618,123,0.2,1,0
+12,16,The Dunfield Retirement Residence,77 Dunfield Avenue,120,52,2,2,166,3,1,0,0,170,92,0.54,0,0
+12,17,The Madison,89 Dunfield Ave,677,21,13,1,667,17,1,0,0,685,131,0.19,0,0
+12,18,Montgomery Place,130 Eglinton Avenue East,1162,61,68,2,1063,73,9,8,5,1158,300,0.26,0,5
+12,19,North Toronto Collegiate Institute,17 Broadway Ave,2835,46,136,7,2564,156,15,12,1,2748,461,0.17,1,0
+12,20,E Condos,8 Eglinton Ave E,376,17,13,0,374,6,0,0,0,380,56,0.15,0,0
+12,21,The Art Shoppe Loft and Condos,2149 Yonge St,333,34,1,1,351,15,0,0,0,366,97,0.27,0,0
+12,22,Eglinton Junior Public School,223 Eglinton Avenue East,3108,76,69,6,2891,187,20,15,8,3121,543,0.17,1,0
+12,23,The Briton House,720 Mount Pleasant Road,139,196,0,0,330,5,0,0,0,335,92,0.27,0,0
+12,24,Church Of The Transfiguration,111 Manor Rd E,2026,56,45,4,1883,131,13,7,8,2042,572,0.28,5,0
+12,25,Isabel & Arthur Meighen Manor,155 Millwood Road,68,30,28,0,69,1,0,0,0,70,36,0.51,0,0
+12,26,Davisville PS/Spectrum Alternative,50 Davisville Ave,2895,61,168,12,2597,173,12,10,4,2796,662,0.24,2,1
+12,27,150 Redpath Condos,161 Roehampton Ave,349,6,4,2,346,5,0,0,0,351,51,0.15,0,0
+12,28,185 Roehampton Condo,185 Roehampton Ave,429,10,4,3,420,11,0,4,0,435,59,0.14,0,0
+12,29,The Eglinton,125 Redpath Ave,245,21,3,0,252,9,0,2,0,263,57,0.22,0,0
+12,30,Lillian Park,"33 Dunfield Ave, former Toronto",555,75,25,3,572,30,1,5,1,609,218,0.36,0,0
+12,31,225 Davisville Avenue,225 Davisville Avenue,465,21,25,2,417,37,4,2,0,460,139,0.3,0,0
+12,33,The Claremont Retirement Residence,305 Balliol St,47,20,17,0,49,1,0,0,0,50,34,0.68,0,0
+12,34,George Barker Manor,384 Mount Pleasant Road,1770,34,23,18,1638,114,19,3,6,1780,541,0.3,0,0
+12,35,Janet McGee Manor,71 Merton Street,1789,41,40,6,1664,103,9,1,23,1800,525,0.29,2,0
+12,36,Deer Park Public School,23 Ferndale Avenue,3209,77,138,9,2914,208,19,14,12,3167,761,0.24,1,1
+12,39,Calvin Presbyterian Church,26 Delisle Avenue,2889,61,136,8,2634,156,12,9,11,2822,749,0.27,1,1
+12,40,Christ Church Deer Park,1570 Yonge Street,3112,89,114,8,2855,209,21,4,0,3089,741,0.24,0,0
+12,42,Timothy Eaton Memorial Church,230 St. Clair Avenue West,2667,47,110,5,2446,149,21,2,2,2620,422,0.16,0,0
+12,43,Grace Church-on-the-Hill,300 Lonsdale Road,2401,58,76,7,2297,100,5,3,2,2407,479,0.2,0,10
+12,45,Cedarvale Terrace Nursing Home,429 Walmer Road,33,34,15,2,48,4,0,0,0,52,45,0.87,3,0
+12,46,Park Towers,400 Walmer Road,767,23,72,0,676,39,4,2,3,724,237,0.33,0,1
+12,47,Holy Rosary Church Parish Hall,354 St. Clair Avenue West,3775,91,145,23,3538,170,16,5,6,3735,843,0.23,0,0
+12,49,Tichester Gardens,31 Tichester Road,2149,36,78,9,1886,201,15,4,1,2107,556,0.26,2,1
+12,50,Louise Towers,130 Vaughan Road,1995,55,84,7,1620,326,15,3,3,1967,487,0.25,6,0
+12,51,Rose of Sharon,17 Maplewood Avenue,5,6,0,0,11,0,0,0,0,11,3,0.27,0,0
+12,52,Humewood Community School,15 Cherrywood Avenue,2760,51,50,3,2340,386,14,7,11,2758,737,0.27,1,2
+12,54,St. Alphonsus Catholic School,60 Atlas Avenue,2183,73,49,1,1767,393,16,3,28,2207,706,0.32,0,0
+12,55,Hellenic Home,33 Winona Drive,290,17,1,0,305,1,0,0,0,306,121,0.4,1,0
+12,56,Rakoczi Villa 1,747 St Clair Ave W,102,3,0,2,89,14,1,1,0,105,41,0.4,0,1
+12,58,St. Matthew's Bracondale House,707 St. Clair Avenue W.,156,5,12,1,140,11,0,0,0,151,72,0.48,0,1
+12,59,Artscape Wychwood Barns,601 Christie Street,3244,94,39,11,2884,345,33,23,15,3300,989,0.3,7,1
+12,60,St. Michael and All Angels Church,611 St. Clair Avenue West,1843,14,49,0,1568,183,23,10,24,1808,528,0.3,0,7
+12,61,Na-Me-Res Sagatay,26 Vaughan Road,19,4,0,0,15,5,0,0,3,23,8,0.35,0,0
+12,62,Hillcrest Community Centre,1339 Bathurst Street,1894,49,63,6,1736,133,10,1,3,1883,474,0.26,0,9
+12,65,Bradgate Arms,54 Foxbar Road,55,11,11,0,53,2,0,0,0,55,26,0.47,0,0
+12,67,Granite Place,63 St. Clair Avenue West,335,8,7,2,320,14,1,0,0,335,170,0.51,0,0
+12,68,Cottingham Jr. Public School,85 Birch Avenue,2508,105,49,2,2427,124,20,9,9,2589,605,0.23,3,0
+12,69,Toronto Records & Archives Centre,255 Spadina Road,2368,87,65,12,2238,117,22,8,6,2391,603,0.25,0,1
+12,70,Habayit Shelanu Seniors Residence,155 Kendal Avenue,73,1,3,0,70,0,0,1,0,71,25,0.37,0,1
+12,71,Castleview Wychwood Towers,351 Christie Street,321,20,293,0,42,6,0,0,0,48,27,0.56,0,0
+12,72,Christie Gardens,600 Melita Crescent,423,0,33,3,386,4,0,0,0,390,199,0.51,1,0
+12,73,St. Bruno Catholic School,402 Melita Crescent,2494,92,34,12,1967,544,24,12,4,2551,714,0.28,0,3
+12,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1541,NA,4,0
+12,98,Timothy Eaton Memorial Church,230 St Clair Ave West,NA,219,71,69,NA,NA,NA,NA,NA,NA,4359,NA,0,4
+12,99,North Toronto Memorial C.C.,200 Eglinton Ave W,NA,72,36,38,NA,NA,NA,NA,NA,NA,1525,NA,0,0
+12 Total,NA,NA,NA,84032,2857,3012,356,74676,8170,506,229,296,83877,28153,0.34,61,56
+13,1,St. Joseph's College,74 Wellesley Street West,1422,38,39,3,1337,56,8,2,17,1420,167,0.12,0,0
+13,2,La Place Marie,25 St. Mary Street,279,15,10,2,248,24,6,5,1,284,86,0.3,0,0
+13,3,Polo Club,1055 Bay Street,389,10,9,1,344,38,3,5,0,390,98,0.25,0,0
+13,4,The Polo Club II,44 St. Joseph Street,432,12,18,6,371,40,5,0,9,425,116,0.27,0,0
+13,5,1001 Bay Street,1001 Bay Street,656,10,13,0,597,51,2,3,0,653,127,0.19,0,0
+13,6,Century Plaza,24 Wellesley Street West,408,5,5,7,376,27,3,2,0,408,116,0.29,0,2
+13,7,Five Condos,5 St Joseph Street,241,12,6,0,245,1,0,1,0,247,47,0.19,0,0
+13,8,Gloucester Gate Residence,30 Gloucester Street,261,13,2,1,246,22,4,0,0,272,112,0.41,0,0
+13,10,Casa Residenza Condominio,33 Charles Street East,338,4,7,1,322,10,2,1,0,335,64,0.19,0,0
+13,11,Chaz,45 Charles St E,273,13,4,0,277,4,1,0,0,282,47,0.17,0,0
+13,12,X2,101 Charles St E,363,14,5,2,366,1,3,2,0,372,70,0.19,0,0
+13,13,519 Church Street Community Centre,519 Church Street,2762,76,107,6,2572,127,22,10,6,2737,544,0.2,0,0
+13,14,Plaza One Hundred,100 Wellesley Street East,459,0,13,0,405,29,5,5,0,444,126,0.28,0,0
+13,15,Verve,120 Homewood Avenue,602,9,3,3,579,21,5,2,0,607,188,0.31,0,0
+13,16,Rekai Wellesley Central Place,160 Wellesley St. East,40,15,22,0,33,0,0,0,0,33,24,0.73,0,0
+13,17,Wellesley Central Residences,490 Sherbourne Street,85,2,1,0,79,6,0,0,0,85,25,0.29,0,0
+13,18,The 500 on Sherbourne,500 Sherbourne Street,429,11,11,3,406,18,3,2,1,430,126,0.29,0,0
+13,19,Wellesley Community Centre,495 Sherbourne Street,2963,27,63,5,2511,394,16,13,4,2938,359,0.12,0,0
+13,20,Msgr. Fraser College Isabella,25 Linden Street,2245,101,116,3,2048,131,23,17,22,2241,465,0.21,3,0
+13,21,Greenwin Square,77 Huntley Street,492,8,13,0,460,19,7,0,0,486,125,0.26,0,0
+13,22,The Hamilton,375 Bleecker Street,480,13,8,5,387,91,3,5,0,486,101,0.21,0,0
+13,23,The Quebec,730 Ontario Street,387,12,23,2,263,114,1,0,0,378,135,0.36,0,0
+13,24,The Toronto,77 Howard Street,488,13,18,1,373,106,2,2,0,483,120,0.25,0,0
+13,25,The St. John's,700 Ontario Street,372,8,29,2,243,107,2,0,0,352,119,0.34,0,0
+13,26,Rose Avenue Public School,675 Ontario Street,3811,56,95,12,3004,746,15,8,1,3774,577,0.15,1,0
+13,27,The Richmond,323 Richmond Street East,568,24,17,3,525,41,7,1,0,574,228,0.4,0,0
+13,29,Sprucecourt Jr Public School,70 Spruce Street,3096,123,81,21,2923,135,62,14,15,3149,980,0.31,3,0
+13,30,Winchester Square Apartments,55 Bleecker Street,2096,72,149,11,1744,238,20,11,13,2026,375,0.19,1,1
+13,31,Diane Frankling Co-Op Homes,85 Bleecker Street,340,9,1,6,292,52,2,2,0,348,134,0.39,0,0
+13,32,Fudger House,439 Sherbourne Street,44,22,0,0,62,5,0,0,0,67,28,0.42,1,0
+13,33,Our Lady of Lourdes Catholic School,444 Sherbourne St,2170,49,85,5,1949,142,31,4,9,2135,356,0.17,2,0
+13,34,L'Esprit 1,15 Maitland Place,578,11,13,0,527,39,9,1,0,576,253,0.44,0,0
+13,35,Celebrity Place,77 Maitland Place,545,15,3,3,497,49,6,3,0,555,225,0.41,0,1
+13,36,40 Homewood Avenue,40 Homewood Avenue,600,27,23,2,546,50,4,3,0,603,239,0.4,0,1
+13,37,Donvale Manor,330 Gerrard St E,90,8,1,0,93,4,0,0,0,97,38,0.39,0,0
+13,38,College francais,100 Carlton Street,1662,25,44,15,1496,120,15,11,0,1642,386,0.24,0,0
+13,39,Tobias House,84 Carlton Street,171,4,3,4,154,17,1,1,0,173,55,0.32,0,0
+13,40,Church Street Public School,83 Alexander Street,2755,88,122,22,2433,218,42,23,8,2724,729,0.27,0,1
+13,41,Wellesley Jarvis,460 Jarvis Street,201,2,1,2,183,18,1,0,0,202,42,0.21,0,1
+13,42,The Massey Tower,197 Yonge St,311,7,7,3,305,5,0,1,0,311,36,0.14,0,7
+13,43,Wellesley on the Park,11 Wellesley St W,371,13,3,3,377,4,0,0,0,381,45,0.12,0,1
+13,44,Teahouse Condos,501 Yonge St,3,23,0,0,26,1,0,0,0,27,27,1,0,0
+13,45,YMCA Metro Central,20 Grosvenor Street,2598,67,40,12,2419,155,26,5,14,2619,441,0.17,0,0
+13,47,Collegeview Apartments,423 Yonge Street,315,8,45,0,269,7,1,0,0,277,78,0.29,0,1
+13,48,Dundas Square Gardens,200 Dundas St E,604,17,16,0,592,10,2,0,0,604,55,0.09,0,1
+13,49,TMU - Student Centre,63 Gould Street,2902,129,124,9,2651,195,25,10,27,2908,498,0.17,0,7
+13,50,The Met,21 Carlton Street,340,14,14,1,331,7,1,2,0,341,77,0.23,0,0
+13,51,Encore at the Met,25 Carlton St,322,4,28,0,284,13,1,0,0,298,69,0.23,0,0
+13,52,The Merchandise Building,155 Dalhousie Street,657,17,5,0,627,35,5,2,0,669,233,0.35,0,0
+13,53,Metta Housing Co-op,99 Dalhousie Street,661,14,26,10,553,80,9,6,0,648,153,0.24,0,0
+13,54,145 Mutual Street,145 Mutual Street,683,29,44,2,603,56,8,1,0,668,180,0.27,0,0
+13,55,261 Jarvis Street,261 Jarvis Street,316,9,7,0,254,62,2,0,0,318,72,0.23,0,0
+13,56,Seaton House,339 George Street,51,4,0,0,55,0,0,0,0,55,3,0.05,0,0
+13,57,Ecole Gabrielle-Roy,14 Pembroke St,1680,76,76,5,1570,99,10,5,1,1685,259,0.15,0,0
+13,58,William Dennison Apartments,310 Dundas Street East,137,3,8,0,129,3,0,0,0,132,61,0.46,0,0
+13,59,Dan Harrison Complex,251 Sherbourne Street,280,3,7,0,257,19,1,0,0,277,36,0.13,0,0
+13,60,Rekai Centre,345 Sherbourne Street,132,8,43,2,86,10,1,0,0,97,18,0.19,0,0
+13,61,Parliament St. Public Library,269 Gerrard St East,647,55,33,2,590,52,15,4,8,669,151,0.23,0,0
+13,62,Lord Dufferin Public School,350 Parliament Street,1992,81,150,4,1736,152,23,10,3,1924,394,0.2,0,0
+13,63,Pam McConnell Aquatic Centre,640 Dundas Street East,2559,114,49,0,2554,61,10,3,1,2629,641,0.24,0,0
+13,64,Oak Street Housing Co-op,120 Cornwall Street,185,19,17,10,162,25,1,1,0,189,72,0.39,0,1
+13,65,220 Oak Street,220 Oak Street,1104,17,58,2,1022,35,3,2,1,1063,237,0.22,1,0
+13,66,Edna Dixon Apartments,540 Queen Street East,320,20,13,1,299,31,0,0,0,330,101,0.31,0,0
+13,69,YC Condos,7 Grenville St,316,8,0,0,321,2,0,0,0,323,47,0.15,0,0
+13,70,John Innes Community Centre,150 Sherbourne Street,3213,82,206,10,2879,162,20,5,13,3079,509,0.17,1,0
+13,71,Regent Park Community Centre,402 Shuter Street,2396,236,56,8,2330,218,21,5,10,2584,716,0.28,0,0
+13,72,Metropolitan United Church,56 Queen Street East,2602,101,128,16,2311,183,10,7,64,2575,377,0.15,0,0
+13,73,88 North Condos,77 Shuter St,158,14,2,3,162,5,2,0,0,169,34,0.2,0,0
+13,74,St. James Cathedral Centre,65 Church Street,1596,25,75,2,1300,50,8,7,180,1545,206,0.13,2,0
+13,75,Muriel Collins Housing Co-op,79 Richmond St. East,795,40,24,3,736,68,9,1,2,816,215,0.26,0,0
+13,76,Fred Victor Centre,145 Queen Street East,103,10,3,0,110,0,0,0,0,110,22,0.2,1,0
+13,77,Vu,112 George Street,610,25,69,0,531,29,3,3,0,566,203,0.36,0,0
+13,78,King's Court,230 King St. East,401,21,23,2,364,30,4,0,0,398,141,0.35,0,0
+13,79,501 Adelaide St. East,501 Adelaide St. East,2181,83,32,2,2104,109,5,2,11,2231,411,0.18,1,0
+13,81,585 King Street East,585 King Street East,1689,65,50,6,1602,84,13,8,3,1710,425,0.25,1,0
+13,82,Cooper Koo Family YMCA,461 Cherry St,2075,110,72,12,2005,91,9,7,5,2117,559,0.26,0,0
+13,83,411 Church,411 Church St,366,23,4,0,378,4,2,0,1,385,45,0.12,0,0
+13,84,Stanley Condos,403 Church St,318,6,8,0,315,4,0,0,0,319,46,0.14,0,0
+13,85,Fred Victor,20 Palace St,88,4,0,1,84,8,0,0,0,92,23,0.25,0,0
+13,86,Wigwamen,75 Cooperage St,135,10,2,4,130,13,0,0,0,143,31,0.22,0,0
+13,87,Grid Condos,181 Dundas St E,341,19,13,1,345,0,0,0,0,345,44,0.13,0,0
+13,88,St. Lawrence Community Rec Centre,230 The Esplanade,1650,64,40,3,1405,261,15,3,4,1688,325,0.19,0,0
+13,89,New Times Square,109 Front Street East,765,19,12,8,674,74,10,14,2,774,213,0.28,1,1
+13,90,Temporary North Market - St. Lawrence,125 The Esplanade,2698,42,100,4,2451,155,12,10,12,2640,445,0.17,2,1
+13,91,Market Square,80 Front St. E,423,20,9,0,399,33,1,2,0,435,197,0.45,1,0
+13,93,L Tower,8 The Esplanade,409,22,9,2,410,10,1,1,0,422,74,0.18,0,0
+13,94,The Selby,25 Selby St,10,64,0,0,68,8,2,0,0,78,73,0.94,0,0
+13,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1010,NA,2,0
+13,98,Wellesley Community Centre,495 Sherbourne Street,NA,141,68,78,NA,NA,NA,NA,NA,NA,2952,NA,1,3
+13,99,St. Lawrence Community Rec Centre,230 The Esplanade,NA,82,67,41,NA,NA,NA,NA,NA,NA,1641,NA,1,1
+13 Total,NA,NA,NA,80101,3063,3068,431,72681,6029,632,286,468,80096,23073,0.29,26,31
+14,1,Royal Canadian Legion Branch 10,1083 Pape Avenue,2004,35,28,6,1736,232,35,12,4,2019,442,0.22,0,0
+14,2,Sisters of St. Joseph of Toronto,2 O'Connor Drive,5,31,0,0,30,6,0,0,0,36,36,1,0,0
+14,3,East York Community Centre,1081 1/2 Pape Avenue,2697,23,70,8,2437,189,15,6,5,2652,427,0.16,0,0
+14,5,Diefenbaker Elementary School,175 Plains Road,1711,13,22,2,1480,193,9,8,13,1703,430,0.25,6,0
+14,6,Cosburn Middle School,520 Cosburn Ave,1831,21,24,3,1602,185,17,16,7,1827,462,0.25,0,1
+14,8,Holy Cross Catholic School,299A Donlands Ave,2445,32,28,16,2156,261,25,9,0,2451,626,0.26,3,0
+14,9,Blair Court Apartments,266 Donlands Avenue,1993,42,63,11,1636,313,13,7,3,1972,443,0.22,0,0
+14,10,Bethany Baptist Church,1041 Pape Avenue,1185,20,41,1,1012,130,7,7,11,1167,237,0.2,0,0
+14,11,Westwood Middle School,994 Carlaw Avenue,2126,33,58,7,1895,184,12,2,10,2103,327,0.16,0,0
+14,12,The Estonian House,958 Broadview Avenue,2151,30,53,6,1915,189,16,10,1,2131,509,0.24,0,0
+14,13,Broadview (717),717 Broadview Ave,73,2,0,3,73,4,0,0,0,77,41,0.53,0,0
+14,14,Broadview Manor,80 Danforth Avenue,2113,68,57,8,1948,125,23,15,12,2123,608,0.29,0,0
+14,15,Jackman Avenue Public School,79 Jackman Avenue,2046,54,40,9,1918,105,22,6,10,2061,680,0.33,2,0
+14,16,Montcrest Apartments,655 Broadview Avenue,367,17,22,3,345,18,0,1,0,364,169,0.46,0,0
+14,17,Montcrest Apartments,10 Hogarth Avenue,392,16,24,3,352,28,5,0,0,385,186,0.48,0,0
+14,18,Frankland Community School Jr.,816 Logan Avenue,2944,109,57,7,2732,179,30,13,44,2998,970,0.32,0,0
+14,19,Centennial College,951 Carlaw Avenue,1597,42,28,11,1441,137,17,13,7,1615,513,0.32,0,2
+14,20,Calvary Church,746 Pape Avenue,1643,50,26,4,1419,143,28,19,53,1662,407,0.24,0,0
+14,21,Nisbet Lodge,740 Pape Avenue,132,35,36,0,121,10,0,0,0,131,51,0.39,0,0
+14,22,St. Irene Greek Orthodox Church,66 Gough Avenue,1240,31,26,0,1132,79,14,6,14,1245,360,0.29,3,0
+14,23,Pape Danforth Public Library,701 Pape Ave,1464,48,27,6,1373,81,15,1,18,1488,453,0.3,0,0
+14,24,Wilkinson Jr. Public School,53 Donlands Avenue,2348,48,38,10,2099,197,26,17,21,2360,723,0.31,1,0
+14,25,Greenwood Towers,145 Strathmore Blvd.,1751,50,46,7,1482,201,29,14,35,1761,511,0.29,1,0
+14,26,Monarch Park Collegiate,1 Hanson Street,1280,43,25,4,1128,122,17,15,17,1299,432,0.33,0,0
+14,27,St. Patrick Secondary School,49 Felstead Ave,1855,43,31,7,1643,172,36,14,6,1871,504,0.27,0,0
+14,28,Fred J. Beavis Apartments,110 Unity Road,306,10,14,2,282,18,1,0,1,302,126,0.43,2,3
+14,29,Eastview Community Centre,86 Blake Street,2617,60,53,6,2339,209,57,13,8,2626,649,0.25,5,0
+14,30,Withrow Avenue Jr Public School,25 Bain Avenue,3371,120,96,18,3217,142,35,5,2,3401,906,0.27,2,0
+14,31,Hennick Bridgepoint Hospital,1 Bridgepoint Drive,44,44,43,0,41,4,0,0,0,45,45,1,0,0
+14,32,Riverdale Public Library,370 Broadview Avenue,2163,79,35,2,2068,89,30,5,19,2211,596,0.27,0,0
+14,34,Ray McCleary Towers,444 Logan Avenue,186,3,5,0,180,5,0,0,0,185,61,0.33,0,0
+14,35,Ralph Thornton Community Centre,765 Queen St E,1318,124,50,2,1285,74,16,6,13,1394,379,0.27,0,0
+14,36,Matty Eckler Recreation Centre,953 Gerrard Street East,2235,59,32,13,2065,150,33,10,9,2267,535,0.24,0,0
+14,37,Francis Beavis Manor,369 Pape Avenue,1332,34,17,4,1277,56,12,6,3,1354,402,0.3,0,0
+14,38,Blake Street Jr. Public School,21 Boultbee Avenue,1167,26,14,11,1041,109,11,17,1,1179,370,0.31,0,1
+14,39,Riverdale Collegiate Institute,1094 Gerrard Street East,1808,38,31,7,1601,177,16,13,6,1813,409,0.23,0,0
+14,40,Roden Junior Public School,151 Hiawatha Road,2462,101,34,17,2311,181,21,15,9,2537,676,0.27,1,0
+14,41,Glen Rhodes United Church,1470 Gerrard Street East,1537,42,22,3,1419,102,10,15,13,1559,405,0.26,2,0
+14,43,S. H. Armstrong Community Centre,56 Woodfield Rd,3316,100,175,18,2895,281,28,25,13,3242,893,0.28,3,0
+14,44,Leslieville Jr. Public School,254 Leslie Street,2145,58,34,5,1904,211,20,15,21,2171,495,0.23,0,1
+14,45,St. Joseph's Place,67 Curzon Street,787,29,19,3,702,81,5,5,7,800,252,0.32,0,0
+14,46,Avondale Retirement Residence,1238 Queen Street East,51,10,37,0,20,3,1,0,0,24,17,0.71,0,0
+14,47,Heritage Nursing Home,1195 Queen Street East,36,12,0,0,46,1,0,1,0,48,14,0.29,1,0
+14,48,Bruce Jr. Public School,51 Larchmount Avenue,1878,43,45,4,1683,168,17,1,4,1873,496,0.26,3,0
+14,49,Jack Layton Seniors Housing,1070 Queen Street East,1028,36,21,2,921,91,17,11,4,1044,319,0.31,0,1
+14,50,Morse Street Public School,180 Carlaw Avenue,2680,55,76,11,2459,157,21,9,22,2668,673,0.25,0,0
+14,51,Jimmie Simpson Recreation Centre,870 Queen Street East,1723,59,22,5,1600,121,24,10,9,1764,498,0.28,0,0
+14,52,Queen Alexandra Sr. Public School,181 Broadview Avenue,2775,81,50,14,2571,198,28,10,4,2811,757,0.27,0,0
+14,53,Ecole elementaire la Mosaique,80 Queensdale Avenue,2722,38,45,14,2322,298,75,18,1,2714,889,0.33,0,0
+14,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1186,NA,2,0
+14,98,East York Community Centre,1081 1/2 Pape Ave,NA,78,49,51,NA,NA,NA,NA,NA,NA,3159,NA,8,3
+14,99,Matty Eckler Recreation Centre,953 Gerrard Street East,NA,128,61,77,NA,NA,NA,NA,NA,NA,2652,NA,3,3
+14 Total,NA,NA,NA,79080,2403,1950,431,71354,6409,889,421,460,79533,28406,0.36,48,15
+15,1,Fairmeadow Centre,17 Fairmeadow Ave,1481,27,6,3,1396,93,10,1,1,1501,335,0.22,0,0
+15,2,Trinity Presbyterian Church,2737 Bayview Ave,1494,24,12,6,1281,211,7,6,0,1505,298,0.2,0,0
+15,3,Harrison Public School,81 Harrison Road,1759,26,11,1,1652,99,14,8,1,1774,347,0.2,0,0
+15,4,Dunlace Public School,20 Dunlace Drive,1686,21,18,7,1558,112,14,4,0,1688,414,0.25,0,0
+15,5,Windfields Middle School,375 Banbury Rd,1645,18,19,2,1541,98,4,1,0,1644,348,0.21,1,0
+15,7,Owen Public School,111 Owen Blvd.,1758,2,22,0,1611,112,13,2,0,1738,447,0.26,0,3
+15,8,Hillside Ravines,38 William Carson Crescent,647,22,8,3,617,41,4,1,0,663,281,0.42,0,0
+15,9,St. John's York Mills Church,19 Don Ridge Drive,1442,3,40,2,1283,100,8,6,4,1401,295,0.21,1,0
+15,10,Agricola Finnish Lutheran Church,25 Old York Mills Road,1399,20,15,3,1299,95,5,4,3,1406,401,0.29,1,0
+15,11,Four Teddington Park,4 Teddington Park Avenue,30,3,1,0,25,6,0,1,0,32,5,0.16,0,0
+15,12,Moore Place,801 Mount Pleasant Road,165,9,5,0,160,7,1,1,0,169,62,0.37,1,0
+15,13,Banbury Community Centre,120 Banbury Road,1891,11,19,1,1728,144,7,4,2,1885,332,0.18,0,0
+15,14,Denlow Public School,50 Denlow Blvd,2341,22,35,6,2162,145,14,6,0,2327,508,0.22,0,0
+15,15,Toronto Botanical Gardens,777 Lawrence Ave E,996,10,16,0,917,69,7,0,0,993,125,0.13,0,0
+15,16,Sunnybrook Hospital,2075 Bayview Avenue,0,49,0,0,49,0,0,0,0,49,49,1,1,0
+15,17,Lawrence Park Community Church,2180 Bayview Ave,1370,41,4,12,1241,139,18,8,2,1408,382,0.27,0,0
+15,18,Joseph Brown Manor,3179 Yonge Street,2099,44,60,9,1801,227,19,7,27,2081,633,0.3,0,0
+15,20,Blythwood Road Baptist Church,80 Blythwood Road,1838,37,47,4,1624,180,13,8,6,1831,627,0.34,0,0
+15,21,Blythwood Jr. Public School,2 Strathgowan Crescent,2388,26,17,6,2218,165,14,2,0,2399,684,0.29,1,0
+15,22,St. Leonard's Church,25 Wanless Ave,2636,60,30,11,2404,243,9,14,0,2670,797,0.3,0,0
+15,23,The Sherwood,2567 Yonge Street,101,2,0,1,92,10,0,1,0,103,28,0.27,0,0
+15,24,John Fisher Public School Jr.,40 Erskine Avenue,2648,88,129,9,2387,172,23,8,16,2606,651,0.25,0,0
+15,26,101 Erskine,101 Erskine Ave,354,17,3,1,363,5,0,1,0,369,86,0.23,0,0
+15,27,St. Monica Catholic School,14 Broadway Avenue,2286,52,145,7,1988,188,6,6,5,2193,497,0.23,2,0
+15,29,Northern Secondary School,851 Mount Pleasant Road,2931,40,121,12,2584,219,27,11,6,2847,782,0.28,0,2
+15,31,CNIB Centre,1929 Bayview Ave,1651,24,31,8,1494,136,9,3,0,1642,510,0.31,3,0
+15,32,Northlea Elementary & Middle School,305 Rumsey Road,1945,39,16,14,1780,156,13,6,12,1967,568,0.29,4,1
+15,33,Suomi Koti Finnish Centre,795 Eglinton Avenue East,112,2,7,0,107,0,0,0,0,107,45,0.42,0,0
+15,34,Northlea United Church,125 Brentcliffe Road,2291,32,60,11,2035,194,22,9,1,2261,622,0.28,0,0
+15,35,Scenic on Eglinton,35 Brian Peck Cres.,452,5,9,0,432,16,0,0,0,448,114,0.25,0,0
+15,36,Scenic 3,160 Vanderhoof Ave,394,8,5,1,383,12,1,0,0,396,68,0.17,3,0
+15,37,The Overlea,12 Thorncliffe Park Drive,232,2,6,3,219,9,0,0,0,228,79,0.35,0,0
+15,38,St. Demetrios Greek Orthodox Church,30 Thorncliffe Park Drive,1455,20,52,6,1183,218,7,11,14,1433,271,0.19,1,0
+15,39,Thorncliffe Park Public School,80 Thorncliffe Park Drive,1880,22,30,2,1784,90,1,1,0,1876,240,0.13,0,0
+15,40,Leaside Towers,85-95 Thorncliffe Park Drive,1502,9,20,11,1415,64,9,2,0,1490,272,0.18,4,0
+15,41,Leaside Retirement Residence,10 William Morgan Drive,213,32,2,0,225,18,0,0,0,243,46,0.19,0,0
+15,42,Centennial Towers,65 Thorncliffe Park Drive,729,9,22,5,706,9,1,0,0,716,151,0.21,1,0
+15,43,Rideau Towers,53 Thorncliffe Park Drive,407,8,5,2,368,37,2,3,0,410,86,0.21,0,0
+15,44,Jenner Jean-Marie Community Centre,48 Thorncliffe Park Drive,1422,11,46,4,1153,236,1,1,0,1391,185,0.13,1,0
+15,45,Rideau Towers,49 Thorncliffe Park Drive,662,7,10,3,638,19,2,0,0,659,91,0.14,0,0
+15,46,Rideau Towers,47 Thorncliffe Park Drive,771,17,23,2,752,12,1,0,0,765,103,0.13,0,0
+15,47,Rideau Towers,35 Thorncliffe Park Drive,483,15,11,0,454,32,1,0,0,487,131,0.27,0,0
+15,48,Rideau Towers,43 Thorncliffe Park Drive,698,8,3,4,674,32,1,0,0,707,118,0.17,0,0
+15,49,Nine Twenty One Millwood,921 Millwood Road,41,15,0,0,55,1,0,0,0,56,15,0.34,0,4
+15,50,Leaside Public Library,165 McRae Drive,972,18,13,5,825,122,13,3,14,977,314,0.32,3,0
+15,51,Bessborough Drive Public School,211 Bessborough Drive,2378,30,34,6,2060,284,6,3,20,2373,745,0.31,3,1
+15,52,Trace Manes Centennial Building,110 Rumsey Road,1390,20,28,7,1208,153,8,2,11,1382,423,0.31,0,0
+15,53,Leaside Memorial Arena,1073 Millwood Road,2142,21,44,10,1898,215,9,4,0,2126,598,0.28,3,0
+15,54,Bennington Heights Public School,76 Bennington Heights Drive,693,8,6,4,633,55,7,0,1,696,193,0.28,0,0
+15,55,Maurice Cody Community Centre,181 Cleveland Street,2375,44,51,10,2150,177,18,7,17,2369,736,0.31,0,0
+15,56,Hodgson MIddle Public School,282 Davisville Avenue,2426,35,39,9,2185,216,18,3,3,2425,741,0.31,0,0
+15,57,Manor Road United Church,240 Manor Road East,2201,46,42,2,2008,158,17,10,13,2206,709,0.32,3,0
+15,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1049,NA,3,0
+15,98,Toronto Botanical Gardens,777 Lawrence Ave E,NA,57,55,33,NA,NA,NA,NA,NA,NA,2504,NA,2,1
+15,99,Jenner Jean-Marie Community Centre,48 Thorncliffe Park Drive,NA,51,20,14,NA,NA,NA,NA,NA,NA,1381,NA,6,0
+15 Total,NA,NA,NA,69302,1289,1473,282,62805,5551,404,179,179,69118,22522,0.33,48,12
+16,1,Rene Gordon Health & Wellness Academy,20 Karen Road,1131,17,19,5,958,138,11,8,15,1130,310,0.27,0,0
+16,2,Operating Engineers Local 793,2020 Don Mills Road,768,7,59,3,579,132,2,3,0,716,177,0.25,1,0
+16,3,George S. Henry Academy,200 Graydon Hall Drive,2139,19,25,5,1863,251,10,6,3,2133,292,0.14,3,2
+16,4,Donview Academy,20 Evermede Drive,2042,14,30,7,1687,308,13,19,0,2027,353,0.17,4,0
+16,6,Fenside Public School,131 Fenside Drive,1461,21,39,14,1124,291,8,21,0,1444,350,0.24,2,1
+16,7,Roywood Public School,11 Roywood Drive,1648,16,33,6,1284,313,13,17,5,1632,407,0.25,0,0
+16,9,Rayoak Place Retirement Residence,1340 York Mills Road,43,6,12,0,36,1,0,0,0,37,10,0.27,0,0
+16,11,Victoria Park Collegiate,15 Wallingford Road,2576,26,63,9,2012,492,15,20,0,2539,519,0.2,6,0
+16,12,Brookbanks Public Library,210 Brookbanks Drive,684,2,19,1,543,110,8,3,1,665,161,0.24,0,0
+16,13,Ranchdale Public School,60 Ranchdale Crescent,874,12,3,7,592,265,19,11,0,887,232,0.26,0,0
+16,14,Annunciation Catholic School,65 Avonwick Gate,2305,29,51,12,1770,490,12,13,0,2285,378,0.17,1,0
+16,16,Fountain View Care Community,1800 O'Connor Dr,92,6,1,0,81,16,0,0,0,97,11,0.11,0,0
+16,17,Harmony Hills Care Community,1800 O'Connor Dr,0,7,0,0,7,0,0,0,0,7,7,1,0,0
+16,18,Broadlands Community Centre,19 Castlegrove Blvd.,1633,13,22,5,1268,336,14,8,4,1630,371,0.23,1,0
+16,19,St. Catherine Catholic School,30 Roanoke Road,2047,18,29,11,1655,347,12,9,12,2035,461,0.23,1,0
+16,20,Cassandra Public School,45 Cassandra Blvd,2115,45,38,5,1798,292,11,22,0,2123,409,0.19,0,0
+16,21,Three Valleys Public School,76 Three Valleys Drive,1015,21,6,1,883,128,5,13,1,1030,315,0.31,0,0
+16,22,Don Mills Middle School,17 The Donway East,2236,33,44,23,1834,364,9,11,1,2219,486,0.22,0,0
+16,23,Norman Ingram Public School,50 Duncairn Road,3378,43,37,8,2935,417,22,13,3,3390,906,0.27,0,0
+16,25,Greenview Lodge Retirement Home,880 Lawrence Ave East,44,5,0,0,48,1,0,0,0,49,14,0.29,0,0
+16,26,Sanderling Place,20 Sanderling Place,1324,15,49,2,1126,157,6,5,0,1294,313,0.24,0,1
+16,28,Thompson House,1 Overland Drive,120,63,3,0,174,5,0,1,0,180,17,0.09,0,0
+16,29,Overland Learning Centre,55 Overland Drive,924,11,15,5,773,135,14,4,0,926,271,0.29,0,0
+16,30,Carrington Place,1105 Leslie St,533,13,17,1,475,51,2,1,0,529,214,0.4,0,0
+16,31,Greenland Public School,15 Greenland Road,2247,24,52,13,1832,352,23,10,0,2217,599,0.27,0,0
+16,32,Donway Place,8 The Donway East,390,28,8,2,388,20,2,0,0,410,109,0.27,0,0
+16,33,Victoria Village Public School,88 Sweeney Drive,1468,14,11,7,1217,233,13,8,1,1472,426,0.29,0,0
+16,34,Victoria Village Public Library,184 Sloane Avenue,1750,30,18,5,1479,253,22,6,0,1760,301,0.17,0,0
+16,35,Sloane Public School,110 Sloane Avenue,2890,44,53,18,2532,309,21,16,2,2880,801,0.28,1,1
+16,36,Emmanuel Lutheran Manor,1684 Victoria Park Avenue,783,6,15,2,686,85,2,1,1,775,145,0.19,0,0
+16,37,Golden Gate Apartments,1780 Eglinton Avenue East,728,11,8,5,630,96,2,4,0,732,128,0.17,0,0
+16,39,The Courtyards of Concorde,18 Concorde Place,347,16,7,4,310,44,1,0,0,355,173,0.49,0,0
+16,40,The Pioneer Place,16 Concorde Place,175,9,17,2,153,14,0,1,0,168,85,0.51,0,0
+16,41,Concorde Park,5 Concorde Place,1095,29,26,17,1020,68,6,4,1,1099,430,0.39,0,0
+16,42,Highgate,1 Concorde Place,456,11,7,4,431,26,2,1,0,460,250,0.54,1,0
+16,43,Wynford Place,75 Wynford Heights Crescent,218,8,2,0,194,25,3,1,1,224,129,0.58,0,0
+16,44,Wynford North,65 Wynford Heights Crescent,467,13,15,4,388,70,6,3,0,467,142,0.3,0,0
+16,45,Wynford Central,55 Wynford Heights Crescent,449,8,9,2,407,34,4,3,0,448,95,0.21,0,0
+16,46,Wynford South,45 Wynford Heights Cres.,452,10,16,2,396,43,4,3,0,446,133,0.3,0,0
+16,47,Wynford Tower,35 Wynford Heights Cres.,366,9,18,0,321,27,4,5,0,357,146,0.41,0,2
+16,48,The Rosewood,133 Wynford Drive,403,21,6,2,390,28,1,0,0,419,151,0.36,0,0
+16,49,Accolade,181 Wynford Dr,413,13,17,1,377,29,1,3,0,410,121,0.3,0,0
+16,50,Delmanor Wynford Retirement Living,187 Wynford Dr,63,30,14,2,72,7,0,0,0,79,60,0.76,0,0
+16,51,The Palisades,205 Wynford Drive,932,13,25,8,863,50,7,0,0,920,358,0.39,3,0
+16,52,Dennis R. Timbrell Resource Centre,29 St. Dennis Drive,1854,3,46,0,1538,249,12,3,10,1812,305,0.17,0,0
+16,53,Deauville Place,5 Deauville Lane,60,2,0,0,62,0,0,0,0,62,21,0.34,0,0
+16,54,Glenyan Manor,10 Deauville Lane,218,10,6,2,208,15,0,0,0,223,52,0.25,2,3
+16,55,10 Grenoble Drive,10 Grenoble Drive,404,6,8,0,361,39,1,1,0,402,54,0.13,0,0
+16,56,Sanardo,7 St. Dennis Drive,381,6,16,1,346,23,1,1,0,371,69,0.19,0,0
+16,57,Grenoble Public School,9 Grenoble Drive,2773,37,86,0,2395,303,21,7,1,2727,339,0.12,0,1
+16,58,Valley Park Middle School,130 Overlea Blvd.,919,8,15,4,766,140,3,2,0,911,166,0.18,1,1
+16,59,The Citadel,701 Don Mills Road,464,10,10,1,428,35,2,0,0,465,72,0.15,0,0
+16,60,Gateway Public School,55 Gateway Blvd,1636,48,18,8,1390,271,6,7,0,1674,465,0.28,0,0
+16,61,Linkwood Village Rec Centre,75 Pavane Linkway,1515,41,10,8,1379,154,14,3,0,1550,412,0.27,0,0
+16,62,Wynford Park Recreation Centre,15 Club Golfway,1764,21,27,19,1546,201,6,5,1,1759,444,0.25,1,0
+16,63,Sonic Condos,1185 Eglinton Ave E,316,26,1,2,334,5,1,0,0,340,65,0.19,0,0
+16,65,Sunrise Towers,1420 Victoria Park Avenue,312,22,18,2,299,17,0,0,0,316,140,0.44,0,0
+16,66,Victoria Towne Recreation Centre,22 Sunrise Avenue,681,7,17,2,553,116,1,1,0,671,242,0.36,0,1
+16,67,Latvian Canadian Cultural Centre,4 Credit Union Dr,1194,26,21,4,1013,172,7,3,3,1198,272,0.23,0,8
+16,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,564,NA,1,0
+16,98,Broadlands Community Centre,19 Castlegrove Blvd,NA,63,47,48,NA,NA,NA,NA,NA,NA,2290,NA,0,0
+16,99,Dennis R. Timbrell Resource Centre,29 St Dennis Dr,NA,50,23,22,NA,NA,NA,NA,NA,NA,1047,NA,2,2
+16 Total,NA,NA,NA,61715,1195,1327,353,52209,8593,405,310,66,61583,18785,0.31,31,23
+17,1,Gates of Bayview,4003 Bayview Avenue,1010,26,49,10,921,59,6,0,0,986,328,0.33,0,0
+17,2,Steelesview Public School,105 Bestview Drive,1361,8,6,3,1181,173,3,0,3,1360,312,0.23,0,0
+17,3,The Gibson Long Term Care Centre,1925 Steeles Ave East,88,12,0,0,96,4,0,0,0,100,13,0.13,1,0
+17,4,The Gibson Retirement Residence,1955 Steeles Avenue East,49,7,1,0,48,7,0,0,0,55,11,0.2,0,0
+17,5,A.Y. Jackson Secondary School,50 Francine Drive,835,10,2,0,804,34,1,1,0,840,165,0.2,0,0
+17,6,Cliffwood Public School,140 Cliffwood  Road,1648,7,3,9,1447,191,7,12,1,1658,360,0.22,2,1
+17,7,Cliffwood Manor,4000 Don Mills Road,413,4,3,0,401,16,0,0,0,417,91,0.22,0,0
+17,9,Arbor Glen Public School,55 Freshmeadow Drive,1685,16,14,3,1485,190,3,3,3,1684,391,0.23,0,0
+17,10,Highland Middle School,201 Cliffwood Road,829,8,9,1,693,118,14,2,0,827,167,0.2,0,0
+17,11,Hillmount Public School,245 McNicoll Avenue,1487,0,14,0,1328,124,4,9,6,1471,262,0.18,0,0
+17,12,Cresthaven Public School,46 Cresthaven Drive,1582,12,20,3,1407,151,2,7,8,1575,319,0.2,0,0
+17,13,Cummer Park Community Centre,6000 Leslie Street,1464,10,18,3,1280,153,6,10,1,1450,219,0.15,0,0
+17,14,Pineway Public School,110 Pineway Blvd,1168,13,2,2,1051,127,1,0,0,1179,240,0.2,0,0
+17,15,Extendicare Bayview Villa,550 Cummer Avenue,255,1,0,0,248,8,0,0,0,256,31,0.13,2,1
+17,16,Lester B. Pearson Elementary School,7 Snowcrest Avenue,2365,29,51,7,1986,331,10,7,8,2342,421,0.18,0,0
+17,17,Blessed Trinity Catholic School,3205 Bayview Avenue,1537,15,24,1,1267,250,2,6,2,1527,297,0.19,0,0
+17,19,All Saints Cultural Centre,3125 Bayview Avenue,1274,9,8,2,1125,132,9,6,0,1272,234,0.18,0,0
+17,20,Bayview Middle School,25 Bunty Lane,1757,17,68,1,1518,181,5,2,0,1706,361,0.21,3,0
+17,21,Ecole elementaire Paul-Demers,100 Ravel Road,655,2,3,1,580,68,2,4,0,654,121,0.19,0,0
+17,22,Crestview Public School,101 Seneca Hill Drive,1842,14,7,10,1490,339,14,10,0,1853,348,0.19,0,7
+17,25,Immanuel Baptist Church,1100 Finch Avenue East,1454,8,8,1,1227,212,7,1,4,1451,180,0.12,0,0
+17,26,Skymark Recreation Centre,1555 Finch Avenue East,790,10,8,0,735,52,1,4,0,792,312,0.39,0,0
+17,27,Seneca Hill Public School,625 Seneca Hill Drive,1197,9,5,2,1053,144,0,4,0,1201,249,0.21,0,0
+17,28,Seneca Towers,1700 Finch Ave. East,262,13,2,1,261,11,0,1,0,273,116,0.42,2,0
+17,29,Skymark Place Rec. Centre,55 Skymark Drive,683,7,8,1,640,36,1,5,0,682,275,0.4,0,0
+17,30,Classic-Excellence,85 Skymark Drive,585,8,3,0,552,38,0,0,0,590,258,0.44,0,0
+17,32,Cherokee Public School,390 Cherokee Blvd.,2064,16,10,1,1737,317,7,6,0,2067,386,0.19,1,0
+17,33,Ernest Public School,150 Cherokee Blvd.,1466,15,4,3,1262,207,5,5,0,1479,305,0.21,2,2
+17,35,Pleasant View Jr High School,175 Brian Drive,1706,19,6,5,1380,310,7,13,7,1717,309,0.18,1,0
+17,36,St. Kateri Tekakwitha Catholic School,70 Margaret Avenue,927,4,3,1,722,203,4,0,0,929,251,0.27,0,0
+17,37,Kingslake Public School,90 Kingslake Road,1929,21,8,1,1657,243,8,8,27,1943,276,0.14,0,0
+17,38,Oriole Community Centre,2975 Don Mills Road West,2844,39,17,6,2385,474,11,11,2,2883,264,0.09,0,4
+17,39,Don Valley Junior High School,3100 Don Mills Road,2567,11,14,7,2172,369,17,11,0,2569,416,0.16,0,0
+17,40,St. Matthias Catholic School,101 Van Horne Avenue,1357,15,8,2,1082,261,12,12,0,1367,220,0.16,0,0
+17,42,Lescon Public School,34 Lescon Road,690,23,2,7,554,134,8,11,8,715,155,0.22,0,0
+17,43,Dallington Public School,18 Dallington Drive,1273,20,9,2,1107,159,9,9,0,1284,279,0.22,0,0
+17,44,St. Timothy Catholic School,25 Rochelle Crescent,2057,28,17,7,1541,508,4,11,0,2064,302,0.15,0,0
+17,46,Muirhead Public School,25 Muirhead Road,2214,23,16,32,1864,333,8,16,0,2221,555,0.25,0,0
+17,49,Brian Public School,95 Brian Drive,930,6,4,4,748,168,9,5,2,932,240,0.26,1,0
+17,50,St. Gerald Catholic School,200 Old Sheppard Avenue,1519,15,8,2,1257,227,5,5,35,1529,297,0.19,0,0
+17,51,Atria,55 Ann O'Reilly Rd,512,10,5,2,500,17,0,0,0,517,79,0.15,0,0
+17,52,Heron's Hill Rec Centre,20 Herons Hill Way,921,5,6,0,876,34,5,1,4,920,122,0.13,0,0
+17,58,Parkway Forest Communty Centre,55 Forest Manor Road,3305,40,19,7,3032,271,9,8,7,3327,418,0.13,0,0
+17,59,Forest Manor Public School,25 Forest Manor Road,2133,42,15,6,1822,331,6,3,0,2162,453,0.21,0,0
+17,62,Shaughnessy Public School,30 Shaughnessy Blvd.,1183,16,7,3,972,214,2,6,1,1195,272,0.23,0,0
+17,63,St. Matthew The Apostle Church,80 George Henry Blvd.,708,6,3,0,585,100,5,6,15,711,198,0.28,0,0
+17,64,Aria 1 & 2,16 Bloorview Place,653,5,1,5,603,52,2,0,0,657,171,0.26,0,0
+17,65,Seniors Health Centre,2 Buchan Court,62,23,0,1,81,4,0,0,0,85,28,0.33,0,0
+17,66,The Waldorf,2 Rean Dr,571,8,13,2,509,54,2,1,0,566,137,0.24,0,0
+17,67,Discovery Towers,19 Singer Court,949,22,4,7,915,47,0,5,0,967,163,0.17,0,0
+17,69,Tango,121 McMahon Dr,284,2,2,2,274,9,2,0,0,285,46,0.16,0,0
+17,70,Elkhorn Public School,10 Elkhorn Drive,2282,24,81,8,1995,194,3,3,29,2224,463,0.21,0,0
+17,71,Bayview Village Place,644 Sheppard Avenue East,473,9,17,7,420,39,3,3,0,465,114,0.25,0,0
+17,72,ARC Condominiums,2885 Bayview Ave,397,0,10,0,362,24,1,0,0,387,74,0.19,0,0
+17,73,Church in Toronto,671 Sheppard Avenue East,3272,37,72,6,2989,223,11,7,3,3233,466,0.14,0,0
+17,74,Amica at Bayview Gardens,19 Rean Dr,67,34,10,0,78,12,0,0,1,91,58,0.65,0,1
+17,75,Amica at Bayview,15 Barberry Place,111,24,77,0,40,17,0,1,0,58,39,0.67,0,0
+17,76,The Chrysler Towers,1 Rean Drive,759,29,21,7,697,65,2,3,0,767,186,0.24,0,0
+17,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,626,NA,0,0
+17,98,Oriole Community Centre,2975 Don Mills Road West,NA,61,28,32,NA,NA,NA,NA,NA,NA,1702,NA,1,1
+17,99,Cummer Park Community Centre,6000 Leslie Street,NA,65,82,25,NA,NA,NA,NA,NA,NA,2549,NA,0,1
+17 Total,NA,NA,NA,70460,992,935,261,61042,8769,265,264,177,70517,18700,0.27,16,18
+18,2,485 Patricia Avenue,485 Patricia Avenue,275,10,4,0,279,1,1,0,0,281,101,0.36,0,0
+18,3,Cheltenham Care Community,5935 Bathurst Street,81,18,68,2,29,2,0,0,0,31,27,0.87,0,0
+18,4,Fisherville Junior High School,425 Patricia Avenue,2527,28,46,0,2041,431,8,11,18,2509,482,0.19,2,0
+18,5,Pleasant Public School,288 Pleasant Avenue,2907,24,49,4,2280,581,11,13,0,2885,493,0.17,0,0
+18,6,One Kenton Place,1 Kenton Drive,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,8,Newtonbrook Secondary School,155 Hilda Avenue,2615,19,22,9,2124,470,1,7,7,2609,565,0.22,0,0
+18,9,Monseigneur De Charbonnel C.S.,110 Drewry Ave,2293,40,46,12,1831,432,6,4,11,2284,388,0.17,1,0
+18,12,Lillian Public School,1059 Lillian Street,2485,32,48,8,1930,528,6,1,13,2478,637,0.26,4,0
+18,13,Brebeuf College School,211 Steeles Ave East,1603,34,18,19,1277,335,10,2,0,1624,373,0.23,0,0
+18,14,Carefree Lodge,306 Finch Avenue East,38,0,1,1,35,3,0,0,0,38,13,0.34,2,0
+18,15,Cummer Valley Middle School,70 Maxome Avenue,1275,13,7,4,1081,185,6,4,3,1279,296,0.23,0,0
+18,16,Cummer Lodge,205 Cummer Avenue,166,9,0,0,162,8,0,0,5,175,33,0.19,0,0
+18,17,Willowdale Manor,175 Cummer Avenue,267,10,10,0,261,6,0,0,0,267,126,0.47,0,0
+18,18,Paramount,39 Pemberton Ave,288,9,10,1,271,16,1,0,0,288,83,0.29,0,0
+18,19,Park Palace,28 Pemberton Avenue,421,7,6,0,387,34,1,0,0,422,107,0.25,0,0
+18,20,Park Lane I,3 Pemberton Avenue,335,8,0,2,321,20,1,1,0,343,86,0.25,0,0
+18,21,Vogue Condominium,7 Bishop Avenue,497,2,6,2,444,47,2,0,0,493,132,0.27,1,0
+18,22,Avondale Secondary Alternative School,24 Silverview Dr,2313,31,56,8,2025,251,5,2,12,2295,357,0.16,1,0
+18,25,R.J. Lang Elementary and Middle School,227 Drewry Avenue,2171,24,50,5,1851,296,4,5,3,2159,302,0.14,0,0
+18,27,Yorkview Public School,130 Yorkview Drive,2429,22,52,8,1863,513,13,2,17,2408,408,0.17,0,0
+18,28,Edithvale Community Centre,131 Finch Avenue West,3088,28,67,8,2727,302,10,15,5,3059,429,0.14,0,0
+18,29,Churchill Public School,188 Churchill Avenue,1926,27,25,8,1629,291,15,1,0,1936,459,0.24,0,0
+18,30,St. Edward The Confessor Church,75 Churchill Avenue,2502,43,69,6,2241,218,10,2,7,2478,464,0.19,0,0
+18,31,Canterbury Place Retirement Residence,1 Canterbury Place,11,58,0,0,69,0,0,0,0,69,69,1,0,0
+18,35,Skyview-On-Yonge,5444 Yonge Street,407,10,7,8,382,26,2,0,0,410,195,0.48,0,0
+18,36,The Kempford,5430 Yonge Street,245,5,4,2,233,12,0,1,0,246,78,0.32,0,0
+18,37,Delmanor Northtown,5351 Yonge St,0,63,0,0,58,5,0,0,0,63,61,1,0,2
+18,38,Triomphe I and II,5 Northtown Way,729,8,15,1,668,44,2,5,4,723,169,0.23,0,0
+18,41,Sommerset Way,18 Sommerset Way,670,18,8,5,644,32,0,4,0,680,213,0.31,3,0
+18,43,Willowdale Baptist Church,15 Olive Avenue,2707,29,55,6,2495,158,9,9,11,2682,409,0.15,0,0
+18,45,The Galleria,77 Finch Avenue East,661,20,53,3,598,25,4,1,0,628,157,0.25,0,0
+18,46,McKee Public School,35 Church Avenue,2879,61,29,3,2659,226,15,9,5,2914,608,0.21,0,0
+18,48,Finch Public School,277 Finch Avenue East,2106,30,41,9,1842,242,7,11,0,2102,362,0.17,0,0
+18,49,Hollywood Public School,360 Hollywood Avenue,2100,17,19,8,1841,252,3,1,0,2097,409,0.2,0,0
+18,50,St. Elizabeth of Hungary Church,432 Sheppard Avenue East,2129,50,33,14,1894,216,9,16,15,2150,521,0.24,0,0
+18,51,Earl Haig Secondary School,100 Princess Avenue,2093,33,43,8,1951,128,4,0,3,2086,398,0.19,0,1
+18,52,Spring Garden Baptist Church,112 Spring Garden Avenue,1440,22,65,7,1291,94,2,9,2,1398,381,0.27,0,0
+18,54,Beecroft Manor,35 Park Home Avenue,293,6,6,0,279,12,0,1,2,294,87,0.3,0,1
+18,55,North York Civic Centre,5100 Yonge Street,2563,41,83,10,2355,157,4,6,7,2529,348,0.14,0,0
+18,56,Willowdale Lawn Bowling Club,150 Beecroft Road,1327,13,31,8,1105,173,7,4,20,1309,346,0.26,0,0
+18,57,Ultima at Broadway North Tower,4978 Yonge St,747,18,46,0,684,31,3,1,0,719,169,0.24,0,0
+18,59,Hollywood Plaza,18 Hollywood Avenue,486,13,15,3,448,31,0,3,1,483,128,0.27,0,0
+18,63,Atrium II,65 Spring Garden Avenue,385,7,6,0,365,18,3,0,0,386,199,0.52,0,0
+18,64,Cardinal Carter Academy For The Arts,36 Greenfield Avenue,1831,54,140,3,1611,121,6,6,5,1749,319,0.18,0,0
+18,65,Rodeo Walk,30 Greenfield Avenue,475,10,15,0,438,27,6,0,0,471,149,0.32,0,1
+18,68,The Atrium,33 Elmhurst Avenue,341,0,5,0,304,24,3,7,0,338,176,0.52,1,0
+18,69,Avondale Public School,171 Avondale Ave,2842,49,84,13,2502,269,18,18,4,2811,561,0.2,1,0
+18,76,Avonshire,100 Harrison Garden Blvd.,471,12,8,1,449,21,2,1,0,473,109,0.23,0,0
+18,79,Lansing United Church,49 Bogert Avenue,2081,36,42,3,1975,82,2,4,12,2075,222,0.11,0,0
+18,80,Skymark at Avondale,78 Harrison Garden Blvd,890,21,17,7,814,74,4,1,1,894,249,0.28,0,0
+18,81,Spectrum I,30 Harrison Garden Blvd,533,12,7,3,484,47,3,3,0,537,128,0.24,0,0
+18,83,Residences of Avondale,16 Harrison Garden Blvd,563,13,7,6,524,40,4,0,0,568,142,0.25,0,0
+18,84,St. Edward Catholic School,1 Botham Road,1159,21,8,2,933,222,10,7,6,1178,322,0.27,0,0
+18,85,Cameron Public School,211 Cameron Avenue,1748,24,30,14,1464,258,5,9,7,1743,404,0.23,0,0
+18,86,Lansing Residence,10 Senlac Road,55,13,35,0,31,1,0,1,0,33,23,0.7,0,0
+18,87,Prestige School,21 Eddfield Avenue,832,6,22,6,671,128,9,2,7,817,212,0.26,0,0
+18,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,711,NA,0,0
+18,98,North York Civic Centre,5100 Yonge St,NA,63,33,37,NA,NA,NA,NA,NA,NA,1431,NA,1,1
+18,99,Edithvale Community Centre,131 Finch Ave West,NA,149,76,79,NA,NA,NA,NA,NA,NA,3612,NA,3,0
+18 Total,NA,NA,NA,70301,1443,1748,376,61150,8166,257,210,213,69996,20438,0.29,20,6
+19,1,Presteign Heights Elementary School,2570 St. Clair Avenue East,2204,21,15,5,1963,214,24,3,5,2209,667,0.3,0,0
+19,2,St. Clair O'Connor Community,2701 St. Clair Ave East,146,13,8,5,144,6,0,0,0,150,68,0.45,0,0
+19,3,Canadian Macedonian Place,850 O'Connor Drive,124,6,8,2,117,5,0,0,0,122,60,0.52,0,3
+19,4,Gordon A. Brown Middle School,2800 St. Clair Avenue East,2599,24,60,8,2212,303,14,10,26,2565,613,0.24,0,1
+19,5,Centennial Apartments,5 Wakunda Place,186,4,4,0,181,4,1,0,0,186,50,0.27,0,0
+19,7,O'Connor Public School,1665 O'Connor Drive,1978,28,27,12,1737,220,12,3,8,1980,429,0.22,0,0
+19,8,Victoria Park Elementary School,145 Tiago Avenue,1172,16,9,5,997,172,2,6,1,1178,338,0.29,0,0
+19,9,Gower Park Place,10 Gower Street,1291,33,76,5,964,277,3,2,3,1249,261,0.21,1,0
+19,10,George Webster Elementary School,50 Chapman Avenue,2291,48,60,7,1907,360,7,5,0,2279,599,0.26,1,0
+19,11,Dawes Road Public Library,416 Dawes Road,1530,16,74,693,1229,218,10,10,7,1474,316,0.21,1,0
+19,12,65 and 75 Halsey Avenue,75 Halsey Avenue,337,9,47,0,252,35,6,5,0,298,81,0.27,3,0
+19,14,East York Acres,9 Haldon Avenue,913,25,12,4,768,156,4,0,0,928,252,0.27,7,0
+19,15,D.A. Morrison Middle School,271 Gledhill Avenue,2104,32,33,15,1791,249,41,18,5,2104,650,0.31,0,0
+19,17,Canadian Martyrs Catholic School,520 Plains Road,2227,36,34,10,1825,372,23,7,4,2231,539,0.24,0,0
+19,18,East York Collegiate Institute,650 Cosburn Avenue,2047,24,15,8,1728,291,18,13,6,2056,555,0.27,3,0
+19,20,Michael Garron Hospital,825 Coxwell Ave G5 Garden Rm.,3,4,0,0,7,0,0,0,0,7,4,0.57,0,0
+19,21,Kimbourne Park United Church,200 Wolverleigh Blvd,2279,37,22,13,1760,449,29,22,33,2293,785,0.34,4,0
+19,22,Tobias House,695 Coxwell Avenue,60,19,6,13,55,16,1,0,1,73,33,0.45,0,0
+19,23,Danforth/Coxwell Library,1675 Danforth Ave,1348,26,17,10,1152,162,28,13,3,1358,507,0.37,1,0
+19,24,St. Brigid Catholic School,50 Woodmount Avenue,1987,57,28,24,1584,372,17,19,23,2015,703,0.35,0,0
+19,25,Danforth Mennonite Church,2174 Danforth Avenue,1202,31,13,17,1050,136,14,16,6,1222,462,0.38,3,1
+19,26,Terry Fox Recreation Centre,2 Gledhill Avenue,1416,37,34,6,1223,153,22,6,17,1421,445,0.31,7,0
+19,27,Hope United Church,2550 Danforth Avenue,870,22,20,2,750,105,13,7,3,878,257,0.29,1,0
+19,28,Secord Elementary School,101 Barrington Ave,2004,42,38,13,1785,211,3,11,1,2011,439,0.22,1,6
+19,30,Granada Apartments,90 Eastdale Avenue,315,14,10,1,301,20,0,0,0,321,69,0.21,0,0
+19,31,195 Barrington Avenue,195 Barrington Avenue,325,6,17,2,298,19,0,0,0,317,78,0.25,0,0
+19,32,Agnes Macphail Building,444 Lumsden Avenue,309,7,11,5,272,32,1,0,0,305,56,0.18,0,0
+19,34,True Davidson Acres,200 Dawes Road,87,0,0,0,76,9,1,1,0,87,33,0.38,1,0
+19,35,Massey Square - The Town Hall,5 Massey Square,3480,76,49,13,3216,278,4,5,3,3506,811,0.23,0,0
+19,36,Faith Presbyterian Community Church,140 Dawes Road,1564,24,25,4,1323,213,16,11,0,1563,317,0.2,0,0
+19,37,Secord Community Centre,91 Barrington Avenue,1928,45,44,6,1634,250,18,11,23,1936,405,0.21,0,0
+19,38,Main Square Community Centre,245 Main Street,2470,52,126,24,2129,228,16,9,17,2399,542,0.23,0,0
+19,39,Kinsmen Manor,2287 Gerrard Street East,603,12,14,4,481,106,4,6,0,597,182,0.3,0,0
+19,40,Adam Beck Community Centre,79 Lawlor Avenue,2047,48,24,5,1813,222,17,11,11,2074,692,0.33,0,0
+19,41,Kingston Road United Church,975 Kingston Road,1275,32,18,7,1124,154,6,3,7,1294,402,0.31,0,0
+19,42,Glen Stewart Acres,828 Kingston Road,139,2,5,0,130,5,0,1,0,136,55,0.4,0,0
+19,43,St. John Catholic School,780 Kingston Road,2255,44,61,11,1885,321,12,19,2,2239,619,0.28,0,0
+19,44,Kimberley Public School,50 Swanwick Ave,1991,64,78,12,1647,300,19,6,9,1981,563,0.28,0,0
+19,45,Main Street Terrace,77 Main Street,58,9,2,0,58,6,0,1,0,65,19,0.29,1,0
+19,46,Woodbine Acres,133 Merrill Avenue East,990,26,8,7,858,117,21,6,3,1005,392,0.39,0,0
+19,47,Grant African Methodist Church,2029 Gerrard Street East,2109,61,49,8,1887,192,21,15,8,2123,673,0.32,0,1
+19,48,The Cecilia Murphy Building,11 Coatsworth Crescent,900,22,33,7,783,84,17,6,0,890,327,0.37,0,0
+19,49,Ecole Georges-Etienne-Cartier,250 Gainsborough Road,997,23,20,3,914,46,14,24,3,1001,298,0.3,0,0
+19,50,Toronto Formosan Presb. Church,31 Eastwood Road,2070,40,32,3,1836,187,19,37,2,2081,599,0.29,1,3
+19,51,Fairmount Park Community Centre,1757 Gerrard St East,1927,38,21,7,1734,161,23,29,0,1947,709,0.36,0,0
+19,52,Toronto United Mennonite Church,1774 Queen Street East,2802,60,29,21,2480,284,34,39,2,2839,829,0.29,0,2
+19,54,Norway Jr. Public School,390 Kingston Road,2257,53,161,7,1924,180,13,24,7,2148,553,0.26,1,0
+19,55,Beaches Lions Centennial Apartments,50 Norway Avenue,985,29,14,3,857,130,5,6,1,999,274,0.27,0,0
+19,56,Kew Beach Jr Public School,101 Kippendavie Avenue,2507,63,68,8,2210,242,31,22,6,2511,643,0.26,1,1
+19,57,Beaches Library,2161 Queen Street East,958,29,11,4,878,86,2,9,4,979,253,0.26,0,0
+19,58,Beach United Church,140 Wineva Avenue,2151,67,90,4,1906,210,16,10,8,2150,554,0.26,0,0
+19,59,Beaches Recreation Centre,6 Williamson Road,1755,34,31,3,1550,171,22,17,4,1764,479,0.27,1,0
+19,62,Balmy Beach Community School,14 Pine Avenue,1637,62,32,3,1431,213,17,9,8,1678,491,0.29,0,0
+19,63,Church of St. Aidan,2423 Queen St E,2589,55,86,19,2255,270,19,14,2,2560,764,0.3,4,2
+19,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1131,NA,2,0
+19,98,Beaches Recreation Centre,6 Williamson Road,NA,136,70,41,NA,NA,NA,NA,NA,NA,2739,NA,3,0
+19,99,Secord Community Centre,91 Barrington Ave,NA,80,40,66,NA,NA,NA,NA,NA,NA,2651,NA,5,0
+19 Total,NA,NA,NA,77798,1923,1939,1185,67071,9222,680,527,282,77782,28315,0.36,53,20
+20,1,Clairlea Public School,25 Rosalind Crescent,1173,21,11,22,962,208,1,7,3,1181,345,0.29,1,0
+20,2,Our Lady of Fatima Catholic School,3176 St. Clair Ave. East,2819,41,38,14,2103,696,9,13,8,2829,648,0.23,0,0
+20,3,SATEC @ W.A. Porter C.I.,40 Fairfax Crescent,1387,80,39,5,1087,335,4,3,7,1436,434,0.3,2,0
+20,4,Houses of Providence,3276 St. Clair Avenue E.,116,239,1,23,232,120,0,2,0,354,35,0.1,4,0
+20,5,Warden Hilltop Community Centre,25 Mendelssohn Street,1253,21,19,6,1016,236,1,3,9,1265,279,0.22,0,0
+20,6,St. Joachim Catholic School,3395 St. Clair Ave E,1708,27,22,8,1399,312,5,3,3,1722,327,0.19,0,0
+20,7,General Brock Public School,140 Chestnut Crescent,1092,22,4,1,838,260,9,9,1,1117,317,0.28,0,0
+20,8,Westminster Presbyterian Church,841 Birchmount Road,2023,31,36,1,1579,434,2,2,0,2017,401,0.2,1,0
+20,9,St. Maria Goretti Catholic School,21 Kenmark Blvd.,2153,33,63,14,1391,719,6,4,5,2125,462,0.22,1,0
+20,10,Corvette Jr Public School,30 Corvette Avenue,1560,27,21,2,1134,428,8,0,0,1570,360,0.23,3,0
+20,11,Norman Cook Jr Public School,725 Danforth Road,2021,37,18,8,1506,519,8,5,3,2041,489,0.24,0,0
+20,13,Greystone Walk,5 Greystone Walk Drive,997,22,17,6,816,179,3,2,0,1000,339,0.34,0,0
+20,15,Robert Service Sr. Public School,945 Danforth Road,2554,26,31,5,2184,363,2,5,0,2554,531,0.21,0,0
+20,16,Gus Harris Place,120 Town Haven Place,1113,16,10,6,937,179,2,1,1,1120,248,0.22,0,1
+20,17,Walter Perry Junior Public School,45 Falmouth Avenue,1371,31,11,3,1022,341,2,6,18,1389,322,0.23,0,0
+20,18,Big Fortune Tower Rec Centre,330 McCowan Road,977,11,19,4,780,179,5,3,0,967,214,0.22,0,0
+20,19,McCowan Retirement Residence,2881 Eglinton Avenue East,73,29,59,0,34,9,0,0,0,43,33,0.88,0,5
+20,20,Trilogy Long Term Care,340 McCowan Road,109,10,1,108,112,5,1,0,0,118,17,0.14,0,0
+20,21,Adanac Apartments,140 Adanac Drive,285,5,2,0,280,7,0,1,0,288,47,0.16,0,0
+20,22,Mason Road Junior Public School,78 Mason Road,1148,11,24,3,904,227,4,1,3,1139,270,0.24,0,0
+20,23,St. Boniface Catholic School,20 Markanna Drive,1794,20,19,2,1451,335,4,5,1,1796,319,0.18,2,0
+20,25,Scarborough Retirement Residence,148 Markham Road,91,32,62,0,45,15,1,0,0,61,46,0.75,0,0
+20,26,Bliss Carman Sr Public School,10 Bellamy Rd South,1824,20,29,2,1443,367,3,4,0,1817,439,0.24,0,0
+20,27,H. A. Halbert Junior Public School,25 Halbert Place,1885,25,17,4,1459,433,3,8,0,1903,525,0.28,0,0
+20,28,St. Agatha Catholic School,49 Cathedral Bluffs Drive,1881,27,18,4,1495,388,3,2,7,1895,574,0.3,0,0
+20,29,Anson Park Public School,30 MacDuff Crescent,1408,14,8,4,1103,308,2,7,1,1421,390,0.27,1,0
+20,30,St. George's Manor,17 Brimley Road,1432,26,32,3,1254,172,2,1,0,1429,304,0.21,4,0
+20,31,Cardinal Newman High School,100 Brimley Road South,1265,32,25,1,1046,210,7,8,3,1274,373,0.29,0,0
+20,32,Highway Gospel Church,530 Midland Ave,1774,32,27,7,1429,337,2,8,10,1786,487,0.27,1,0
+20,33,John A. Leslie Public School,459 Midland Avenue,1961,24,19,3,1634,333,1,0,0,1968,468,0.24,0,0
+20,34,Chine Drive Public School,51 Chine Drive,942,17,13,3,805,134,1,8,0,948,303,0.32,0,0
+20,35,Midland Gardens Care Community,130 Midland Avenue,284,14,9,0,281,7,0,1,0,289,33,0.11,0,0
+20,36,Craiglee Nursing Home,102 Craiglee Drive,92,17,0,81,100,9,0,0,0,109,32,0.29,2,0
+20,37,Cliffside Public School,27 East Haven Drive,1857,22,71,3,1528,251,10,18,6,1813,404,0.22,0,0
+20,38,People's Worship Centre,221 Kennedy Road,1327,10,23,3,1090,205,5,10,2,1312,330,0.25,0,0
+20,39,Retirement Suites by the Lake,2121 Kingston Rd,35,10,9,0,31,5,0,0,0,36,36,1,0,0
+20,40,McClain Park Apartments,10 Glen Everest Road,283,8,4,0,275,11,0,2,1,289,52,0.18,0,0
+20,41,Birch Cliff Heights Public School,120 Highview Avenue,2168,42,34,1,1838,332,2,8,0,2180,520,0.24,3,0
+20,42,J.G. Workman Public School,487 Birchmount Road,2097,28,21,8,1715,368,9,5,15,2112,491,0.23,2,0
+20,44,Danforth Gardens Public School,20 Santamonica Blvd.,2488,49,26,7,2054,443,11,3,9,2520,511,0.21,0,8
+20,45,Ina Grafton Gage Home,40 Bell Estate Rd,31,19,0,31,44,6,0,0,0,50,20,0.4,0,0
+20,46,Woodland Acres Seniors Apartments,682 Warden Avenue,189,3,4,1,180,6,1,0,0,187,36,0.19,0,0
+20,47,Warden Woods Community Centre,74 Firvalley Court,557,8,8,4,481,74,0,2,0,557,84,0.15,0,0
+20,48,Taylor Creek Public School,644 Warden Avenue,2967,52,59,2,2529,405,12,26,4,2976,601,0.2,0,0
+20,49,West Scar. Neighbourhood Centre,313 Pharmacy Avenue,2398,32,44,10,2021,346,19,10,0,2396,515,0.21,1,0
+20,50,Teesdale Place,40 Teesdale Place,466,9,13,3,412,48,0,1,0,461,114,0.25,1,0
+20,52,Dentonia Place,10 Teesdale Place,426,18,11,1,404,25,1,3,0,433,147,0.34,1,0
+20,54,Cambridge Place,30 Denton Avenue,667,9,31,1,591,56,0,1,0,648,179,0.28,0,0
+20,55,757 Victoria Park Avenue,757 Victoria Park Avenue,279,9,9,1,247,29,2,1,0,279,139,0.51,0,2
+20,56,Oakridge Community Recreation Centre,63 Pharmacy Avenue,2499,54,65,9,2135,318,12,8,17,2490,516,0.21,0,0
+20,57,Byng Towers,3330 Danforth Avenue,828,15,18,5,688,122,3,5,13,831,196,0.24,1,0
+20,58,Chester Village,3555 Danforth Avenue,30,21,0,30,46,5,0,0,0,51,33,0.71,0,3
+20,59,Birchmount Community Centre,93 Birchmount Road,2063,33,28,4,1726,324,8,19,1,2078,491,0.24,1,0
+20,61,Royal Canadian Legion Branch 13,1577 Kingston Road,1320,23,28,5,1167,145,7,8,0,1327,374,0.28,0,0
+20,62,Taylor Branch Public Library,1440 Kingston Road,951,27,14,5,830,134,3,4,1,972,300,0.31,0,0
+20,63,Fallingbrook Presbyterian Church,35 Wood Glen Road,1479,11,13,9,1265,207,7,4,0,1483,446,0.3,0,1
+20,64,Blantyre Public School,290 Blantyre Avenue,1964,27,48,7,1691,230,9,11,5,1946,596,0.31,1,0
+20,66,Courcelette Public School,100 Fallingbrook Road,1708,33,37,5,1518,157,19,12,0,1706,579,0.34,3,0
+20,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,640,NA,1,0
+20,98,Birchmount Community Centre,93 Birchmount Road,NA,177,58,84,NA,NA,NA,NA,NA,NA,3548,NA,3,1
+20,99,Warden Hilltop Community Centre,25 Mendelssohn Street,NA,112,39,43,NA,NA,NA,NA,NA,NA,1658,NA,0,2
+20 Total,NA,NA,NA,73642,1901,1439,635,60367,13056,241,283,157,74104,23967,0.32,40,23
+21,1,Church of St. Andrew,2333-2347 Victoria Park Ave,1696,11,15,4,1282,363,13,22,12,1692,291,0.17,0,0
+21,2,Terraview-Willowfield Public School,95 Pachino Blvd.,2066,31,11,12,1572,488,8,19,4,2091,405,0.19,0,0
+21,3,Glamorgan Jr Public School,51 Antrim Crescent,3107,29,46,3,2543,531,14,3,4,3095,482,0.16,2,0
+21,5,Mondeo Springs,8 Mondeo Drive,860,15,3,5,754,114,3,1,0,872,272,0.31,0,1
+21,8,Dorset Park Hub (Unit #105),1911 Kennedy Road,1826,23,8,7,1566,265,1,4,7,1843,286,0.16,0,0
+21,9,Fieldstone Commons Care Community,1000 Ellesmere Road,50,16,0,0,66,0,0,0,0,66,20,0.3,0,0
+21,11,Omni,115 Omni Drive,1022,3,9,6,843,168,1,4,0,1016,297,0.29,0,0
+21,14,Scarborough Civic Centre,150 Borough Drive,2942,3,30,0,2645,235,11,7,14,2912,413,0.14,0,0
+21,18,St. Andrews Public School,60 Brimorton Drive,2493,35,12,20,2029,473,3,4,6,2515,651,0.26,1,0
+21,20,Edgewood Public School,230 Birkdale Road,2413,16,24,5,1833,559,3,9,2,2406,516,0.21,0,1
+21,22,Kennedy Lodge Nursing Home,1400 Kennedy Road,64,7,2,0,65,1,0,0,3,69,10,0.14,0,0
+21,23,Ellesmere-Statton Public School,739 Ellesmere Road,2590,31,24,6,2048,510,5,11,27,2601,415,0.16,0,0
+21,24,Ellesmere Community Centre,20 Canadian Road,1641,18,18,8,1295,324,9,11,7,1646,269,0.16,0,0
+21,25,Buchanan Public School,4 Bucannan Road,1534,14,14,7,1219,296,13,4,2,1534,309,0.2,0,0
+21,26,Maryvale Public School,1325 Pharmacy Avenue,2328,32,20,4,1850,466,6,12,8,2342,524,0.22,2,0
+21,27,Wexford Collegiate School for the Arts,1176 Pharmacy Avenue,1623,22,11,10,1176,439,8,8,5,1636,318,0.19,0,0
+21,28,The Wexford,1860 Lawrence Avenue East,144,0,3,0,136,4,0,1,0,141,45,0.32,0,0
+21,29,Salvation Army Flag Crest,2015 Lawrence Avenue East,196,4,2,1,179,19,0,0,0,198,77,0.39,0,0
+21,31,Aldebrain Towers,2155 Lawrence Avenue East,375,8,12,11,296,69,6,0,0,371,105,0.28,0,0
+21,32,Dorset Park Jr. Public School,28 Blaisdale Road,2552,26,16,6,1994,543,11,11,10,2569,464,0.18,0,0
+21,33,McGregor Park Community Centre,2231 Lawrence Avenue E,1065,7,5,3,762,305,3,4,0,1074,139,0.13,0,1
+21,34,General Crerar Public School,30 McGregor Road,1299,10,9,9,1031,259,5,5,1,1301,257,0.2,0,0
+21,35,Hellenic Home,2411 Lawrence Avenue East,84,24,70,0,38,0,0,0,0,38,29,0.76,0,0
+21,37,Scarborough Fair,2550 Lawrence Avenue East,790,14,10,9,713,73,5,0,2,793,194,0.24,0,0
+21,39,Donwood Park P.S. - Highbrook,61 Dorcot Avenue,2978,46,18,14,2690,311,0,3,12,3016,511,0.17,2,0
+21,40,Bendale Acres,2920 Lawrence Avenue East,120,18,1,0,124,13,0,0,0,137,22,0.16,0,0
+21,41,Brimley Acres,2950 Lawrence Avenue East,212,6,3,2,201,14,0,0,0,215,93,0.43,1,0
+21,42,Jack Goodlad Residences,3010 Lawrence Avenue East,246,5,13,0,213,23,0,1,1,238,93,0.39,0,0
+21,43,Rockcliffe Care Community,3015 Lawrence Avenue East,57,21,3,0,63,12,0,0,0,75,23,0.31,3,0
+21,44,Bendale Public Library,1515 Danforth Road,1501,30,18,4,1101,409,1,3,0,1514,402,0.27,0,0
+21,46,Knob Hill Jr. Public School,25 Seminole Avenue,2878,38,60,8,2225,588,7,19,21,2860,523,0.18,2,0
+21,47,Hunter's Glen Jr. Public School,16 Haileybury Drive,1496,10,5,9,1159,344,0,2,0,1505,343,0.23,0,0
+21,48,Charles Gordon Public School,25 Marcos Blvd.,2152,37,16,5,1877,296,2,2,1,2178,394,0.18,4,0
+21,49,Lord Roberts Jr Public School,165 Lord Roberts Drive,1445,22,19,2,1175,268,4,3,0,1450,367,0.25,3,0
+21,50,Jack Goodlad Community Centre,929 Kennedy Road,2152,24,55,5,1536,582,0,4,0,2122,406,0.19,1,0
+21,51,Ionview Public School,90 Ionview Road,2959,45,55,8,2427,506,5,4,8,2950,610,0.21,0,1
+21,52,George Peck Public School,1 Wayne Avenue,1691,34,8,10,1426,249,11,15,20,1721,391,0.23,0,0
+21,53,Precious Blood Catholic School,1035 Pharmacy Avenue,1549,11,9,12,1112,427,9,1,16,1565,331,0.21,0,0
+21,54,Wexford Public School,1050 Pharmacy Avenue,1958,21,18,13,1527,427,9,3,9,1975,358,0.18,0,0
+21,56,Victoria Park Hub,1527 Victoria Park Ave,1371,15,13,2,1057,310,2,3,1,1373,202,0.15,0,0
+21,57,Rainbow Village,2460 Eglinton Ave E,1034,15,27,3,825,197,1,0,1,1024,276,0.27,0,0
+21,58,St. Joan of Arc Catholic Academy,959 Midland Avenue,1726,19,35,4,1358,346,0,1,1,1706,318,0.19,0,0
+21,59,Glen Ravine Jr Public School,11 Gadsby Drive,1200,13,24,0,886,296,2,1,4,1189,286,0.24,0,0
+21,60,St. David's Village,1290 Danforth Road,788,20,25,13,634,148,3,0,1,786,229,0.29,0,0
+21,61,Ecole Pere-Philippe-Lamarche,2850 Eglinton Avenue East,2032,19,33,8,1614,398,4,1,2,2019,313,0.16,3,0
+21,62,John McCrae Public School,431 McCowan Road,2470,24,32,5,1896,557,4,9,0,2466,568,0.23,7,0
+21,65,St. Nicholas Catholic School,33 Amarillo Drive,2345,12,24,10,1719,589,12,13,2,2335,417,0.18,0,0
+21,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,426,NA,0,0
+21,98,McGregor Park Community Centre,2231 Lawrence Ave East,NA,110,39,37,NA,NA,NA,NA,NA,NA,2371,NA,6,0
+21,99,Ellesmere Community Centre,20 Canadian Road,NA,62,29,40,NA,NA,NA,NA,NA,NA,1806,NA,1,1
+21 Total,NA,NA,NA,71120,1076,956,350,56780,13814,204,228,214,71240,18867,0.26,38,5
+22,1,St. Henry Catholic School,100 Bamburgh Circle,3034,8,26,7,2378,628,4,14,2,3026,545,0.18,0,0
+22,2,Bridlewoode Place,55 Bamburgh Circle,1249,8,7,2,1112,135,0,2,0,1249,251,0.2,0,0
+22,4,Kennedy Public School,20 Elmfield Crescent,1751,15,5,4,1438,273,0,12,41,1764,293,0.17,0,0
+22,5,Tendercare Living Centre,1020 McNicoll Avenue,100,19,0,0,117,1,0,1,0,119,29,0.25,3,1
+22,7,Sir Ernest MacMillan Public School,149 Huntsmill Blvd.,1006,5,7,1,824,170,0,7,4,1005,224,0.23,0,5
+22,8,Sir Samuel B. Steele Public School,131 Huntsmill Blvd.,2171,18,7,2,1786,392,2,6,0,2186,312,0.14,0,0
+22,9,Vintage Gardens 2,1028 McNicoll Ave,58,30,0,0,82,9,0,0,0,91,71,0.79,0,1
+22,10,Skypark Recreation Centre,255 Bamburgh Circle,1057,21,3,5,986,88,1,1,0,1076,312,0.29,0,0
+22,11,David Lewis Public School,130 Fundy Bay Blvd.,2417,19,12,6,1987,434,1,3,0,2425,428,0.18,0,0
+22,12,L'Amoreaux Community Centre,2000 McNicoll Avenue,2187,13,10,8,1851,315,2,4,16,2188,324,0.15,0,0
+22,13,Vintage Gardens 1,1038 McNicoll Avenue,202,3,0,0,205,0,0,0,0,205,69,0.34,0,0
+22,14,Villa Elegance,3088 Kennedy Road,169,7,2,3,161,12,0,1,0,174,54,0.31,0,0
+22,15,Mon Sheong Court,2020 McNicoll Avenue,338,1,2,2,314,23,0,0,0,337,121,0.36,0,0
+22,16,Mon Sheong Scarborough LTC,2030 McNicoll Avenue,72,9,0,0,77,4,0,0,0,81,16,0.2,1,0
+22,17,Chester Le Jr Public School,201 Chester Le Blvd.,1888,16,11,0,1428,438,5,7,14,1892,317,0.17,0,1
+22,18,Royalcrest,55 Huntingdale Blvd,812,19,3,3,663,155,2,8,0,828,286,0.35,0,0
+22,19,Beverly Glen Jr. Public School,85 Beverly Glen Blvd.,2453,12,17,10,2065,343,17,9,15,2449,526,0.21,0,0
+22,24,Skygarden,2350 Bridletowne Crcl,896,9,9,2,763,127,1,4,2,897,313,0.35,0,0
+22,25,L'Amoreaux Collegiate Institute,2501 Bridletowne Circle,1549,13,7,2,1227,314,7,7,0,1555,277,0.18,0,0
+22,26,Brookmill Boulevard Public School,25 Brookmill Blvd.,1861,31,8,18,1515,353,4,4,14,1890,341,0.18,0,0
+22,28,Silver Springs Public School,222 Silver Springs Blvd.,1687,13,12,2,1338,339,1,3,10,1691,258,0.15,0,0
+22,29,St. Sylvester Catholic School,260 Silver Springs Blvd.,1140,3,5,8,869,212,0,9,47,1137,212,0.19,2,0
+22,31,Mary Ward LINC & ESL School,44 Kelvinway Drive,2490,20,9,2,2110,377,5,11,2,2505,320,0.13,0,0
+22,32,Sir John A. Macdonald C.I.,2300 Pharmacy Ave,2208,25,7,4,1729,485,6,11,0,2231,488,0.22,4,0
+22,34,St. Paul's L'Amoreaux Centre,3333 Finch Avenue East,416,7,5,0,408,11,0,0,0,419,145,0.35,0,0
+22,37,St. Aidan Catholic Church,3501 Finch Ave E,1960,27,13,6,1613,345,1,13,3,1975,321,0.16,0,0
+22,38,Wesley Chapel,2385 Warden Ave,1371,9,7,5,1125,233,5,12,0,1375,275,0.2,0,0
+22,39,Timberbank Jr Public School,170 Timberbank Blvd.,1586,17,10,2,1290,278,9,17,1,1595,364,0.23,1,0
+22,40,Highland Heights Jr Public School,35 Glendower Circuit,2521,25,45,5,2069,403,21,11,1,2505,468,0.19,0,0
+22,41,Lynnwood Heights Jr Public School,50 Southlawn Drive,1951,5,16,1,1663,265,0,6,4,1938,331,0.17,0,0
+22,42,Msgr. Fraser College Midland Campus,2900 Midland Avenue,1312,9,14,1,1016,219,1,0,72,1308,150,0.11,0,0
+22,43,2743 Victoria Park Avenue,2743 Victoria Park Avenue,500,5,12,3,420,69,1,3,0,493,88,0.18,0,0
+22,44,8 Chichester Place,8 Chichester Place,250,2,8,2,236,8,0,0,0,244,78,0.32,0,0
+22,45,Wishing Well Manor,2008 Pharmacy Avenue,984,13,26,3,827,134,4,7,0,972,159,0.16,0,0
+22,46,Bridlewood Jr. Public School,60 Bridlewood Blvd.,2313,23,27,4,1888,405,5,9,3,2310,540,0.23,0,0
+22,48,Vradenburg Jr Public School,50 Vradenberg Drive,3286,27,34,8,2787,434,28,24,6,3279,753,0.23,0,0
+22,50,Lynngate Junior Public School,129 Cass Avenue,2233,23,6,2,1743,467,8,30,5,2253,494,0.22,6,0
+22,52,Stephen Leacock Seniors C.C.,2520 Birchmount Road,2889,17,39,2,2337,501,4,15,6,2863,330,0.12,0,0
+22,53,Tam O'Shanter Jr Public School,21 King Henry's Boulevard,1550,13,104,5,1289,162,4,3,0,1458,182,0.13,0,1
+22,54,Agincourt Public Library,"155 Bonis Ave, Scarborough",2699,42,64,7,2450,203,6,1,22,2682,552,0.21,0,1
+22,56,Shepherd Garden,115 Bonis Ave,183,6,23,0,159,6,0,1,0,166,77,0.46,1,0
+22,57,Tam O'Shanter Towers,3825 Sheppard Avenue East,345,18,14,1,344,5,0,0,0,349,129,0.37,0,0
+22,58,Shepherd Lodge,3760 Sheppard Ave. E.,132,22,98,0,51,5,0,0,0,56,36,0.64,1,0
+22,59,Shepherd Manor,125 Bonis Avenue,413,8,8,1,403,9,0,0,0,412,140,0.34,0,2
+22,60,Inglewood Heights Jr Public School,45 Dempster Street,2993,32,74,5,2561,369,7,11,3,2951,403,0.14,1,0
+22,61,Solaris at Metrogate,135 VIllage Green Square,1382,26,19,1,1236,148,1,5,0,1390,210,0.15,0,0
+22,64,St. Timothy's Anglican Church,4125 Sheppard Avenue East,1122,12,8,1,954,154,2,4,15,1129,184,0.16,0,0
+22,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,726,NA,0,0
+22,98,L'Amoreaux Community Centre,2000 McNicoll Ave,NA,76,40,47,NA,NA,NA,NA,NA,NA,1977,NA,0,0
+22,99,Stephen Leacock Seniors C.C.,2520 Birchmount Road,NA,52,33,39,NA,NA,NA,NA,NA,NA,1970,NA,5,0
+22 Total,NA,NA,NA,67186,853,916,242,55894,10460,165,296,308,67123,17469,0.26,25,12
+23,1,Port Royal Public School,408 Port Royal Trail,2255,9,3,4,1920,331,0,10,1,2262,392,0.17,0,0
+23,2,St. Rene Goupil Catholic School,44 Port Royal Trail,2391,14,11,8,1931,440,2,12,7,2392,383,0.16,0,0
+23,4,Yee Hong Centre for Geriatric Care,2311 McNicoll Avenue,299,5,3,0,291,10,0,0,0,301,44,0.15,2,0
+23,5,Agnes MacPhail Public School,112 Goldhawk Trail,1699,16,4,2,1387,321,4,1,0,1713,337,0.2,0,2
+23,6,Banting and Best Public School,380 Goldhawk Trail,1336,4,1,3,1087,249,0,1,0,1337,175,0.13,1,0
+23,7,Prince of Peace Catholic School,255 Alton Towers Circle,2690,8,7,5,2224,459,0,1,9,2693,355,0.13,1,0
+23,14,Milliken Park Community Centre,4325 McCowan Road,2824,15,15,7,2389,435,3,4,1,2832,308,0.11,3,0
+23,15,Macklin Public School,136 Ingleton Blvd.,2150,11,11,5,1580,528,0,1,42,2151,352,0.16,0,0
+23,16,Brookside Public School,75 Oasis Blvd.,2178,28,5,6,1738,423,3,3,34,2201,558,0.25,1,0
+23,17,Blessed Pier Giorgio Frassati School,8 Seasons Drive,2062,15,5,1,1685,383,2,0,2,2072,386,0.19,5,0
+23,18,Percy Williams Public School,35 White Heather Blvd.,2613,17,7,5,2137,443,5,6,34,2625,485,0.18,0,0
+23,22,Brimwood Boulevard Public School,151 Brimwood Blvd,2630,40,12,5,2125,514,4,6,5,2654,366,0.14,0,0
+23,23,Our Lady of Grace Catholic School,121 Brimwood Blvd.,1077,12,3,2,877,210,2,1,0,1090,246,0.23,0,0
+23,24,Alexmuir Junior Public School,95 Alexmuir Blvd.,1889,13,6,7,1526,362,6,4,0,1898,383,0.2,2,0
+23,25,St. Marguerite Bourgeoys School,75 Alexmuir Blvd.,1604,11,9,6,1361,234,8,4,2,1609,308,0.19,0,0
+23,26,Chartland Junior Public School,109 Chartland Blvd. South,1748,7,9,3,1477,261,2,6,0,1746,338,0.19,1,0
+23,27,North Agincourt Jr Public School,60 Moran Road,1022,13,4,4,933,97,1,1,0,1032,218,0.21,0,0
+23,29,St. Ignatius of Loyola School,2350 McCowan Road,2172,22,25,10,1764,374,1,10,25,2174,398,0.18,0,0
+23,30,Ecole Saint-Jean-de-Lalande,500 Sandhurst Circle,2364,24,36,6,1961,379,5,9,0,2354,377,0.16,1,0
+23,31,Anson S. Taylor Jr Public School,20 Placentia Blvd,1780,13,23,4,1482,271,2,5,12,1772,332,0.19,0,1
+23,32,Yee Hong Centre-Scarborough Finch,60 Scottfield Drive,114,11,1,0,122,2,0,0,0,124,20,0.16,0,0
+23,33,Yee Hong Garden Terrace,100 Scottfield Drive,230,0,15,0,201,14,0,0,0,215,98,0.46,0,0
+23,34,Yee Hong Garden Terrace,90 Scottfield Drive,201,4,11,1,181,13,0,0,0,194,60,0.31,0,0
+23,35,Tom Longboat Jr. Public School,37 Crow Trail,1676,32,8,10,1340,326,1,5,33,1705,367,0.22,6,4
+23,36,St. Gabriel Lalemant School,160 Crow Trail,2136,37,10,2,1727,427,6,7,0,2167,437,0.2,0,0
+23,39,Berner Trail Jr. Public School,120 Berner Trail,2444,54,2,9,1926,564,2,7,2,2501,488,0.2,0,0
+23,40,St. Barnabas Catholic School,30 Washburn Way,1275,18,6,1,930,336,10,11,0,1287,206,0.16,0,0
+23,41,Malvern Junior Public School,70 Mammoth Hall Trail,2172,38,15,5,1792,390,5,9,10,2206,356,0.16,0,0
+23,42,Burrows Hall Jr. Public School,151 Burrows Hall Blvd.,1062,17,2,4,824,243,1,9,2,1079,146,0.14,0,0
+23,43,Burrows Hall Community Centre,1081 Progress Avenue,2468,28,18,5,2104,367,1,7,7,2486,306,0.12,1,0
+23,44,Sts. Peter & Paul Residence,221 Milner Avenue,218,9,24,0,182,21,0,0,0,203,72,0.35,0,0
+23,45,St. Elizabeth Seton Catholic School,25 Havenview Road,2005,23,21,6,1631,371,6,2,5,2015,278,0.14,0,0
+23,46,White Haven Jr. Public School,105 Invergordon Avenue,2414,28,57,13,2022,356,2,7,5,2392,352,0.15,1,0
+23,50,C.D. Farquharson Jr Public School,1965 Brimley Road,1899,20,19,4,1516,363,3,3,17,1902,317,0.17,0,0
+23,51,Agincourt Recreation Centre,31 Glen Watford Drive,1953,16,12,3,1601,296,7,11,39,1954,339,0.17,0,0
+23,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,456,NA,0,0
+23,98,Burrows Hall Community Centre,1081 Progress Ave,NA,63,23,19,NA,NA,NA,NA,NA,NA,1753,NA,0,1
+23,99,Milliken Park Community Centre,4325 McCowan Road,NA,71,35,36,NA,NA,NA,NA,NA,NA,2596,NA,1,1
+23 Total,NA,NA,NA,61050,766,478,211,49974,10813,94,163,294,61338,15388,0.25,26,9
+24,1,Blue Danube House,1680 Ellesmere Road,215,7,1,2,169,52,0,0,0,221,66,0.3,0,0
+24,2,Consilium Club,88 Corporate Drive,1406,15,3,5,1218,190,5,2,1,1416,258,0.18,0,0
+24,3,Hillsborough Shared Facilities,18 Lee Centre Drive,634,5,4,2,570,62,1,0,1,634,94,0.15,0,0
+24,4,Ellipse I & II,38 Lee Centre Drive,796,10,5,1,715,81,4,3,0,803,134,0.17,0,0
+24,5,May Tower 1 & 2,1 Lee Centre Drive,640,10,3,3,567,79,1,0,0,647,115,0.18,0,0
+24,6,Centennial Recreation Centre,1967 Ellesmere Road,2059,29,1,1,1893,177,2,3,26,2101,219,0.1,0,0
+24,7,Village Apartments,50 Tuxedo Court,333,5,1,1,329,10,0,0,0,339,81,0.24,0,0
+24,8,Woburn Collegiate Institute,2222 Ellesmere Road,1407,12,6,7,1182,230,3,0,2,1417,205,0.14,0,0
+24,9,Woburn Junior Public School,40 Dormington Drive,1859,18,2,5,1634,234,4,1,3,1876,321,0.17,0,0
+24,10,St. Edmund Campion Catholic School,30 Highcastle Road,1381,12,9,2,945,419,4,15,0,1383,313,0.23,0,0
+24,11,Highcastle Public School,370 Military Trail,2428,32,17,4,1772,657,8,4,3,2444,482,0.2,0,0
+24,12,Military Trail Public School,701 Military Trail,2767,20,4,5,2275,494,3,12,0,2784,445,0.16,1,0
+24,13,Skyview Manor,100 Mornelle Court,271,8,4,3,235,40,0,0,0,275,68,0.25,0,1
+24,14,Maple Dale,3050 Ellesmere Road,430,5,13,1,374,47,1,0,0,422,111,0.27,0,2
+24,15,Seven Oaks,9 Neilson Road,62,18,1,0,61,18,0,0,0,79,27,0.34,0,0
+24,16,Shoniker Place,2877 Ellesmere Road,165,7,10,0,146,16,0,0,0,162,66,0.42,0,2
+24,17,Curran Hall Community Centre,277 Orton Park Road,1079,9,6,2,834,240,5,3,0,1082,317,0.29,1,0
+24,18,George B. Little Jr. Public School,125 Orton Park Road,1885,14,6,1,1494,371,10,13,0,1888,398,0.21,1,0
+24,19,Heather Heights Jr Public School,80 Slan Avenue,1821,12,6,13,1440,363,11,10,1,1825,402,0.22,1,0
+24,20,Churchill Heights Public School,749 Brimorton Drive,1777,22,8,3,1399,379,2,4,4,1788,369,0.21,2,0
+24,21,Bellmere Jr. Public School,470 Brimorton Drive,1148,8,0,4,853,288,3,6,4,1154,252,0.22,0,0
+24,22,Tredway Woodsworth Public School,112 Sedgemount Drive,2179,23,14,1,1719,460,1,8,5,2193,430,0.2,0,0
+24,23,705 Progress Shelter,705 Progress Ave,0,3,0,0,2,1,0,0,0,3,3,1,0,0
+24,24,North Bendale Jr. Public School,29 Aveline Crescent,1669,18,4,11,1224,435,12,11,0,1682,418,0.25,3,6
+24,25,Bendale Jr. Public School,61 Benshire Drive,838,13,3,2,653,190,0,5,1,849,202,0.24,1,0
+24,26,St. Rose of Lima Catholic School,3220 Lawrence Avenue East,1182,12,4,4,823,355,6,10,0,1194,272,0.23,0,0
+24,27,Cedarbrook Community Centre,91 Eastpark Blvd.,1720,15,10,5,1431,290,2,1,3,1727,250,0.14,0,0
+24,28,Cedarbrook Lodge,520 Markham Road,154,13,1,0,151,15,0,0,0,166,28,0.17,0,0
+24,30,Cedarbrae Manor,65 Greencrest Circuit,445,23,6,3,441,19,1,0,0,461,161,0.35,0,0
+24,31,Cornell Jr. Public School,61 Holmfirth Terrace,2123,63,15,15,1933,228,4,6,2,2173,652,0.3,5,0
+24,32,St. Barbara Catholic School,25 Janray Drive,2140,31,21,8,1617,518,0,3,10,2148,438,0.2,0,0
+24,34,Extendicare Scarborough,3830 Lawrence Ave. East,94,20,1,0,107,6,0,0,0,113,28,0.26,1,1
+24,35,Willow Park Jr. Public School,45 Windover Drive,2193,30,14,15,1866,323,10,8,1,2208,434,0.2,0,1
+24,36,Galloway Road Public School,192 Galloway Road,3334,0,27,6,2731,545,14,17,8,3315,482,0.15,1,0
+24,37,West Hill Apartments,4175 Lawrence Avenue East,293,6,1,0,290,8,0,1,0,299,70,0.23,1,0
+24,38,St. Martin De Porres Catholic School,230 Morningside Avenue,2254,11,40,3,1862,339,10,11,2,2224,330,0.15,0,0
+24,40,Eastview Public School,20 Waldock Street,2907,27,20,13,2180,708,12,10,3,2913,535,0.18,0,2
+24,41,Poplar Road Jr. Public School,66 Dearham Wood,1208,19,7,0,1043,175,3,1,1,1223,355,0.29,0,0
+24,42,Guildwood Jr. Public School,225 Livingston Road,2101,19,33,3,1655,420,0,11,2,2088,478,0.23,0,0
+24,44,The Gates of Guildwood,10 Guildwood Pkwy,566,8,3,6,514,54,1,1,0,570,273,0.48,2,0
+24,45,399 Markham Road,399 Markham Road,382,5,32,0,310,42,0,3,0,355,58,0.17,0,1
+24,46,Cedarbrook Jr. Public School,56 Nelson Street,2991,45,35,12,2357,635,6,4,6,3008,576,0.19,2,1
+24,47,Cedar Drive Jr. Public School,21 Gatesview Avenue,2962,31,37,6,2531,408,8,6,5,2958,444,0.15,1,0
+24,50,Guildwood  Extendicare,60 Guildwood Parkway,48,0,0,0,48,0,0,0,0,48,34,0.71,0,0
+24,51,Sir Wilfrid Laurier Collegiate,145 Guildwood Parkway,1569,44,48,4,1346,197,9,11,4,1567,434,0.28,0,0
+24,53,Elizabeth Simcoe Jr. Public School,166 Sylvan Avenue,1452,16,8,3,1205,236,2,18,0,1461,373,0.26,0,7
+24,54,Scarborough Village Recreation Centre,3600 Kingston Road,2243,31,39,7,1822,394,13,4,2,2235,408,0.18,0,1
+24,55,Momiji Seniors Centre,3555 Kingston Road,177,4,22,1,159,0,0,0,0,159,58,0.36,0,0
+24,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,400,NA,0,0
+24,98,Centennial Recreation Centre,1967 Ellesmere Road,NA,64,39,43,NA,NA,NA,NA,NA,NA,1912,NA,0,0
+24,99,Scarborough Village Recreation Centre,3600 Kingston Road,NA,39,24,31,NA,NA,NA,NA,NA,NA,1720,NA,0,1
+24 Total,NA,NA,NA,63787,911,618,267,52125,11448,181,226,100,64080,16999,0.27,23,26
+25,1,Thomas L Wells Public School,69 Nightstar Road,2584,29,11,13,2084,510,0,5,0,2599,593,0.23,3,0
+25,2,Mayfair on the Green,440 McLevin Ave,1053,20,2,0,960,111,0,1,0,1072,257,0.24,0,0
+25,5,Neilson Hall Apartments,1315 Neilson Road,154,5,0,1,153,5,1,0,0,159,61,0.38,0,0
+25,6,Glenmaple,1319 Neilson Road,211,6,1,1,200,16,0,0,0,216,77,0.36,0,0
+25,7,Malvern Recreation Centre,30 Sewells Road,1545,17,5,1,1207,335,1,0,18,1561,162,0.1,0,0
+25,8,Sacred Heart Catholic School,75 Hupfield Trail,2183,23,4,2,1747,448,5,4,1,2205,348,0.16,0,0
+25,9,Mary Shadd Public School,135 Hupfield Trail,1376,7,1,3,1028,349,2,7,0,1386,225,0.16,0,0
+25,10,Heritage Park Public School,80 Old Finch Ave,2695,23,6,1,2233,464,12,5,2,2716,400,0.15,0,0
+25,11,St. Bede Catholic School,521 Sewells Road,1528,13,21,0,1165,351,3,3,0,1522,224,0.15,0,1
+25,12,Fleming Public School,20 Littles Road,1704,33,5,3,1415,315,3,0,0,1733,307,0.18,0,0
+25,13,Alexander Stirling Public School,70 Fawcett Trail,2175,27,2,12,1716,478,4,7,0,2205,338,0.15,0,0
+25,15,Grey Owl Junior Public School,150 Wickson Trail,1825,26,9,2,1378,462,6,3,0,1849,291,0.16,4,2
+25,16,Emily Carr Public School,90 John Tabor Trail,2427,17,8,10,1682,730,12,2,12,2438,355,0.15,0,0
+25,17,Lucy Maud Montgomery Public School,95 Murison Blvd.,1532,10,15,4,1132,387,3,5,1,1528,254,0.17,0,0
+25,18,Alvin Curling Public School,50 Upper Rouge Trail,3353,41,8,21,2701,668,10,7,4,3390,526,0.16,0,0
+25,19,Extendicare Rouge Valley,551 Conlins Road,165,11,1,0,149,26,0,0,0,175,14,0.08,3,0
+25,20,St. Jean de Brebeuf Catholic School,101 Dean Park Road,1726,16,1,0,1258,462,12,9,1,1742,349,0.2,0,0
+25,21,John G. Diefenbaker Public School,70 Dean Park Road,1983,16,9,3,1583,394,8,2,0,1987,440,0.22,0,0
+25,25,Chief Dan George Public School,185 Generation Blvd,2436,32,7,6,1794,652,5,12,0,2463,509,0.21,0,0
+25,26,Rouge Valley Public School,30 Durnford Road,2192,23,8,6,1620,565,5,7,9,2206,470,0.21,0,1
+25,27,Altamont Long Term Care,92 Island Road,72,1,1,0,58,14,0,0,0,72,18,0.28,0,2
+25,28,West Rouge Jr. Public School,401 Friendship Avenue,2160,16,8,6,1682,473,5,4,6,2170,493,0.23,1,0
+25,29,West Rouge Community Centre,270 Rouge Hills Drive,2039,14,4,4,1630,395,8,14,0,2047,576,0.28,0,0
+25,30,William G. Davis Jr. Public School,128 East Avenue,2026,22,5,10,1630,404,6,8,0,2048,552,0.27,1,1
+25,31,Joseph Howe Sr Public School,20 Winter Gardens Trail,1533,19,12,7,1186,345,6,3,0,1540,314,0.2,0,0
+25,32,Port Union Community Centre,5450 Lawrence Ave East,1985,27,12,7,1528,451,8,9,4,2000,471,0.24,0,1
+25,33,Sir Oliver Mowat Collegiate,5400 Lawrence Avenue East,1077,13,6,8,812,263,4,6,0,1085,281,0.26,0,3
+25,34,Charlottetown Jr. Public School,85 Charlottetown Blvd.,1714,18,18,9,1370,336,3,5,1,1715,490,0.29,0,0
+25,35,St. Brendan Catholic School,186 Centennial Road,1624,21,4,4,1180,436,14,6,0,1636,429,0.26,0,0
+25,36,Centennial Road Public School,271 Centennial Road,1478,19,4,4,1067,415,3,7,2,1494,421,0.28,1,0
+25,37,Tony Stacey Centre for Veterans Care,59 Lawson Road,14,3,0,0,17,0,0,0,0,17,6,0.35,0,0
+25,38,St. Dunstan of Canterbury Church,56 Lawson Road,1479,36,7,7,1125,364,4,14,0,1507,373,0.25,0,2
+25,39,Meadowvale Public School,761 Meadowvale Road,2826,31,18,16,2112,707,9,10,7,2845,632,0.22,2,0
+25,40,U of T -  Scarborough Campus,1265 Military Trail,32,0,0,0,32,0,0,0,0,32,0,0,0,0
+25,41,Cardinal Leger Catholic School,600 Morrish Road,2763,30,13,5,1916,856,3,7,0,2782,630,0.23,0,0
+25,42,Morrish Public School,61 Canmore Blvd.,2485,24,9,8,1832,662,5,2,0,2501,503,0.2,1,0
+25,43,Highland Creek Public School,1410 Military Trail,2088,18,14,8,1604,462,9,9,8,2092,447,0.21,1,0
+25,44,Eesti Kodu,50 Old Kingston Road,148,4,11,1,134,7,0,0,0,141,62,0.44,0,0
+25,45,Ehatare Retirement Home,40 Old Kingston Road,30,16,18,0,27,1,0,0,0,28,22,0.79,0,0
+25,46,West Hill Public School,299 Morningside Ave.,1253,13,16,5,928,300,4,4,15,1251,236,0.19,1,0
+25,47,Morningside Library,4279 Lawrence Avenue East,1281,12,6,0,942,343,2,3,1,1291,187,0.14,0,0
+25,48,St. Malachy Catholic School,80 Bennett Road,2377,15,24,4,1797,557,11,7,3,2375,474,0.2,2,0
+25,49,Heron Park Community Centre,292 Manse Road,3109,14,9,10,2432,668,11,12,0,3123,523,0.17,0,0
+25,52,Morningside Apartments,4205 Lawrence Avenue East,289,1,1,1,271,16,1,1,0,289,53,0.18,0,0
+25,53,Academie Alexandre-Dumas,255 Coronation Drive,2314,17,6,3,1796,506,9,16,0,2327,358,0.15,1,0
+25,97,Mail in Voting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,468,NA,0,0
+25,98,Malvern Recreation Centre,30 Sewells Road,NA,52,16,26,NA,NA,NA,NA,NA,NA,1702,NA,1,2
+25,99,Heron Park Community Centre,292 Manse Road,NA,63,31,61,NA,NA,NA,NA,NA,NA,3127,NA,0,1
+25 Total,NA,NA,NA,73043,914,397,303,56313,16709,217,226,95,73560,20048,0.27,22,16
+Grand Total,NA,NA,NA,1893995,46333,41578,11062,1539973,335133,9450,6964,7230,1898750,563124,0.3,890,439

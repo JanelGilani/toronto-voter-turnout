@@ -1,44 +1,83 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 6 April 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Cleans and merges the ward and elections raw data
+# Author: Janel Gilani
+# Date: 17 April 2024
+# Contact: janel.gilani@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: 01-download_data.R
 
 #### Workspace setup ####
+
+
 library(tidyverse)
+library(janitor)
+library(arrow)
 
 #### Clean data ####
-raw_data <- read_csv("inputs/data/plane_data.csv")
+# Below code referred from: https://github.com/christina-wei/INF3104-1-Covid-Clinics/blob/main/scripts/01-data_cleaning.R
 
-cleaned_data <-
-  raw_data |>
-  janitor::clean_names() |>
-  select(wing_width_mm, wing_length_mm, flying_time_sec_first_timer) |>
-  filter(wing_width_mm != "caw") |>
-  mutate(
-    flying_time_sec_first_timer = if_else(flying_time_sec_first_timer == "1,35",
-                                   "1.35",
-                                   flying_time_sec_first_timer)
-  ) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "490",
-                                 "49",
-                                 wing_width_mm)) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "6",
-                                 "60",
-                                 wing_width_mm)) |>
-  mutate(
-    wing_width_mm = as.numeric(wing_width_mm),
-    wing_length_mm = as.numeric(wing_length_mm),
-    flying_time_sec_first_timer = as.numeric(flying_time_sec_first_timer)
-  ) |>
-  rename(flying_time = flying_time_sec_first_timer,
-         width = wing_width_mm,
-         length = wing_length_mm
-         ) |> 
-  tidyr::drop_na()
+# Election data:
+raw_data_1 <- read_csv("data/raw_data/raw_election_data.csv")
+
+cleaned_election_data <- clean_names(raw_data_1)
+
+cleaned_election_data <- cleaned_election_data %>%
+  filter(grepl("Total", ward, ignore.case = TRUE) & !grepl("Grand Total", ward, ignore.case = TRUE))
+
+cleaned_election_data <- cleaned_election_data %>%
+  mutate(ward = as.numeric(gsub(" Total", "", ward))) %>%
+  select(ward, percent_voted)
+
+cleaned_election_data$percent_voted <- cleaned_election_data$percent_voted * 100
+
+#head(cleaned_election_data)
+
+# Ward data:
+raw_data_2 <- read_csv("data/raw_data/raw_ward_data.csv")
+cleaned_ward_data <-
+  raw_data_2[c(18, 997, 1307, 1383), ] 
+cleaned_ward_data <- as.data.frame(t(cleaned_ward_data)) |>
+  slice(-1) |>
+  slice(-1) |>
+  rename(population = V1, num_uneducated = V2, 
+         unemployment_rate = V3, income = V4)
+cleaned_ward_data$ward_id = 1:25
+cleaned_ward_data = cleaned_ward_data[c("ward_id", setdiff(names(cleaned_ward_data),
+                                                        "ward_id"))]
+cleaned_ward_data <- cleaned_ward_data %>%
+  mutate(across(everything(), as.numeric))
+
+cleaned_ward_data$percent_uneducated <- (cleaned_ward_data$num_uneducated / cleaned_ward_data$population) * 100
+
+cleaned_ward_data <- cleaned_ward_data[c("ward_id", "percent_uneducated", "unemployment_rate", "income")]
+
+#head(cleaned_ward_data)
+
+# Analysis data:
+ward_names <- c("Etobicoke North", "Etobicoke Centre", "Etobicoke-Lakeshore", 
+                "Parkdale-High Park","York South-Weston", "York Centre", 
+                "Humber River-Black Creek", "Eglinton-Lawrence",
+                "Davenport", "Spadina-Fort York", "University-Rosedale",
+                "Toronto-St. Paul's", "Toronto Centre", "Toronto-Danforth",
+                "Don Valley West", "Don Valley East", "Don Valley North",
+                "Willowdale", "Beaches-East York", "Scarborough Southwest",
+                "Scarborough Centre", "Scarborough-Agincourt",
+                "Scarborough North", "Scarborough-Guildwood",
+                "Scarborough-Rouge Park")
+
+analysis_data <- cleaned_ward_data %>%
+  left_join(cleaned_election_data, by = c("ward_id" = "ward")) %>%
+  mutate(ward_name = ward_names)
+
+analysis_data <- analysis_data %>%
+  select(ward_id, ward_name, everything())
+
+#head(analysis_data)
+
 
 #### Save data ####
-write_csv(cleaned_data, "outputs/data/analysis_data.csv")
+write_csv(analysis_data, "data/analysis_data/analysis_data.csv")
+write_parquet(analysis_data, "data/analysis_data/analysis_data.parquet")
+write_csv(cleaned_election_data, "data/analysis_data/cleaned_election_data.csv")
+write_csv(cleaned_ward_data, "data/analysis_data/cleaned_ward_data.csv")
+

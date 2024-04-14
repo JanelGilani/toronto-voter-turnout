@@ -18,10 +18,48 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 
-library(tidyverse)
-library(palmerpenguins)
-```
+#install.packages("tinytex")
+#install.packages("tidyverse")
+#install.packages("knitr")
+#install.packages("kableExtra")
+#install.packages("here")
+#install.packages("ggbeeswarm")
 
+#tinytex::install_tinytex()
+
+#install.packages("rstanarm")
+#install.packages("arrow")
+#install.packages("tidybayes")
+#install.packages("modelsummary")
+#install.packages("broom.mixed")
+#install.packages("parameters")
+#install.packages("sf")
+#install.packages("ggrepel")
+#install.packages("ggplot2")
+#install.packages("dplyr")
+
+
+library(tidyverse) # a collection of data-related packages
+library(knitr) # for kable
+library(kableExtra)
+library(here)
+library(ggbeeswarm)
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(ggrepel)
+library(rstanarm)
+library(arrow)
+library(modelsummary)
+library(broom.mixed)
+library(parameters)
+
+
+analysis_data <- read_csv(file = here::here("data/analysis_data/analysis_data.csv"))
+election_data <- read_csv(file = here::here("data/analysis_data/cleaned_election_data.csv"))
+ward_data <- read_csv(file = here::here("data/analysis_data/cleaned_ward_data.csv"))
+
+```
 
 # Introduction
 
@@ -33,46 +71,210 @@ The remainder of this paper is structured as follows. @sec-data....
 
 # Data {#sec-data}
 
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
-
 ```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
 #| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk more about it.
-
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
-
-```{r}
-#| label: fig-planes
-#| fig-cap: Relationship between wing length and width
-#| echo: false
-#| warning: false
 #| message: false
+#| label: tbl-election-data
+#| tbl-cap: Sample of Cleaned Elections Data
+#| tbl-pos: "h"
 
-analysis_data <- read_csv(here::here("data/analysis_data/analysis_data.csv"))
+#referenced kable stying from https://github.com/christina-wei/INF3104-1-Covid-Clinics/blob/main/outputs/paper/covid_clinics.qmd
+head(election_data, 5) |>
+  kable(
+    col.names = c("Ward ID", "Eligible Voter Turnout (%)"),
+    booktabs = TRUE,
+    align = "c"
+  )
 
-analysis_data |> 
-  ggplot(aes(x = width, y = length)) +
-  geom_point(alpha = 0.8) +
-  theme_minimal() +
-  labs(x = "Wing width (mm)",
-       y = "Wing length (mm)")
 ```
 
-Talk way more about it. 
+```{r}
+#| echo: false
+#| message: false
+#| label: tbl-ward-profile-data
+#| tbl-cap: Sample of Cleaned Toronto Ward Profile Data
+#| tbl-pos: "h"
+
+head(ward_data, 5) |>
+  kable(
+    col.names = c("Ward ID", "Uneducated Population (%)", "Unemployment Rate (%)", "Income"),
+    booktabs = TRUE,
+    align = "c"
+  )
+```
 
 
+```{r}
+#| echo: false
+#| message: false
+#| label: tbl-analysis_data
+#| tbl-cap: Sample of Combined Ward Election, Income, Employment, and Education Data
+#| tbl-pos: "h"
+
+head(analysis_data, 10) |>
+  arrange (ward_id) |>
+  relocate(c("ward_id", "ward_name", "percent_uneducated", "unemployment_rate", "income", "percent_voted")) |>
+  kable(
+    booktabs = TRUE,
+    col.names = c("Ward ID", "Ward Name", "Uneducated Population (%)", "Unemployment Rate (%)", "Income", "Eligible Voter Turnout (%)"),
+    align = c("c", "l", "c", "c", "c", "c")
+        ) 
+```
+
+```{r}
+#| message: false
+#| echo: false
+#| label: fig-ward-turnout
+#| fig-cap: Voter Turnout (%) across Toronto Wards
+
+
+analysis_data %>%
+  ggplot(mapping = aes(x = factor(ward_id), y = percent_voted)) +
+  geom_bar(stat = "identity", fill = "gray", color = "black") +
+  labs(
+    title = "Eligible Voter Turnout (%) across Toronto Wards",
+    x = "Ward ID",
+    y = "Eligible Voter Turnout (%)"
+  ) +
+  theme_minimal()
+        
+```
+
+```{r}
+#| tbl-cap: "Summary Statistics"
+#| label: tbl-summ-stats
+#| echo: false
+
+summary <- analysis_data |>
+  summarise(
+    Mean_Turnout = mean(percent_voted, na.rm = TRUE),
+    Median_Turnout = median(percent_voted, na.rm = TRUE),
+    SD_Turnout = sd(percent_voted, na.rm = TRUE),
+    Min_Turnout = min(percent_voted, na.rm = TRUE),
+    Max_Turnout = max(percent_voted, na.rm = TRUE),
+    Mean_Uneducated = mean(percent_uneducated, na.rm = TRUE),
+    Median_Uneducated = median(percent_uneducated, na.rm = TRUE),
+    SD_Uneducated = sd(percent_uneducated, na.rm = TRUE),
+    Min_Uneducated = min(percent_uneducated, na.rm = TRUE),
+    Max_Uneducated = max(percent_uneducated, na.rm = TRUE),
+    Mean_Unemployment = mean(unemployment_rate, na.rm = TRUE),
+    Median_Unemployment = median(unemployment_rate, na.rm = TRUE),
+    SD_Unemployment = sd(unemployment_rate, na.rm = TRUE),
+    Min_Unemployment = min(unemployment_rate, na.rm = TRUE),
+    Max_Unemployment = max(unemployment_rate, na.rm = TRUE),
+    Mean_Income = mean(income, na.rm = TRUE),
+    Median_Income = median(income, na.rm = TRUE),
+    SD_Income = sd(income, na.rm = TRUE),
+    Min_Income = min(income, na.rm = TRUE),
+    Max_Income = max(income, na.rm = TRUE)
+  )
+long_summary_stats <-  summary |>
+  pivot_longer(cols = everything(), names_to = "Statistic", values_to = "Value") |>
+  separate(Statistic, into = c("Measure", "Variable"), sep = "_") |>
+  spread(key = Measure, value = Value) |>
+  select(Variable, Mean, Median, SD, Min, Max)
+
+long_summary_stats$Variable <- c("Income", "Voter Turnout (%)", "Uneducated Population (%)", "Unemployment Rate (%)")
+
+kable(long_summary_stats,
+      format = "markdown",
+      digits = 2,
+      col.names = c("Variable", "Mean", "Median", "Standard. Deviation", "Min", "Max"),
+      row.names = FALSE,
+      align = c('l', 'c', 'c', 'c', 'c', 'c'), 
+      )
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| label: fig-toronto-map
+#| fig-cap: "Map of Toronto highlighting the voter turnout across wards"
+#| fig.pos: 'H'
+
+# URL to the zip file
+url <- "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/5e7a8234-f805-43ac-820f-03d7c360b588/resource/35f67d86-cfc8-4483-8d77-50d035b010d9/download/25-ward-model-december-2018-wgs84-latitude-longitude.zip"
+
+# Temporary file to store the downloaded zip
+temp_zip <- tempfile(fileext = ".zip")
+
+# Download the zip file
+download.file(url, temp_zip, mode = "wb")
+
+# Unzip the file to a temporary directory
+temp_dir <- tempdir()
+unzip(temp_zip, exdir = temp_dir)
+
+# Assuming the shapefile is directly in the unzipped folder and has a standard .shp extension
+shapefiles <- list.files(temp_dir, pattern = "\\.shp$", full.names = TRUE)
+
+# Read the shapefile (replace 'shapefiles[1]' with the specific file if there are multiple shapefiles)
+toronto_map <- st_read(shapefiles[1], quiet = TRUE)
+
+# Clean up the downloaded zip file
+unlink(temp_zip)
+
+# Merge analysis_data with toronto_map by ward_id
+toronto_map <- merge(toronto_map, analysis_data, by.x = "AREA_S_CD", by.y = "ward_id")
+
+color_scale <- scale_fill_gradient(low = "lightblue", high = "darkblue", limits = c(22, 38))
+
+# Plot the map
+ggplot() +
+  geom_sf(data = toronto_map, aes(fill = percent_voted)) +
+  color_scale +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+
+
+```{r}
+#| echo: false
+#| label: turnout_vs_income
+#| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Income"
+#| warning: false 
+  ggplot(data = analysis_data, aes(x = income, y = percent_voted, label = ward_id)) +
+  geom_point() +
+  geom_text_repel(hjust=-0.5, vjust=0.5) +
+  geom_smooth(method = "lm", color = "blue", se = TRUE) +
+  theme_minimal() +
+  labs(x = "Income", y = "Eligible Voter Turnout (%)") +
+  scale_colour_viridis_d()
+
+```
+
+```{r}
+#| echo: false
+#| label: turnout_vs_unemployment
+#| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Unemployment Rate"
+#| warning: false 
+  ggplot(data = analysis_data, aes(x = unemployment_rate, y = percent_voted, label = ward_id)) +
+  geom_point() +
+  geom_text_repel(hjust=-0.5, vjust=0.5) +
+  geom_smooth(method = "lm", color = "blue", se = TRUE) +
+  theme_minimal() +
+  labs(x = "Unemployment Rate (%)", y = "Eligible Voter Turnout (%)") +
+  scale_colour_viridis_d()
+
+```
+
+```{r}
+#| echo: false
+#| label: turnout_vs_education
+#| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Level of Education"
+#| warning: false 
+  ggplot(data = analysis_data, aes(x = percent_uneducated, y = percent_voted, label = ward_id)) +
+  geom_point() +
+  geom_text_repel(hjust=-0.5, vjust=0.5) +
+  geom_smooth(method = "lm", color = "blue", se = TRUE) +
+  theme_minimal() +
+  labs(x = "Uneducated Population (%)", y = "Eligible Voter Turnout (%)") +
+  scale_colour_viridis_d()
+
+```
 
 # Model
 
@@ -116,7 +318,7 @@ Our results are summarized in @tbl-modelresults.
 library(rstanarm)
 
 first_model <-
-  readRDS(file = here::here("models/first_model.rds"))
+  readRDS(file = here::here("models/poisson_model.rds"))
 ```
 
 ```{r}
@@ -178,6 +380,11 @@ In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. Th
 #| layout-ncol: 2
 #| fig-cap: "Examining how the model fits, and is affected by, the data"
 #| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
+
+
+analysis_data <- read_csv(file = here::here("data/analysis_data/analysis_data.csv"))
+analysis_data <- analysis_data %>%
+  mutate(income = income / 1000, percent_voted = as.integer(round(percent_voted)))
 
 pp_check(first_model) +
   theme_classic() +
