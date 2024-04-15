@@ -72,7 +72,7 @@ demographic_gaussian_model <-
 demographic_poisson_model <-
   stan_glm(
     number_voted ~ num_sub + population,
-    data = analysis_data,,
+    data = analysis_data,
     family = poisson(),
     prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
     prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
@@ -92,10 +92,8 @@ demographic_negative_binomial_model <-
 
 prior_summary(socioeconomic_gaussian_model)
 prior_summary(socioeconomic_poisson_model)
-prior_summary(socioeconomic_negative_binomial_model)
 prior_summary(demographic_gaussian_model)
 prior_summary(demographic_poisson_model)
-prior_summary(demographic_negative_binomial_model)
 
 #### Save model ####
 saveRDS(

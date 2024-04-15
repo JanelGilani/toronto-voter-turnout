@@ -87,12 +87,50 @@ Starting off with socio-economic factors, we use education, income, and unemploy
 
 Moving on to demographic factors, we use population and number of subdivisions as the explanatory variables to represent these factors. Individual turnout by ward depended on a number of factors, including the accessibility of polling locations within subdivisions to cast a ballot. The City of Toronto @ElectionDictionary defines a ward as “a geographical area represented by a member of Council.” Subdivisions are defined by the City of Toronto [@VoterStatistics] as “.... geographical area[s within a ward] designated by the City Clerk.” Previous studies concentrating on large cities in the United States, including Atlanta revealed that having polling locations in close proximity to a voter’s home bolsters turnout and even minor changes in placement of a polling location can have significant impact on a voter’s decision to cast a ballot [@Locationx3]. Thus, we use the number of subdivisions as an indicator of accessibility to polling locations. Lastly, we use population as an indicator of the demographic size of the ward.
 
-Election data is formed by collecting the relevant numbers observed during the 2022 Toronto Municipal Election, and ward profiles data is extracted from the 2022 Census data.
+Election data is formed by collecting the relevant numbers observed during the phenomenon/process of voting, and ward profiles data is extracted from the 2022 Census data which is collected through a variety of methods such as self-reporting surveys, door-to-door enumeration, online/telephone surveys, administrative  records, and sampling techniques.
+
+## Ward Profiles, 2018 (25-Ward Model)
+
+Ward profiles such as income and population would be interesting factors to analyze alongside eligible voter turnouts. Therefore, the dataset for ward profiles [@torontoWardProfiles] based on 2022 census data has been included in analysis as well. This dataset is published by City Planning, and was last updated on January 3, 2024. The 25-ward model was chosen over the 47-ward model because it is matching the ward classification in the latest elections data. This dataset contains demographic, social, and economic information for each ward such as population, households, families, education, ethnocultural composition, spoken languages, income and housing costs. For our purpose of research, we are interested in population, number of citizens with no certificate, diploma, or degree, unemployment rate, and average household income of each ward. A sample of the cleaned dataset for the wards is shown below in @tbl-cleaned_ward. 
+
+Ward profile data is stored in an Excel file with multiple tabs. The relevant data to be used for this paper's analysis is included the first tab, `2022 Census One Variable`. As such, only data for this tab was downloaded for analysis. Further data cleaning was performed to transpose the data and only keeping information relevant to our research question (see @tbl-cleaned_ward_profile_data).
+
+The variables selected for analysis were:
+
+- `Ward ID`: The unique identifier for each ward.
+- `Population`: The total number of people living in the ward.
+- `Uneducated Population (%)`: The percentage of the population with no certificate, diploma, or degree. This was calculated by dividing the number of uneducated people by the total population and multiplying by 100.
+- `Unemployment Rate (%)`: The percentage of the population in labour market that is unemployed.
+- `Income`: The average household income in the ward.
+
+
+```{r}
+#| echo: false
+#| message: false
+#| label: tbl-ward-profile-data
+#| tbl-cap: Sample of Cleaned Toronto Ward Profile Data
+#| tbl-pos: "h"
+
+head(ward_data, 5) |>
+  kable(
+    col.names = c("Ward ID", "Population", "Uneducated Population (%)", "Unemployment Rate (%)", "Income"),
+    booktabs = TRUE,
+    align = "c"
+  )
+```
+
 
 ## Election Voter Statistics
 This dataset, published by the City Clerk's Office [@VoterStatistics] outlines voter statistics on a ward-by-ward and entire city basis for the 2022 municipal election. For each subdivision within a ward, the data set shows the polling location name and address, number of additions and corrections to the voter's list, number of eligible electors and number who voted, and rejected and declined ballots. This data set was last refreshed on February 7, 2023. 
 
 Upon analysis, columns such as rejected and declined ballots were deemed beyond the scope of this paper. We conducted the first step of basic data cleaning to eliminate additional columns and simplify the names of retained columns (see @tbl-cleaned_voter_statistics).
+
+The variables selected for analysis were:
+
+- `Ward ID`: The unique identifier for each ward.
+- `Eligible Voter Turnout (%)`: The percentage of eligible voters who cast a ballot.
+- `Number of Voters`: The total number of voters who cast a ballot.
+- `Number of Subdivisions`: The number of subdivisions within a ward.
 
 
 ```{r}
@@ -112,27 +150,72 @@ head(election_data, 5) |>
 
 ```
 
+To better visualize the voter turnout across Toronto wards, we have created a bar plot (see @fig-ward-turnout) that displays the percentage of eligible voters who cast a ballot in each ward. The map of Toronto (see @fig-toronto-map) highlights the voter turnout across wards, providing a spatial representation of the data. From @fig-ward-turnout, we can observe that wards 4, 14, and 19 have the highest voter turnout, while wards 7, 1, and 10 have the lowest voter turnout. This trend confirms the intuition that more affluent and demographically developed areas such as Downtown Toronto have higher voter turnout. The map in @fig-toronto-map further illustrates this trend, with darker shades  in southern Toronto indicating higher voter turnout. 
 
-## Ward Profiles, 2018 (25-Ward Model)
 
-Ward profiles such as income and population would be interesting factors to analyze alongside eligible voter turnouts. Therefore, the dataset for ward profiles [@torontoWardProfiles] based on 2022 census data has been included in analysis as well. This dataset is published by City Planning, and was last updated on January 3, 2024. The 25-ward model was chosen over the 47-ward model because it is matching the ward classification in the latest elections data. This dataset contains demographic, social, and economic information for each ward such as population, households, families, education, ethnocultural composition, spoken languages, income and housing costs. For our purpose of research, we are interested in population, number of citizens with no certificate, diploma, or degree, unemployment rate, and average household income of each ward. A sample of the cleaned dataset for the wards is shown below in @tbl-cleaned_ward. 
+```{r}
+#| message: false
+#| echo: false
+#| label: fig-ward-turnout
+#| fig-cap: Voter Turnout (%) across Toronto Wards
 
-Ward profile data is stored in an Excel file with multiple tabs. The relevant data to be used for this paper's analysis is included the first tab, `2022 Census One Variable`. As such, only data for this tab was downloaded for analysis. Further data cleaning was performed to transpose the data and only keeping information relevant to our research question (see @tbl-cleaned_ward_profile_data).
+
+analysis_data %>%
+  ggplot(mapping = aes(x = factor(ward_id), y = percent_voted)) +
+  geom_bar(stat = "identity", fill = "gray", color = "black") +
+  labs(
+    x = "Ward ID",
+    y = "Eligible Voter Turnout (%)"
+  ) +
+  theme_minimal()
+        
+```
 
 ```{r}
 #| echo: false
 #| message: false
-#| label: tbl-ward-profile-data
-#| tbl-cap: Sample of Cleaned Toronto Ward Profile Data
-#| tbl-pos: "h"
+#| warning: false
+#| label: fig-toronto-map
+#| fig-cap: "Map of Toronto highlighting the voter turnout across wards"
+#| fig.pos: 'H'
 
-head(ward_data, 5) |>
-  kable(
-    col.names = c("Ward ID", "Population", "Uneducated Population (%)", "Unemployment Rate (%)", "Income"),
-    booktabs = TRUE,
-    align = "c"
-  )
+# URL to the zip file
+url <- "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/5e7a8234-f805-43ac-820f-03d7c360b588/resource/35f67d86-cfc8-4483-8d77-50d035b010d9/download/25-ward-model-december-2018-wgs84-latitude-longitude.zip"
+
+# Temporary file to store the downloaded zip
+temp_zip <- tempfile(fileext = ".zip")
+
+# Download the zip file
+download.file(url, temp_zip, mode = "wb")
+
+# Unzip the file to a temporary directory
+temp_dir <- tempdir()
+unzip(temp_zip, exdir = temp_dir)
+
+# Assuming the shapefile is directly in the unzipped folder and has a standard .shp extension
+shapefiles <- list.files(temp_dir, pattern = "\\.shp$", full.names = TRUE)
+
+# Read the shapefile (replace 'shapefiles[1]' with the specific file if there are multiple shapefiles)
+toronto_map <- st_read(shapefiles[1], quiet = TRUE)
+
+# Clean up the downloaded zip file
+unlink(temp_zip)
+
+# Merge analysis_data with toronto_map by ward_id
+toronto_map <- merge(toronto_map, analysis_data, by.x = "AREA_S_CD", by.y = "ward_id")
+
+color_scale <- scale_fill_gradient(low = "lightblue", high = "darkblue", limits = c(22, 38))
+
+# Plot the map
+ggplot() +
+  geom_sf(data = toronto_map, aes(fill = percent_voted)) +
+  color_scale +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
 ```
+
+
 
 ## Voter Turnout and Ward's Socio-Economic and Demographic Factors
 
@@ -158,24 +241,16 @@ head(analysis_data, 10) |>
         ) 
 ```
 
-```{r}
-#| message: false
-#| echo: false
-#| label: fig-ward-turnout
-#| fig-cap: Voter Turnout (%) across Toronto Wards
 
 
-analysis_data %>%
-  ggplot(mapping = aes(x = factor(ward_id), y = percent_voted)) +
-  geom_bar(stat = "identity", fill = "gray", color = "black") +
-  labs(
-    title = "Eligible Voter Turnout (%) across Toronto Wards",
-    x = "Ward ID",
-    y = "Eligible Voter Turnout (%)"
-  ) +
-  theme_minimal()
-        
-```
+There are 25 wards in the City of Toronto, each with unique socio-economic and demographic characteristics as summarised in @tbl-summ-stats. Based on 2021 census data, the average population per ward is 110452, with standard deviation of 10594. The wards with the highest population are wards 3, 10 and 2. The wards with the lowest population are wards 23, 16 and 11. The average income per ward is \$120096, with standard deviation of \$33980.64 The wards with the highest income are wards 15, 8 and 11. The wards with the lowest income are wards 7, 5 and 13.
+
+Moving on to unemployment rate, the average unemployment rate per ward is 14.13%, with standard deviation of 2.11%. The wards with the highest unemployment rate are wards 7, 23 and 1. The wards with the lowest unemployment rate are wards 10, 12 and 3 The average percentage of uneducated population per ward is 12.43%, with standard deviation of 4.93%. The wards with the highest percentage of uneducated population are wards 7, 5 and 1. The wards with the lowest percentage of uneducated population are wards 10, 11 and 13. 
+
+Voter turnout across the entire city during the 2022 municipal election fell to 30%, with Ward 4 (Parkdale-High Park) having the highest turnout at 38% and Ward 7 (Humber River-Black Creek) having the lowest at 22%. Ward 19 (Beaches-East York) and Ward 14 (Toronto Danforth) were tied for second highest turnout at 36% each. The third highest turnout at 34% was in Ward 12 (Toronto-St. Paul's). The wards with the second lowest turnout were Ward 1 (Etobicoke North) and Ward 10 (Spadina-Fork York) at 24% each. Ward 6 (York Centre) and Ward 23 (Scarborough North) with 25% turnout respectively were tied for third lowest turnout.
+
+During the 2022 municipal election, there were 1,535 subdivisions across Toronto's 25 wards. Ward 10 (Spadina-Fort York) had the highest number of subdivisions at 94, while Ward 23 (Scarborough North) had the lowest number at 38. Ward 13 (Toronto Centre) had the second highest number of subdivisions at 90, with Ward 3 (Etobicoke-Lakeshore) coming in third highest with 83 subdivisions. Ward 7 (Humber River-Black Creek) had the second lowest number of subdivisions at 47, following by Ward 25 (Scarborough-Rouge Park) with 48. 
+
 
 ```{r}
 #| tbl-cap: "Summary Statistics"
@@ -242,55 +317,14 @@ kable(long_summary_stats,
 ```
 
 
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-#| label: fig-toronto-map
-#| fig-cap: "Map of Toronto highlighting the voter turnout across wards"
-#| fig.pos: 'H'
+## Relationship between Voter Turnout and Socio-Economic Factors
 
-# URL to the zip file
-url <- "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/5e7a8234-f805-43ac-820f-03d7c360b588/resource/35f67d86-cfc8-4483-8d77-50d035b010d9/download/25-ward-model-december-2018-wgs84-latitude-longitude.zip"
-
-# Temporary file to store the downloaded zip
-temp_zip <- tempfile(fileext = ".zip")
-
-# Download the zip file
-download.file(url, temp_zip, mode = "wb")
-
-# Unzip the file to a temporary directory
-temp_dir <- tempdir()
-unzip(temp_zip, exdir = temp_dir)
-
-# Assuming the shapefile is directly in the unzipped folder and has a standard .shp extension
-shapefiles <- list.files(temp_dir, pattern = "\\.shp$", full.names = TRUE)
-
-# Read the shapefile (replace 'shapefiles[1]' with the specific file if there are multiple shapefiles)
-toronto_map <- st_read(shapefiles[1], quiet = TRUE)
-
-# Clean up the downloaded zip file
-unlink(temp_zip)
-
-# Merge analysis_data with toronto_map by ward_id
-toronto_map <- merge(toronto_map, analysis_data, by.x = "AREA_S_CD", by.y = "ward_id")
-
-color_scale <- scale_fill_gradient(low = "lightblue", high = "darkblue", limits = c(22, 38))
-
-# Plot the map
-ggplot() +
-  geom_sf(data = toronto_map, aes(fill = percent_voted)) +
-  color_scale +
-  theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
-```
-
+As one of our variables of interest, we are determined to examine the relationship between voter turnout and the ward's income. We expect income and voter turnout to be positively related because Higher-income individuals often have better access to resources, education, and stability, which can positively correlate with higher levels of political engagement and voter turnout. To visualize the relationship of interest, we plot ward's income with the voter turnout in @fig-turnout-vs-income.
 
 
 ```{r}
 #| echo: false
-#| label: turnout_vs_income
+#| label: fig-turnout-vs-income
 #| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Income"
 #| warning: false 
   ggplot(data = analysis_data, aes(x = income, y = percent_voted, label = ward_id)) +
@@ -302,10 +336,15 @@ ggplot() +
   scale_colour_viridis_d()
 
 ```
+As expected, we see a moderate positive relationship between income of a ward and the voter turnout. Furthermore, Ward 4 is an outlier that has relatively low income and yet a high voter turnout. Intuitively, this aligns with our beliefs and confirms the trend between high income with higher voter turnout. 
+
+
+Another explanatory variable we are interested in is the employment rate of a region. In this case, we visualize the relationship between employment rate and the nvoter turnout per ward. We expect to see a negative relationship between these variables. @fig-turnout-vs-unemployment displays the visualization. 
+
 
 ```{r}
 #| echo: false
-#| label: turnout_vs_unemployment
+#| label: fig-turnout-vs-unemployment
 #| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Unemployment Rate"
 #| warning: false 
   ggplot(data = analysis_data, aes(x = unemployment_rate, y = percent_voted, label = ward_id)) +
@@ -318,9 +357,14 @@ ggplot() +
 
 ```
 
+Through the plot, we see that there is a moderately negative relationship between the unemployment rate of a ward and the voter turnout. This is in line with our expectations as higher levels of employment often correlate with increased stability and engagement within a community. Employed individuals may feel more connected to their local area and thus be more likely to participate in civic activities such as voting. Ward 10 is an outlier that has a low unemployment rate and yet a low voter turnout. This observation leaves room for further research and investigation into the history and background behind Ward 10's voter turnout.
+
+
+Lastly, we examine the relationship between the percentage of uneducated population in a ward and the voter turnout. We expect to see a negative relationship between these variables. @fig-turnout-vs-education displays the visualization.
+
 ```{r}
 #| echo: false
-#| label: turnout_vs_education
+#| label: fig-turnout-vs-education
 #| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Level of Education"
 #| warning: false 
   ggplot(data = analysis_data, aes(x = percent_uneducated, y = percent_voted, label = ward_id)) +
@@ -333,9 +377,16 @@ ggplot() +
 
 ```
 
+The plot in @fig-turnout-vs-education shows a negative relationship between the percentage of uneducated population in a ward and the voter turnout. This also aligns with our expectations as higher education levels typically correlate with greater awareness of civic duties, including voting, and a stronger sense of civic responsibility, which can lead to higher voter turnout. Ward 10 is again an outlier that has a low percentage of uneducated population and yet a low voter turnout.
+
+
+## Relationship between Voter Turnout and Demographic Factors
+
+In addition to socio-economic factors, we are also interested in examining the relationship between voter turnout and demographic factors such as population and number of subdivisions. We expect to see a positive relationship between population and voter turnout as higher population density in a ward may indicate greater community engagement and political activity, leading to higher voter turnout. Additionally, densely populated areas often have more resources and infrastructure, making it easier for residents to access polling stations and participate in elections. To visualize this relationship, we plot the ward's population with the voter turnout in @fig-turnout-vs-population.
+
 ```{r}
 #| echo: false
-#| label: turnout_vs_population
+#| label: fig-turnout-vs-population
 #| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Population"
 #| warning: false 
   ggplot(data = analysis_data, aes(x = population, y = percent_voted, label = ward_id)) +
@@ -348,9 +399,14 @@ ggplot() +
 
 ```
 
+Through the plot, we see that there is no relationship between the population of a ward and the voter turnout. It is possible that the population of a ward is not a reflection of its full demographic nature. Thus, we would not need to worry about population acting as a confounding factor when creating our demographic models.
+
+
+Next, we examine the relationship between the number of subdivisions in a ward and the voter turnout. We expect to see a positive relationship between these variables as a higher number of subdivisions may indicate greater accessibility to polling stations and increased voter turnout. @fig-turnout-vs-numsub displays the visualization.
+
 ```{r}
 #| echo: false
-#| label: turnout_vs_numsub
+#| label: fig-turnout-vs-numsub
 #| fig-cap: "Correlation between Eligibile Voter Turnout and Ward's Number of Subdivisions"
 #| warning: false 
   ggplot(data = analysis_data, aes(x = num_sub, y = percent_voted, label = ward_id)) +
@@ -363,38 +419,97 @@ ggplot() +
 
 ```
 
+Even though we see a slight positive correlation, the data reveals that having more subdivisions within wards does not automatically correlate to higher voter turnout, as illustrated by @fig-turnout-vs-numsub. Ward 4 (Parkdale-High Park) which had the highest voter turnout at 38% has 70 subdivisions within the ward, which falls approximately in the middle of the number of subdivisions across all 25 wards. Ward 19 (Beaches-East York) and Ward 14 (Toronto Danforth) which both saw the second highest voter turnout at 36% had 57 and 52 subdivisions respectively, once again highlighting that more subdivisions does not necessarily correlate to higher voter turnout. 
+
+
 # Model {#sec-model}
 
-The goal of our modelling strategy is twofold. Firstly,...
+Here we briefly describe the Bayesian analysis model used to investigate the relationship between the socio-economic and demographic factors and voter turnout. In particular, we divide our investigation into two parts: socio-economic models and demographic models. For each, we consider two types of models: multiple linear regression and Poisson regression models. We also further tested our results from Poission regression by employing negative binomial regression models to account for unequal mean and variance in the data (The negative binomial regression results are not displayed here but the models can be found in relevant files in the `models` folder).
 
-Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
+Background details and diagnostics are included in [Appendix -@sec-model-details].
 
 ## Model set-up
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
+From the Data section, we observed the relationships between voter turnout and socio-economic and demographic factors in isolation. Now, we aim to understand the relationships in a more comprehensive manner by adjusting for all factors simultaneously using the following models. We create and run the generalised linear models in R [@citeR] using the `rstanarm` package of @rstan. Initially, we use the default priors from `rstanarm`, however, we allow `rstanarm` to improve the priors by scaling them based on the data. We allow auto-scaling and run both models with the updated priors specified above. 
 
-\begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
+
+### Socio-Economic models
+
+@tbl-SEmodelresults shows a model summary for socio-economic models, this will be discussed further in the [results](#results) section.
+
+#### Poisson Regression
+
+Define $y_i$ as the number of voters in the ward $i$. Then $income_i$ is the income of ward $i$, $uneducated_i$ is the uneducated population percentage of ward $i$, and $unemployment_i$ is the unemployment rate of ward $i$.
+
+\begin{align}
+y_i|\lambda_i &\sim \mbox{Poisson}(\lambda_i) \\
+log(\lambda_i) &= \beta_0 + \beta_1 \times \mbox{uneducated}_i + \beta_2 \times \mbox{income}_i + \beta_3 \times \mbox{unemployment}_i \\
+\beta_0 &\sim \mbox{Normal}(0, 2.5) \\
+\beta_1 &\sim \mbox{Normal}(0, 0.508) \\
+\beta_2 &\sim \mbox{Normal}(0, 0.074) \\
+\beta_3 &\sim \mbox{Normal}(0, 1.187)
 \end{align}
 
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
+#### Multiple Linear Regression
+
+Define $y_i$ as the voter turnout percentage in the ward $i$. Then $income_i$ is the income of ward $i$, $uneducated_i$ is the uneducated population percentage of ward $i$, and $unemployment_i$ is the unemployment rate of ward $i$. 
+
+\begin{align}
+y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
+\mu_i &= \beta_0 + \beta_1 \times \mbox{uneducated}_i + \beta_2 \times \mbox{income}_i + \beta_3 \times \mbox{unemployment}_i \\
+\beta_0 &\sim \mbox{Normal}(0, 11) \\
+\beta_1 &\sim \mbox{Normal}(0, 2.14) \\
+\beta_2 &\sim \mbox{Normal}(0, 0.31) \\
+\beta_3 &\sim \mbox{Normal}(0, 5.01) \\
+\sigma &\sim \mbox{Exponential}(0.24)
+\end{align}
 
 
-### Model justification
 
-We expect a positive relationship between the size of the wings and time spent aloft. In particular...
+### Demographic models
 
-We can use maths by including latex between dollar signs, for instance $\theta$.
+@tbl-Dmodelresults shows a model summary for demographic models, this will be discussed further in the [results](#results) section.
+
+#### Poisson Regression
+
+Define $y_i$ as the number of voters in the ward $i$. Then $population_i$ is the population of ward $i$, and $numsub_i$ is the number of subdivisions in ward $i$.
+
+\begin{align}
+y_i|\lambda_i &\sim \mbox{Poisson}(\lambda_i) \\
+log(\lambda_i) &= \beta_0 + \beta_1 \times \mbox{numsub}_i + \beta_2 \times \mbox{population}_i \\
+\beta_0 &\sim \mbox{Normal}(0, 2.5) \\
+\beta_1 &\sim \mbox{Normal}(0, 0.18125) \\
+\beta_2 &\sim \mbox{Normal}(0, 0.00024)
+\end{align}
+
+#### Multiple Linear Regression
+
+Define $y_i$ as the voter turnout percentage in the ward $i$. Then $population_i$ is the population of ward $i$, and $numsub_i$ is the number of subdivisions in ward $i$.
+
+\begin{align}
+y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
+\mu_i &= \beta_0 + \beta_1 \times \mbox{numsub}_i + \beta_2 \times \mbox{population}_i \\
+\beta_0 &\sim \mbox{Normal}(0, 11) \\
+\beta_1 &\sim \mbox{Normal}(0, 0.766) \\
+\beta_2 &\sim \mbox{Normal}(0, 0.0001) \\
+\sigma &\sim \mbox{Exponential}(0.24)
+\end{align}
+
+## Model justification
+
+We chose to use Bayesian analysis to investigate the relationship between socio-economic and demographic factors and voter turnout because it allows us to incorporate prior knowledge and uncertainty into our models. By using Bayesian analysis, we can estimate the posterior distribution of the parameters of interest, which provides a more comprehensive understanding of the relationships between the variables. Additionally, Bayesian analysis allows us to quantify the confidence levels in the estimates of our coefficients and make probabilistic statements about the relationships between the variables.
+
+For our first model, we used a Poisson regression model to investigate the relationship between voter turnout and socio-economic factors. We chose this model because it is appropriate for count data, such as the number of voters, and allows us to model the relationship between the explanatory variables and the response variable. We also chose to use a multiple linear regression model to investigate the relationship between voter turnout and socio-economic factors. We included income, unemployment rate, and the percentage of uneducated population as explanatory variables in the model. We chose this model because it allows us to examine the relationships between multiple variables and voter turnout simultaneously. 
+
+We then repeated the analysis for demographic factors, using population and the number of subdivisions as explanatory variables. We used the same models as for the socio-economic factors to investigate the relationships between these variables and voter turnout. We chose these models because they allow us to examine the relationships between the variables and voter turnout while controlling for other factors. 
+
+From Appendix @fig-ppcheckandposteriorvsprior-1, we see that the Poisson regression model is not a good fit for the observed data. To improve our model, we consider the multiple linear regression model with all the explanatory variables except using percentage of voter turnout instead of unnormalised voter count. From Appendix @fig-ppcheckandposteriorvsprior-2, we see that the multiple linear regression is an improved fit from the Poisson regression model. This could be because the key assumption that the mean and variance are equal is violated. From @tbl-summ-stats, we see that mean and variance are not equal. 
+
+Since an important assumption for the Poisson regression model does not hold, we also build a negative binomial model. We can relax the assumption of mean and variance as equal in negative binomial model. We got almost identical results from the negative binomial regression model as it is a close variant of the Poisson model with looser assumptions whose details can be found in the relevant files in the `models` folder.
 
 
 # Results {#sec-results}
 
-Our results are summarized in @tbl-modelresults.
 
 ```{r}
 #| echo: false
@@ -408,19 +523,17 @@ socioeconomic_gaussian_model <-
 socioeconomic_poisson_model <-
   readRDS(file = here::here("models/socioeconomic_poisson_model.rds"))
 
-socioeconomic_negative_binomial_model <-
-  readRDS(file = here::here("models/socioeconomic_negative_binomial_model.rds"))
-
 demographic_gaussian_model <-
   readRDS(file = here::here("models/demographic_gaussian_model.rds"))
 
 demographic_poisson_model <-
   readRDS(file = here::here("models/demographic_poisson_model.rds"))
 
-demographic_negative_binomial_model <-
-  readRDS(file = here::here("models/demographic_negative_binomial_model.rds"))
-
 ```
+
+## Socio-Economic Models
+
+Hey.
 
 ```{r}
 #| echo: false
@@ -436,11 +549,13 @@ demographic_negative_binomial_model <-
   statistic = 'conf.int',
   conf.level = 0.99,
   fmt = 2)
-
-
 ```
 
 
+
+## Demographic Models
+
+Hey.
 
 ```{r}
 #| echo: false
@@ -479,15 +594,19 @@ Weaknesses and next steps should also be included.
 # Appendix {-}
 
 
-# Additional data details
+# Datasheet {#sec-datasheet}
 
-# Model details {#sec-model-details}
+# Model Details {#sec-model-details}
 
-## Posterior predictive check
+## Posterior Predictive Check
 
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
+In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check on the Poisson regression model. This shows the comparison between the actual outcome variable (number of voters) with simulations from the posterior distribution. From the figure, we can see that the observed data has peaked while the posterior predictive distributions are more dispersed. This means that the model is not a good fit and does not replicate the observed distribution well. 
 
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
+In @fig-ppcheckandposteriorvsprior-2 we implement a posterior predictive check on the multiple linear regression model. This shows the comparison between the actual outcome variable (voter turnout percentage) with simulations from the posterior distribution. Here the observed data and posterior predictions have some overlap. This model is a better fit than the multiple regression model.  
+
+In @fig-ppcheckandposteriorvsprior-3 we compare the posterior with the prior. This shows how much the estimates of the coefficients of our variables: unemployment rate, uneducated population and income, have changed once data was taken into account.
+
+Similar results are seen for the demographic models in @fig-ppcheckandposteriorvsprior2-1, @fig-ppcheckandposteriorvsprior2-2, and @fig-ppcheckandposteriorvsprior2-3.
 
 ```{r}
 #| eval: true
@@ -495,17 +614,18 @@ In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. Th
 #| message: false
 #| warning: false
 #| label: fig-ppcheckandposteriorvsprior
-#| layout-ncol: 2
-#| fig-cap: "Examining how the model fits, and is affected by, the data"
-#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
+#| layout-ncol: 4
+#| fig-cap: "Examining how the socio-economic models fit, and is affected by, the data"
+#| fig-subcap: ["Poisson", "Multiple Linear", "Posterior v/s Prior"]
 
+analysis_data <- analysis_data |>
+  mutate(
+    income = income / 1000
+  )
 
-analysis_data <- analysis_data %>%
-  mutate(income = income / 1000)
-
-# Round percent_voted to the nearest integer for Poisson and Negative Binomial models
-rounded_analysis_data <- analysis_data %>%
-  mutate(percent_voted = as.integer(round(percent_voted)))
+pp_check(socioeconomic_poisson_model) +
+  theme_classic() +
+  theme(legend.position = "bottom")
 
 pp_check(socioeconomic_gaussian_model) +
   theme_classic() +
@@ -518,11 +638,40 @@ posterior_vs_prior(socioeconomic_gaussian_model) +
   coord_flip()
 ```
 
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+#| label: fig-ppcheckandposteriorvsprior2
+#| layout-ncol: 4
+#| fig-cap: "Examining how the demographic models fit, and is affected by, the data"
+#| fig-subcap: ["Poisson", "Multiple Linear", "Posterior v/s Prior"]
+
+
+pp_check(demographic_poisson_model) +
+  theme_classic() +
+  theme(legend.position = "bottom")
+
+pp_check(demographic_gaussian_model) +
+  theme_classic() +
+  theme(legend.position = "bottom")
+
+
+posterior_vs_prior(demographic_gaussian_model) +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1") +
+  theme(legend.position = "bottom") +
+  coord_flip()
+```
+
 ## Diagnostics
 
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
+The Markov chain Monte Carlo sampling algorithm checks for signs that the algorithm has issues. We consider a trace plot and a Rhat plot for our socio-economic model. In @fig-stanareyouokay-1, we see horizontal lines that bounce around and have overlap between the chains. In @fig-stanareyouokay-2, we see that everything is close to 1. We do not see anything out of the ordinary in the trace plot or Rhat plot, indicating that the algorithm did not run into any issues. 
 
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
+We see the same results for the demographic model in @fig-stanareyouokay2-1 and @fig-stanareyouokay2-2.
+
 
 ```{r}
 #| echo: false
@@ -530,7 +679,7 @@ posterior_vs_prior(socioeconomic_gaussian_model) +
 #| message: false
 #| warning: false
 #| label: fig-stanareyouokay
-#| fig-cap: "Checking the convergence of the MCMC algorithm"
+#| fig-cap: "Checking the convergence of the MCMC algorithm for the socio-economic multiple linear regression model"
 #| fig-subcap: ["Trace plot", "Rhat plot"]
 #| layout-ncol: 2
 
@@ -539,6 +688,22 @@ plot(socioeconomic_gaussian_model, "trace")
 plot(socioeconomic_gaussian_model, "rhat")
 ```
 
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| message: false
+#| warning: false
+#| label: fig-stanareyouokay2
+#| fig-cap: "Checking the convergence of the MCMC algorithm for the demographic multiple linear regression model"
+#| fig-subcap: ["Trace plot", "Rhat plot"]
+#| layout-ncol: 2
+
+plot(demographic_gaussian_model, "trace")
+
+plot(demographic_gaussian_model, "rhat")
+```
 
 
 \newpage
