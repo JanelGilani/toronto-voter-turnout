@@ -1,9 +1,9 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "The Impact of Socio-Economic and Demographic Factors on Voter Turnout in Toronto Wards"
+subtitle: "An Analysis of the 2022 Toronto Municipal Election"
 author: 
   - Janel Gilani
-thanks: "Code and data are available at: LINK."
+thanks: "Code and data are available at: https://github.com/JanelGilani/toronto-voter-turnout"
 date: today
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
@@ -65,13 +65,35 @@ ward_data <- read_csv(file = here::here("data/analysis_data/cleaned_ward_data.cs
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. We use @citeR and @rohan.
+Voting for the mayor of your ward is one of the most important decisions a Canadian citizen can make because it decides many of the decisions that will be made throughout that four year term as well as how their life will change in that period of time. This is why it is important to understand the many factors that influence the voter turnout and thus, ultimately affect the integrity and representativeness of the electoral process. As mandated by the Government of Ontario, residents of the City of Toronto went to the polls on October 24, 2022 to elect a mayor, councillors, and school board trustees. Then-sitting Mayor, John Tory, sought re-election, along with a number of incumbent city councillors. Coming out of the height of the COVID-19 pandemic, the 2022 election largely upheld the status quo and did not feature ambitious policy platforms. Voter turnout across the city fell to 30% - the lowest in the city’s history since amalgamation in 1997, with turnout ranging on a ward-by-ward basis from 22% to 38% [@election2022; @torontoTurnout]. 
 
-The remainder of this paper is structured as follows. @sec-data....
+While there is existing literature on most of these factors in isolation, there has been little research that has examined the combined effect of these explanatory factors on voter turnout, especially in Canadian cities like Toronto and this paper will contribute to the investigation of this phenomenon. Using the 2022 Toronto Municipal Election and Ward Profiles data from Open Data Toronto, this paper will be examining many factors that could have influenced voter turnout in the 2022 Toronto Municipal Election such as education, income, unemployment rate, population, and number of subdivisions within a ward. Our main focus is to conduct analysis on voter turnout as the response variable, and to see if our estimand, the effect of ward's socio-economic and demographic factors on the ward's voter turnout, has influenced voter turnout in the elections. We found that socio-economic factors such as income, unemployment rate, and education level have a significant impact on voter turnout, while demographic factors such as population and number of subdivisions have a less significant impact. Using these understandings, we hope to highlight the potential implications these correlations may have on upcoming elections and the electoral process in Toronto.
+
+Our paper begins with the Data section (@sec-data) to visualize and further understand the measurement, source, methodology, and variables we are examining. Then, we introduce the Model (@sec-model) used to understand the relationships in the data and report the findings in the Results section (@sec-results). Finally, we include the Discussion (@sec-discussion) of the findings, summarizing the takeaway and future of this research.
 
 
 
 # Data {#sec-data}
+
+Data analysis is performed in `R` [@citeR], and additional help is provided by libraries such as `dplyr` [@dplyr], `ggplot2` [@ggplot], `ggrepel` [@ggrepel], `tidyverse` [@thereferencecanbewhatever], `kableExtra` [@kableextra], `knitr` [@knitr], and `sf` [@pebesma2023spatial], `opendatatoronto` [@toronto], `readxl` [@excel], `here` [@here], `rstanarm` [@rstan], `arrow` [@arrow], `tidybayes` [@tidybayes], `modelsummary` [@modelsummary], `broom` [@broom], and `parameters` [@parameters]. 
+Data for this research comes from Open Data Toronto [@toronto], an open source data portal containing various topics of data for the city. 
+For the data involved in this paper, we combine `Elections - Voter Statistics` [@PublicArt] and `Ward Profiles (25-Ward Model)` [@WardProfile]
+ 
+
+## Measurement 
+
+Our research question and estimand is divided into two parts: impact of socio-economic factors and demographic factors on voter turnout, which is our response variable.
+Starting off with socio-economic factors, we use education, income, and unemployment rate as the explanatory variables to represent these factors. Education is a key factor in determining voter turnout as it is associated with political knowledge, interest, and participation [@Verba]. To measure education, we use the percentage of citizens with no certificate, diploma, or degree as an indicator of education level. Income and unemployment are also important factor in determining voter turnout as they are associated with financial security, political interest, and participation. Household income is not the sole indicator of wealth, but it is heavily related to wealth as both income and wealth are key indicators of financial security [@Schaeffer]. We use the unemployment rate as an indicator of economic stability.
+
+Moving on to demographic factors, we use population and number of subdivisions as the explanatory variables to represent these factors. Individual turnout by ward depended on a number of factors, including the accessibility of polling locations within subdivisions to cast a ballot. The City of Toronto @ElectionDictionary defines a ward as “a geographical area represented by a member of Council.” Subdivisions are defined by the City of Toronto [@VoterStatistics] as “.... geographical area[s within a ward] designated by the City Clerk.” Previous studies concentrating on large cities in the United States, including Atlanta revealed that having polling locations in close proximity to a voter’s home bolsters turnout and even minor changes in placement of a polling location can have significant impact on a voter’s decision to cast a ballot [@Locationx3]. Thus, we use the number of subdivisions as an indicator of accessibility to polling locations. Lastly, we use population as an indicator of the demographic size of the ward.
+
+Election data is formed by collecting the relevant numbers observed during the 2022 Toronto Municipal Election, and ward profiles data is extracted from the 2022 Census data.
+
+## Election Voter Statistics
+This dataset, published by the City Clerk's Office [@VoterStatistics] outlines voter statistics on a ward-by-ward and entire city basis for the 2022 municipal election. For each subdivision within a ward, the data set shows the polling location name and address, number of additions and corrections to the voter's list, number of eligible electors and number who voted, and rejected and declined ballots. This data set was last refreshed on February 7, 2023. 
+
+Upon analysis, columns such as rejected and declined ballots were deemed beyond the scope of this paper. We conducted the first step of basic data cleaning to eliminate additional columns and simplify the names of retained columns (see @tbl-cleaned_voter_statistics).
+
 
 ```{r}
 #| echo: false
@@ -90,6 +112,13 @@ head(election_data, 5) |>
 
 ```
 
+
+## Ward Profiles, 2018 (25-Ward Model)
+
+Ward profiles such as income and population would be interesting factors to analyze alongside eligible voter turnouts. Therefore, the dataset for ward profiles [@torontoWardProfiles] based on 2022 census data has been included in analysis as well. This dataset is published by City Planning, and was last updated on January 3, 2024. The 25-ward model was chosen over the 47-ward model because it is matching the ward classification in the latest elections data. This dataset contains demographic, social, and economic information for each ward such as population, households, families, education, ethnocultural composition, spoken languages, income and housing costs. For our purpose of research, we are interested in population, number of citizens with no certificate, diploma, or degree, unemployment rate, and average household income of each ward. A sample of the cleaned dataset for the wards is shown below in @tbl-cleaned_ward. 
+
+Ward profile data is stored in an Excel file with multiple tabs. The relevant data to be used for this paper's analysis is included the first tab, `2022 Census One Variable`. As such, only data for this tab was downloaded for analysis. Further data cleaning was performed to transpose the data and only keeping information relevant to our research question (see @tbl-cleaned_ward_profile_data).
+
 ```{r}
 #| echo: false
 #| message: false
@@ -105,6 +134,11 @@ head(ward_data, 5) |>
   )
 ```
 
+## Voter Turnout and Ward's Socio-Economic and Demographic Factors
+
+As the goal of this research is to analyze the impact of socio-economic and demographic factors on voter turnout in the 2022 Toronto Municipal Election, we have combined the cleaned election data and ward profile data to create an analysis dataset. The analysis dataset includes the following variables: ward ID, ward name, population, number of subdivisions, percent of uneducated population, unemployment rate, income, voter turnout percentage, and number of voters. Below in @tbl-analysis-data is a sample of the analysis data. 
+
+
 
 ```{r}
 #| echo: false
@@ -116,6 +150,7 @@ head(ward_data, 5) |>
 head(analysis_data, 10) |>
   arrange (ward_id) |>
   relocate(c("ward_id", "ward_name",  "population", "num_sub", "percent_uneducated", "unemployment_rate", "income", "percent_voted", "number_voted")) |>
+  slice(1:5) |>
   kable(
     booktabs = TRUE,
     col.names = c("Ward ID", "Name",  "Pop.","Num. of SubDiv", "Uneducated Pop. (%)", "Unemployment Rate (%)", "Income", "Voter Turnout (%)", "Num. of Voters"),
@@ -328,7 +363,7 @@ ggplot() +
 
 ```
 
-# Model
+# Model {#sec-model}
 
 The goal of our modelling strategy is twofold. Firstly,...
 
@@ -357,7 +392,7 @@ We expect a positive relationship between the size of the wings and time spent a
 We can use maths by including latex between dollar signs, for instance $\theta$.
 
 
-# Results
+# Results {#sec-results}
 
 Our results are summarized in @tbl-modelresults.
 
@@ -394,11 +429,12 @@ demographic_negative_binomial_model <-
 #| tbl-cap: "Socio-economic explanatory models of voter turnout based on education, employment and income"
 #| warning: false
 
-  modelsummary::modelsummary(
+  modelsummary(
   list(
   "Multiple Linear Regression" = socioeconomic_gaussian_model,
   "Poisson Regression" = socioeconomic_poisson_model),
-  statistic = "mad",
+  statistic = 'conf.int',
+  conf.level = 0.99,
   fmt = 2)
 
 
@@ -417,11 +453,12 @@ models <- list(
   "Multiple Linear Regression" = demographic_gaussian_model,
   "Poisson Regression" = demographic_poisson_model)
 
-modelsummary(models, statistic = "mad", fmt = 2)
+modelsummary(models,
+             statistic = 'conf.int', conf_level = 0.99, fmt = 2)
 
 ```
 
-# Discussion
+# Discussion {#sec-discussion}
 
 ## First discussion point {#sec-first-point}
 
