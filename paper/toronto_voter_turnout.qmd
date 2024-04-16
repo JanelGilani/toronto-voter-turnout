@@ -77,23 +77,23 @@ Our paper begins with the Data section (@sec-data) to visualize and further unde
 
 Data analysis is performed in `R` [@citeR], and additional help is provided by libraries such as `dplyr` [@dplyr], `ggplot2` [@ggplot], `ggrepel` [@ggrepel], `tidyverse` [@thereferencecanbewhatever], `kableExtra` [@kableextra], `knitr` [@knitr], and `sf` [@pebesma2023spatial], `opendatatoronto` [@toronto], `readxl` [@excel], `here` [@here], `rstanarm` [@rstan], `arrow` [@arrow], `tidybayes` [@tidybayes], `modelsummary` [@modelsummary], `broom` [@broom], and `parameters` [@parameters]. 
 Data for this research comes from Open Data Toronto [@toronto], an open source data portal containing various topics of data for the city. 
-For the data involved in this paper, we combine `Elections - Voter Statistics` [@PublicArt] and `Ward Profiles (25-Ward Model)` [@WardProfile]
+For the data involved in this paper, we combine `Elections - Voter Statistics` [@ElectionData] and `Ward Profiles (25-Ward Model)` [@WardProfile]
  
 
 ## Measurement 
 
 Our research question and estimand is divided into two parts: impact of socio-economic factors and demographic factors on voter turnout, which is our response variable.
-Starting off with socio-economic factors, we use education, income, and unemployment rate as the explanatory variables to represent these factors. Education is a key factor in determining voter turnout as it is associated with political knowledge, interest, and participation [@Verba]. To measure education, we use the percentage of citizens with no certificate, diploma, or degree as an indicator of education level. Income and unemployment are also important factor in determining voter turnout as they are associated with financial security, political interest, and participation. Household income is not the sole indicator of wealth, but it is heavily related to wealth as both income and wealth are key indicators of financial security [@Schaeffer]. We use the unemployment rate as an indicator of economic stability.
+Starting off with socio-economic factors, we use education, income, and unemployment rate as the explanatory variables to represent these factors. Education is a key factor in determining voter turnout as it is associated with political knowledge, interest, and participation [@TurnoutWhy]. To measure education, we use the percentage of citizens with no certificate, diploma, or degree as an indicator of education level. Income and unemployment are also important factor in determining voter turnout as they are associated with financial security, political interest, and participation. Household income is not the sole indicator of wealth, but it is heavily related to wealth as both income and wealth are key indicators of financial security [@Schaeffer]. We use the unemployment rate as an indicator of economic stability.
 
-Moving on to demographic factors, we use population and number of subdivisions as the explanatory variables to represent these factors. Individual turnout by ward depended on a number of factors, including the accessibility of polling locations within subdivisions to cast a ballot. The City of Toronto @ElectionDictionary defines a ward as “a geographical area represented by a member of Council.” Subdivisions are defined by the City of Toronto [@VoterStatistics] as “.... geographical area[s within a ward] designated by the City Clerk.” Previous studies concentrating on large cities in the United States, including Atlanta revealed that having polling locations in close proximity to a voter’s home bolsters turnout and even minor changes in placement of a polling location can have significant impact on a voter’s decision to cast a ballot [@Locationx3]. Thus, we use the number of subdivisions as an indicator of accessibility to polling locations. Lastly, we use population as an indicator of the demographic size of the ward.
+Moving on to demographic factors, we use population and number of subdivisions as the explanatory variables to represent these factors. Individual turnout by ward depended on a number of factors, including the accessibility of polling locations within subdivisions to cast a ballot. The City of Toronto @Def defines a ward as “a geographical area represented by a member of Council.” Subdivisions are defined by the City of Toronto [@ElectionData] as “.... geographical area[s within a ward] designated by the City Clerk.” Previous studies concentrating on large cities in the United States, including Atlanta revealed that having polling locations in close proximity to a voter’s home bolsters turnout and even minor changes in placement of a polling location can have significant impact on a voter’s decision to cast a ballot [@Placement]. Thus, we use the number of subdivisions as an indicator of accessibility to polling locations. Lastly, we use population as an indicator of the demographic size of the ward.
 
 Election data is formed by collecting the relevant numbers observed during the phenomenon/process of voting, and ward profiles data is extracted from the 2022 Census data which is collected through a variety of methods such as self-reporting surveys, door-to-door enumeration, online/telephone surveys, administrative  records, and sampling techniques.
 
 ## Ward Profiles, 2018 (25-Ward Model)
 
-Ward profiles such as income and population would be interesting factors to analyze alongside eligible voter turnouts. Therefore, the dataset for ward profiles [@torontoWardProfiles] based on 2022 census data has been included in analysis as well. This dataset is published by City Planning, and was last updated on January 3, 2024. The 25-ward model was chosen over the 47-ward model because it is matching the ward classification in the latest elections data. This dataset contains demographic, social, and economic information for each ward such as population, households, families, education, ethnocultural composition, spoken languages, income and housing costs. For our purpose of research, we are interested in population, number of citizens with no certificate, diploma, or degree, unemployment rate, and average household income of each ward. A sample of the cleaned dataset for the wards is shown below in @tbl-cleaned_ward. 
+Ward profiles such as income and population would be interesting factors to analyze alongside eligible voter turnouts. Therefore, the dataset for ward profiles [@WardProfile] based on 2022 census data has been included in analysis as well. This dataset is published by City Planning, and was last updated on January 3, 2024. This dataset contains demographic, social, and economic information for each ward such as population, households, families, education, ethnocultural composition, spoken languages, income and housing costs. For our purpose of research, we are interested in population, number of citizens with no certificate, diploma, or degree, unemployment rate, and average household income of each ward. A sample of the cleaned dataset for the wards is shown below in @tbl-ward-profile-data. 
 
-Ward profile data is stored in an Excel file with multiple tabs. The relevant data to be used for this paper's analysis is included the first tab, `2022 Census One Variable`. As such, only data for this tab was downloaded for analysis. Further data cleaning was performed to transpose the data and only keeping information relevant to our research question (see @tbl-cleaned_ward_profile_data).
+Ward profile data is stored in an Excel file with multiple tabs. The relevant data to be used for this paper's analysis is included the first tab, `2022 Census One Variable`. As such, only data for this tab was downloaded for analysis. Further data cleaning was performed to transpose the data and only keeping information relevant to our research question (see @tbl-ward-profile-data).
 
 The variables selected for analysis were:
 
@@ -121,11 +121,9 @@ head(ward_data, 5) |>
 
 
 ## Election Voter Statistics
-This dataset, published by the City Clerk's Office [@VoterStatistics] outlines voter statistics on a ward-by-ward and entire city basis for the 2022 municipal election. For each subdivision within a ward, the data set shows the polling location name and address, number of additions and corrections to the voter's list, number of eligible electors and number who voted, and rejected and declined ballots. This data set was last refreshed on February 7, 2023. 
+This dataset, published by the City Clerk's Office [@ElectionData] outlines voter statistics on a ward-by-ward and entire city basis for the 2022 municipal election. For each subdivision within a ward, the data set shows the polling location name and address, number of additions and corrections to the voter's list, number of eligible electors and number who voted, and rejected and declined ballots. This data set was last refreshed on February 7, 2023. 
 
-Upon analysis, columns such as rejected and declined ballots were deemed beyond the scope of this paper. We conducted the first step of basic data cleaning to eliminate additional columns and simplify the names of retained columns (see @tbl-cleaned_voter_statistics).
-
-The variables selected for analysis were:
+The variables (see @tbl-election-data) selected for analysis were:
 
 - `Ward ID`: The unique identifier for each ward.
 - `Eligible Voter Turnout (%)`: The percentage of eligible voters who cast a ballot.
@@ -428,12 +426,12 @@ Here we briefly describe the Bayesian analysis model used to investigate the rel
 
 Background details and diagnostics are included in [Appendix -@sec-model-details].
 
-## Model set-up
+## Model Set-Up
 
 From the Data section, we observed the relationships between voter turnout and socio-economic and demographic factors in isolation. Now, we aim to understand the relationships in a more comprehensive manner by adjusting for all factors simultaneously using the following models. We create and run the generalised linear models in R [@citeR] using the `rstanarm` package of @rstan. Initially, we use the default priors from `rstanarm`, however, we allow `rstanarm` to improve the priors by scaling them based on the data. We allow auto-scaling and run both models with the updated priors specified above. 
 
 
-### Socio-Economic models
+### Socio-Economic Models
 
 @tbl-SEmodelresults shows a model summary for socio-economic models, this will be discussed further in the [results](#results) section.
 
@@ -466,7 +464,7 @@ y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
 
 
 
-### Demographic models
+### Demographic Models
 
 @tbl-Dmodelresults shows a model summary for demographic models, this will be discussed further in the [results](#results) section.
 
@@ -495,7 +493,7 @@ y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
 \sigma &\sim \mbox{Exponential}(0.24)
 \end{align}
 
-## Model justification
+## Model Justification
 
 We chose to use Bayesian analysis to investigate the relationship between socio-economic and demographic factors and voter turnout because it allows us to incorporate prior knowledge and uncertainty into our models. By using Bayesian analysis, we can estimate the posterior distribution of the parameters of interest, which provides a more comprehensive understanding of the relationships between the variables. Additionally, Bayesian analysis allows us to quantify the confidence levels in the estimates of our coefficients and make probabilistic statements about the relationships between the variables.
 
@@ -533,7 +531,14 @@ demographic_poisson_model <-
 
 ## Socio-Economic Models
 
-Hey.
+@tbl-SEmodelresults and @fig-modelresultsfig shows the results of the socio-economic models.
+
+In the multiple linear regression model, the coefficients represent the change in the response variable (voter turnout) for a one-unit increase in the predictor variable, holding all other variables constant. In this analysis, the coefficient for the percentage of the uneducated population is -0.11, suggesting that for every one-unit increase in the percentage of uneducated individuals within a ward, the voter turnout decreases by 0.11 percentage points, although this effect is not statistically significant at the 99% confidence level. Conversely, the coefficient for income is 0.04, indicating that for every one-unit increase in income, the voter turnout increases by 0.04 percentage points. However, this relationship is also not statistically significant. The coefficient for the unemployment rate is -0.41, implying that for every one-unit increase in the unemployment rate, the voter turnout decreases by 0.41 percentage points. While this coefficient is negative, indicating a decrease in voter turnout with higher unemployment rates, the relationship is not statistically significant either. The intercept term represents the expected voter turnout when all predictor variables are zero, which is 32.47% compared to the mean value of 29.48%. While this may never be practitcal in real life, it tells us that the negative correlation of voter turnout with variables like unemployment rate and uneducated population is relatively stronger than the positive correlation with income.
+
+In the Poisson regression model, the coefficients represent the log-linear relationship between the predictor variables and the expected count of the response variable (number of voters). For the percentage of the uneducated population, the coefficient is -0.08, indicating that a one-unit increase in the percentage of uneducated individuals within a ward is associated with an 8% decrease in the expected count of voters, though this effect is not statistically significant at the 99% confidence level. The coefficient for income is 0.00, which implies that changes in income do not significantly affect the expected count of voters in the Poisson model. Similarly, the coefficient for the unemployment rate is -0.08, suggesting that increases in unemployment may lead to a slight decrease in the expected count of voters, although this effect is also not statistically significant. Overall, the Poisson regression results suggest that the percentage of uneducated individuals within a ward may have a modest impact on the expected count of voters, while income and unemployment rate do not significantly influence voter turnout in terms of the number of voters.
+
+These coefficient values may be influenced by various factors related to how predictor variables and voter turnout are related. For instance, the negative coefficient for the unemployment rate suggests that higher unemployment rates may contribute to lower voter turnout. This could be due to factors such as decreased civic engagement among individuals facing economic hardship or logistical barriers to voting for those experiencing unemployment. However, the lack of statistical significance may indicate that other unmeasured variables or complex interactions between factors play a more significant role in determining voter turnout. Additionally, the relatively small coefficient values for income and the percentage of uneducated individuals suggest that these variables may have weaker effects on voter turnout within the context of the studied population. Overall, while the coefficients provide insight into the direction and potential magnitude of relationships between predictor variables and voter turnout, the lack of statistical significance suggests that these relationships may not be robust or generalizable across all wards in Toronto.
+
 
 ```{r}
 #| echo: false
@@ -551,11 +556,31 @@ Hey.
   fmt = 2)
 ```
 
+```{r}
+#| echo: false
+#| eval: true
+#| label: fig-modelresultsfig
+#| fig-cap: "Explanatory model of voter turnout based on socio-economic factors"
+#| warning: false
+
+modelplot(socioeconomic_gaussian_model, conf_level = 0.99) +
+  labs(x = "99 per cent credibility interval")
+
+```
 
 
 ## Demographic Models
 
-Hey.
+@tbl-Dmodelresults and @fig-modelresultsfig2 shows the results of the demographic models.
+
+
+In the multiple linear regression model, the coefficients represent the estimated change in the response variable (voter turnout) associated with a one-unit increase in the predictor variables, while holding all other variables constant. For the intercept, the coefficient is 39.80, indicating the estimated voter turnout when all predictor variables are zero. This value is statistically significant at the 99% confidence level, with a confidence interval of [12.40, 63.82]. The coefficient for the number of subdivisions is 0.17, suggesting that for each additional subdivision within a ward, the expected voter turnout increases by 0.17 units. However, this effect is not statistically significant at the 99% confidence level, as the confidence interval [-0.08, 0.39] includes zero.Similarly, the coefficient for population is 0.00, indicating that changes in population size do not significantly influence voter turnout in terms of the number of voters. The confidence interval [0.00, 0.00] further supports this finding, suggesting that the effect size of population on voter turnout is negligible.
+
+Overall, while the intercept provides an estimate of baseline voter turnout, the coefficients for the number of subdivisions and population do not demonstrate significant associations with voter turnout in the multiple linear regression model. However, it's important to consider the limitations of the model and potential confounding factors that may impact these relationships.
+
+In the Poisson regression model, the coefficients represent the log of the expected count of the response variable (number of voters) associated with a one-unit increase in the predictor variables, while holding all other variables constant. For the intercept, the coefficient is 9.52, indicating the estimated log count of voters when all predictor variables are zero. This value is statistically significant at the 99% confidence level, with a confidence interval of [9.48, 9.56]. The coefficient for the number of subdivisions is 0.01, suggesting that for each additional subdivision within a ward, the expected log count of voters increases by 0.01 units. This effect is statistically significant at the 99% confidence level, as the confidence interval [0.01, 0.01] does not include zero. Similarly, the coefficient for population is also 0.00, indicating that changes in population size do not significantly influence the expected log count of voters. The confidence interval [0.00, 0.00] further supports this finding.
+
+Overall, the Poisson regression model suggests that the number of subdivisions within a ward has a statistically significant, although very small, positive association with the expected count of voters. However, changes in population size do not have a significant impact on the expected count of voters. It's important to interpret these findings in the context of the Poisson distribution and the assumptions of the model.
 
 ```{r}
 #| echo: false
@@ -573,19 +598,40 @@ modelsummary(models,
 
 ```
 
+```{r}
+#| echo: false
+#| eval: true
+#| label: fig-modelresultsfig2
+#| fig-cap: "Explanatory model of voter turnout based on demographic factors"
+#| warning: false
+
+modelplot(demographic_gaussian_model, conf_level = 0.99) +
+  labs(x = "99 per cent credibility interval")
+
+```
+
 # Discussion {#sec-discussion}
 
-## First discussion point {#sec-first-point}
+## Key Findings about Socio-Economic Factors
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+In this paper, we aimed to verify our expectations that socio-economic factors such as income, unemployment rate, and the percentage of uneducated individuals within a ward would impact voter turnout in the 2022 Toronto municipal election. During exploratory analysis of data, we observed that while income was positively correlated with voter turnout, the unemployment rate and the percentage of uneducated individuals were negatively correlated with voter turnout. This led us to hypothesize that higher income levels would be associated with higher voter turnout, while higher unemployment rates and a higher percentage of uneducated individuals would be associated with lower voter turnout. This hypothesis is backed by existing literature, as individuals with higher incomes often have greater access to resources, education, and stability, which can facilitate political engagement and higher voter turnout. Conversely, higher unemployment rates and a higher percentage of uneducated individuals may indicate economic insecurity and limited access to information or civic participation opportunities, contributing to lower voter turnout among these groups.
 
-## Second discussion point
+However, our subsequent Bayesian analysis @tbl-SEmodelresults revealed that the relationships between these socio-economic factors and voter turnout were not statistically significant at the 99% confidence level. While the coefficients in the models suggested that higher income levels were associated with higher voter turnout, and higher unemployment rates and a higher percentage of uneducated individuals were associated with lower voter turnout, the lack of statistical significance indicates that these relationships may not be robust or generalizable across all wards in Toronto. This suggests that the relationships between socio-economic factors and voter turnout may be more complex and nuanced than initially anticipated, and that other unmeasured variables or confounding interactions between factors may play a more significant role in determining voter turnout.
 
-## Third discussion point
+These findings can be utilised by policymakers and community leaders to develop targeted strategies and interventions to increase voter turnout in Toronto. For example, efforts to increase voter turnout among lower-income or less educated populations could focus on providing accessible information about the election process, offering resources to facilitate voting, and addressing barriers to political participation. Similarly, initiatives to engage unemployed individuals in the electoral process could involve outreach programs, community partnerships, and targeted messaging to encourage voter registration and turnout. By understanding the socio-economic factors that influence voter turnout, stakeholders can develop tailored approaches to promote civic engagement and increase voter participation in future elections.
 
-## Weaknesses and next steps
 
-Weaknesses and next steps should also be included.
+## Key Findings about Demographic Factors
+
+In terms of demographic factors, we expected that population density and the number of subdivisions within a ward would impact voter turnout in the 2022 Toronto municipal election. We hypothesized that higher population density and a higher number of subdivisions would be associated with higher voter turnout, as these factors may indicate greater community engagement, accessibility to polling stations, and resources that facilitate political participation. However, our exploratory analysis revealed that while population density was not correlated with voter turnout, the number of subdivisions had a weak positive correlation with voter turnout. This led us to further investigate the relationships between these demographic factors and voter turnout using Bayesian analysis. 
+
+The demographic models in @tbl-Dmodelresults showed that the number of subdivisions within a ward had a statistically significant, although very small, positive association with the expected count of voters in the Poisson regression model. This suggests that an increase in the number of subdivisions within a ward may lead to a slight increase in the expected count of voters. However, changes in population size did not significantly influence the expected count of voters in either the multiple linear regression or Poisson regression models. These findings align with our initial hypothesis that the number of subdivisions may impact voter turnout, as subdivisions may provide greater accessibility to polling stations and facilitate community engagement. However, our analysis could not conclusively establish a relationship between population and voter turnout.
+
+These results can inform strategies to increase voter turnout in Toronto by highlighting the importance of local infrastructure and community resources in promoting civic engagement. Efforts to increase voter turnout could focus on enhancing accessibility to polling stations, providing information about voting procedures, and fostering community connections within subdivisions. By understanding the demographic factors that influence voter turnout, policymakers and community leaders can develop targeted interventions to promote voter participation and strengthen democratic engagement in Toronto.
+
+## Weaknesses and Next Steps
+
+Hey
 
 \newpage
 
@@ -596,7 +642,163 @@ Weaknesses and next steps should also be included.
 
 # Datasheet {#sec-datasheet}
 
+Extract of the questions from @gebru2021datasheets.
+
+**Motivation**
+
+1. *For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.*
+    - The dataset was created to provide voter statistics for the 2022 municipal election in Toronto. It includes information on the number of eligible electors, additions and corrections to the voter's list, and the number of voters who cast ballots, broken down by ward and subdivision.
+
+2. *Who created the dataset (for example, which team, research group) and on behalf of which entity (for example, company, institution, organization)?*
+    - The dataset was created by the City Clerk's Office on behalf of the City of Toronto.
+3. *Who funded the creation of the dataset? If there is an associated grant, please provide the name of the grantor and the grant name and number.*
+    - The creation of the dataset was funded by the City of Toronto.
+4. *Any other comments?*
+    - No comments.
+
+**Composition**
+
+1. *What do the instances that comprise the dataset represent (for example, documents, photos, people, countries)? Are there multiple types of instances (for example, movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.*
+	- The instances in the dataset represent the wards of the City of Toronto. Each instance corresponds to a specific ward within the city, providing voter statistics for the 2022 municipal election.
+2. *How many instances are there in total (of each type, if appropriate)?*
+	- There are 25 instances in total, each representing a unique ward within the City of Toronto.
+	
+3. *Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (for example, geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (for example, to cover a more diverse range of instances, because instances were withheld or unavailable).*
+	- The dataset contains all possible instances of wards within the City of Toronto for the 2022 municipal election. As such, it is not a sample but rather a complete enumeration of all wards and their corresponding voter statistics for the specified election period. Therefore, the dataset is representative of the entire city and does not require validation or verification of representativeness.
+
+4. *What data does each instance consist of? "Raw" data (for example, unprocessed text or images) or features? In either case, please provide a description.*
+	- Each instance consists of voter statistics for a specific ward within the City of Toronto for the 2022 municipal election. The dataset includes 23 continuous variables, such as the number of eligible electors, the number of voters, and the eligible voter turnout percentage. Additionally, each instance includes a categorical feature identifying the ward represented.
+
+
+5. *Is there a label or target associated with each instance? If so, please provide a description.*
+	- Yes, the label associated with each instance is the ward ID, which represents the unique identifier for each ward within the City of Toronto.
+
+
+6. *Is any information missing from individual instances? If so, please provide a description, explaining why this information is missing (for example, because it was unavailable). This does not include intentionally removed information, but might include, for example, redacted text.*
+	- There is no missing information from individual instances. The dataset provides comprehensive voter statistics for each ward, and all relevant features are included without any missing values.
+
+7. *Are relationships between individual instances made explicit (for example, users' movie ratings, social network links)? If so, please describe how these relationships are made explicit.*
+	- There are no relationships between individual instances.
+8. *Are there recommended data splits (for example, training, development/validation, testing)? If so, please provide a description of these splits, explaining the rationale behind them.*
+	- There are no recommended data splits.
+9. *Are there any errors, sources of noise, or redundancies in the dataset? If so, please provide a description.*
+	- There are no errors, sources of noise, or redundancies in the dataset.
+10. *Is the dataset self-contained, or does it link to or otherwise rely on external resources (for example, websites, tweets, other datasets)? If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (that is, including the external resources as they existed at the time the dataset was created); c) are there any restrictions (for example, licenses, fees) associated with any of the external resources that might apply to a dataset consumer? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.*
+	- The dataset is self-contained.
+11. *Does the dataset contain data that might be considered confidential (for example, data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)? If so, please provide a description.*
+	- There is no confidential data, and the dataset is publicly available.
+12. *Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so, please describe why.*
+	- No, the dataset does not contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety.
+
+13. *Does the dataset identify any sub-populations (for example, by age, gender)? If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.*
+	- The dataset does not identify any sub-populations such as age or gender. It primarily focuses on voter statistics for different wards in the City of Toronto, without specific demographic information about individual voters. Therefore, there are no identifiable subpopulations within the dataset.
+
+14. *Is it possible to identify individuals (that is, one or more natural persons), either directly or indirectly (that is, in combination with other data) from the dataset? If so, please describe how.*
+	- It is not possible to identify individuals in any way.
+15. *Does the dataset contain data that might be considered sensitive in any way (for example, data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.*
+	- None.
+16. *Any other comments?*
+	- None.
+
+**Collection process**
+
+1. *How was the data associated with each instance acquired? Was the data directly observable (for example, raw text, movie ratings), reported by subjects (for example, survey responses), or indirectly inferred/derived from other data (for example, part-of-speech tags, model-based guesses for age or language)? If the data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.*
+	- The data associated with each instance was acquired through interviews conducted with subjects from all 25 states. Subjects reported the data directly, providing information relevant to voter statistics for the respective wards in the City of Toronto.
+
+
+2. *What mechanisms or procedures were used to collect the data (for example, hardware apparatuses or sensors, manual human curation, software programs, software APIs)? How were these mechanisms or procedures validated?*
+	- The mechanism used to collect the data was manual human curation. This involved individuals conducting interviews and recording the information provided by the subjects. The validation of this process likely involved quality checks during data entry and potentially cross-referencing the collected information with other sources to ensure accuracy and consistency.
+
+
+3. *If the dataset is a sample from a larger set, what was the sampling strategy (for example, deterministic, probabilistic with specific sampling probabilities)?*
+	- The dataset represents all possible instances, meaning it contains data for every ward in the City of Toronto. Therefore, there was no sampling strategy involved as the dataset encompasses the entire population of interest. However, if there were sampling involved, the strategy would likely have been geographic stratification, subdividing each state into regions and systematically selecting primary sampling units with probability proportional to the size of the strata.
+
+
+4. *Who was involved in the data collection process (for example, students, crowdworkers, contractors) and how were they compensated (for example, how much were crowdworkers paid)?*
+	- The data collection process likely involved individuals from the City Clerk's Office or other relevant departments within the municipal government of Toronto. These individuals would have been responsible for conducting interviews, gathering voter statistics, and maintaining the dataset. It's reasonable to assume that they were compensated as part of their regular employment with the municipal government, although specific details regarding compensation are not provided in the dataset information.
+
+
+5. *Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data associated with the instances (for example, recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created.*
+  - The data was last refreshed on February 7, 2023, as indicated in the dataset details. This timeframe corresponds to the last update or revision of the dataset. The data collection process likely occurred during the 2022 municipal election period, which took place on October 24, 2022. Therefore, the data collection timeframe aligns with the creation timeframe of the data associated with the instances.
+
+6. *Were any ethical review processes conducted (for example, by an institutional review board)? If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.*
+	- Ethical review processes were not conducted.
+7. *Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (for example, websites)?*
+	- We obtained the data via the Open Data Toronto website
+8. *Were the individuals in question notified about the data collection? If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.*
+	- The dataset information does not specify whether individuals were notified about the data collection process. However, given that the data is publicly available and pertains to voter statistics for the 2022 municipal election, it is likely that individuals were aware of the data collection process through public records and disclosures related to the election.
+9. *Did the individuals in question consent to the collection and use of their data? If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.*
+	- The dataset information does not provide details on how consent was obtained from individuals for data collection and use. Given that the data pertains to voter statistics for the 2022 municipal election, it is likely that consent was not explicitly requested or required, as this information is typically considered public record and collected as part of the election process.
+
+10. *If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses? If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate).*
+	- A mechanism to revoke consent was not provided.
+11. *Has an analysis of the potential impact of the dataset and its use on data subjects (for example, a data protection impact analysis) been conducted? If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.*
+	- There is no mention of an analysis of the potential impact of the dataset and its use on data subjects.
+12. *Any other comments?*
+	- None.
+
+**Preprocessing/cleaning/labeling**
+
+1. *Was any preprocessing/cleaning/labeling of the data done (for example, discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.*
+	- We cleaned the data by removing any unnecessary columns and renaming the columns to make them more descriptive. We also converted the data types of certain columns to ensure consistency and ease of analysis.
+2. *Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (for example, to support unanticipated future uses)? If so, please provide a link or other access point to the "raw" data.*
+	- The raw data downloaded using Open Data Toronto is available in the folder data/raw_data/raw_data.csv.
+3. *Is the software that was used to preprocess/clean/label the data available? If so, please provide a link or other access point.*
+	- R Software is avalaible at https://www.R-project.org/
+4. *Any other comments?*
+	- None.
+
+**Uses**
+
+1. *Has the dataset been used for any tasks already? If so, please provide a description.*
+	- The dataset has not been used for other tasks yet.
+2. *Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.*
+	- No, there is no repository that links to any papers or systems that use the dataset.
+3. *What (other) tasks could the dataset be used for?*
+	- The election dataset could be used for various analyses, such as predicting voter turnout, identifying trends in voter participation, and evaluating the impact of socio-economic factors on voting behavior. Additionally, the dataset could be used to assess the effectiveness of voter registration campaigns, analyze the distribution of voters across different wards, and explore the relationship between voter turnout and demographic characteristics.
+	
+4. *Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (for example, stereotyping, quality of service issues) or other risks or harms (for example, legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?*
+	- The dataset contains voter statistics for the 2022 municipal election in Toronto and does not include any personal information about individual voters. However, dataset consumers should be aware that the data pertains to voter participation and may be subject to privacy and confidentiality considerations. To avoid potential risks or harms, consumers should use the data responsibly and ensure that any analyses or interpretations are conducted in an ethical and unbiased manner. Additionally, consumers should be mindful of the limitations of the dataset and consider the context in which the data was collected when using it for future tasks.
+	
+5. *Are there tasks for which the dataset should not be used? If so, please provide a description.*
+	- Not applicable.
+
+**Distribution**
+
+1. *Will the dataset be distributed to third parties outside of the entity (for example, company, institution, organization) on behalf of which the dataset was created? If so, please provide a description.*
+	- No, the dataset is openly available and being used for personal uses only.
+2. *How will the dataset be distributed (for example, tarball on website, API, GitHub)? Does the dataset have a digital object identifier (DOI)?*
+	- The dataset is distributed using Open Data Toronto and will be available for download as a CSV file. The cleaned dataset is available on Github.
+3. *When will the dataset be distributed?*
+	- The raw dataset is already available for download from Open Data Toronto. The cleaned dataset will be available on Github on 18th April 2024.
+4. *Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)? If so, please describe this license and/ or ToU, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated with these restrictions.*
+	- The dataset has been released under the Open Government License - Toronto. The cleaned dataset used in this paper will be available on Github under the MIT License.
+5. *Have any third parties imposed IP-based or other restrictions on the data associated with the instances? If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms, as well as any fees associated with these restrictions.*
+	- There are no restrictions
+6. *Do any export controls or other regulatory restrictions apply to the dataset or to individual instances? If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any supporting documentation.*
+	- No such controls or restrictions are applicable.
+7. *Any other comments?*
+  - None.
+
+**Maintenance**
+
+1. *Who will be supporting/hosting/maintaining the dataset?*
+	- Janel Gilani
+2. *How can the owner/curator/manager of the dataset be contacted (for example, email address)?*
+	- Can be contacted via github
+3. *Is there an erratum? If so, please provide a link or other access point.*
+	- There is no erratum available currently.
+4. *Will the dataset be updated (for example, to correct labeling errors, add new instances, delete instances)? If so, please describe how often, by whom, and how updates will be communicated to dataset consumers (for example, mailing list, GitHub)?*
+	- Currently there is no plan of updating the dataset. If there are updates in the future, it will be done through Github.
+5. *If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (for example, were the individuals in question told that their data would be retained for a fixed period of time and then deleted)? If so, please describe these limits and explain how they will be enforced.*
+	- The dataset was made publicly available and does not contain personal information about individuals. Therefore, there are no limits on the retention of data associated with the instances. The data will be retained indefinitely for research and analysis purposes.
+6. *Will older versions of the dataset continue to be supported/hosted/maintained? If so, please describe how. If not, please describe how its obsolescence will be communicated to dataset consumers.*
+	- The older versions would not be hosted. Dataset consumers will be able to check whether the dataset has been updated through Github commit history.
+7. *If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so? If so, please provide a description. Will these contributions be validated/verified? If so, please describe how. If not, why not? Is there a process for communicating/distributing these contributions to dataset consumers? If so, please provide a description.*
+	- There is no mechanism for accepting contributions from other users as of now.
+
 # Model Details {#sec-model-details}
+
 
 ## Posterior Predictive Check
 
