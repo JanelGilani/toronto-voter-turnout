@@ -10,14 +10,19 @@
 #### Workspace setup ####
 library(tidyverse)
 library(rstanarm)
+library(styler)
 
+# Style the code:
+#style_file("scripts/04-model.R")
 
 #### Read data ####
 analysis_data <- read_csv("data/analysis_data/analysis_data.csv")
 
+# Convert income to thousands for ease of analysis
 analysis_data <- analysis_data %>%
   mutate(income = income / 1000)
 
+# Set seed for reproducibility
 set.seed(302)
 
 ### Model data ####
@@ -90,6 +95,7 @@ demographic_negative_binomial_model <-
     seed = 302
   )
 
+# Print prior summaries to know the adjusted priors
 prior_summary(socioeconomic_gaussian_model)
 prior_summary(socioeconomic_poisson_model)
 prior_summary(demographic_gaussian_model)

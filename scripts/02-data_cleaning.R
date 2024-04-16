@@ -12,6 +12,10 @@
 library(tidyverse)
 library(janitor)
 library(arrow)
+library(styler)
+
+# Style the code:
+#style_file("scripts/02-data_cleaning.R")
 
 #### Clean data ####
 # Below code referred from: https://github.com/christina-wei/INF3104-1-Covid-Clinics/blob/main/scripts/01-data_cleaning.R
@@ -19,6 +23,7 @@ library(arrow)
 # Election data:
 raw_data_1 <- read_csv("data/raw_data/raw_election_data.csv")
 
+# Extract the number of sub-divisions in each ward:
 cleaned_election_data <- clean_names(raw_data_1)
 sub_data = 
   cleaned_election_data |>
@@ -40,6 +45,7 @@ sub_data = sub_data |>
 
 #print(n =25, sub_data)
 
+# Extract the percentage of people who voted in each ward and the number of voters:
 cleaned_election_data <- cleaned_election_data %>%
   filter(grepl("Total", ward, ignore.case = TRUE) & !grepl("Grand Total", ward, ignore.case = TRUE))
 
@@ -56,6 +62,8 @@ cleaned_election_data <- cleaned_election_data %>%
 
 # Ward data:
 raw_data_2 <- read_csv("data/raw_data/raw_ward_data.csv")
+
+# Only keep the relevant columns:
 cleaned_ward_data <-
   raw_data_2[c(18, 997, 1307, 1383), ] 
 cleaned_ward_data <- as.data.frame(t(cleaned_ward_data)) |>
@@ -63,12 +71,17 @@ cleaned_ward_data <- as.data.frame(t(cleaned_ward_data)) |>
   slice(-1) |>
   rename(population = V1, num_uneducated = V2, 
          unemployment_rate = V3, income = V4)
+
+# Add ward_id column:
 cleaned_ward_data$ward_id = 1:25
 cleaned_ward_data = cleaned_ward_data[c("ward_id", setdiff(names(cleaned_ward_data),
                                                         "ward_id"))]
+
+# Convert columns to numeric:
 cleaned_ward_data <- cleaned_ward_data %>%
   mutate(across(everything(), as.numeric))
 
+# Calculate the percentage of uneducated people in each ward:
 cleaned_ward_data$percent_uneducated <- (cleaned_ward_data$num_uneducated / cleaned_ward_data$population) * 100
 
 cleaned_ward_data <- cleaned_ward_data[c("ward_id", "population", "percent_uneducated", "unemployment_rate", "income")]
@@ -87,6 +100,8 @@ ward_names <- c("Etobicoke North", "Etobicoke Centre", "Etobicoke-Lakeshore",
                 "Scarborough North", "Scarborough-Guildwood",
                 "Scarborough-Rouge Park")
 
+
+# Merge the cleaned election and ward data:
 analysis_data <- cleaned_ward_data %>%
   left_join(cleaned_election_data, by = c("ward_id" = "ward")) %>%
   mutate(ward_name = ward_names)

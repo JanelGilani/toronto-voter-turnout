@@ -12,6 +12,10 @@
 library(opendatatoronto)
 library(tidyverse)
 library(readxl)
+library(styler)
+
+# Style the code:
+#style_file("scripts/01-download_data.R")
 
 
 #### Download data ####

@@ -8,6 +8,10 @@
 
 #### Workspace setup ####
 library(tidyverse)
+library(styler)
+
+# Style the code:
+#style_file("scripts/03-test_data.R")
 
 #### Test data ####
 analysis_data <- read_csv("data/analysis_data/analysis_data.csv")

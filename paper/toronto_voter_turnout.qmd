@@ -3,10 +3,10 @@ title: "The Impact of Socio-Economic and Demographic Factors on Voter Turnout in
 subtitle: "An Analysis of the 2022 Toronto Municipal Election"
 author: 
   - Janel Gilani
-thanks: "Code and data are available at: https://github.com/JanelGilani/toronto-voter-turnout"
+thanks: "Code and data are available at: https://github.com/JanelGilani/toronto-voter-turnout.git"
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "The purpose of this paper is to investigate the impact of socio-economic and demographic factors on voter turnout in the 2022 Toronto Municipal Election. Using data from Open Data Toronto, we use Bayesian analysis to examine the relationships between a ward's voter turnout and factors such as  its education level, income, unemployment rate, population, and number of subdivisions. Our inference revealed that while unemployment rate and number of subdivisions have a mild positive and negative correlation with voter turnout respectively, our findings for income, education, and population were not statistically significant. These understandings have implications for attempting to increase voter turnout in future elections."
 format: pdf
 toc: true
 number-sections: true
@@ -18,15 +18,14 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 
+
+# Uncomment the following lines to install the required packages only once:
 #install.packages("tinytex")
 #install.packages("tidyverse")
 #install.packages("knitr")
 #install.packages("kableExtra")
 #install.packages("here")
 #install.packages("ggbeeswarm")
-
-#tinytex::install_tinytex()
-
 #install.packages("rstanarm")
 #install.packages("arrow")
 #install.packages("tidybayes")
@@ -39,7 +38,7 @@ bibliography: references.bib
 #install.packages("dplyr")
 #install.packages("patchwork")
 
-
+# Load the required libraries
 library(tidyverse) # a collection of data-related packages
 library(knitr) # for kable
 library(kableExtra)
@@ -55,8 +54,13 @@ library(arrow)
 library(modelsummary)
 library(broom.mixed)
 library(parameters)
+library(styler)
+
+# Style the code:
+#style_file("paper/toronto_voter_turnout.qmd")
 
 
+# Load the data
 analysis_data <- read_csv(file = here::here("data/analysis_data/analysis_data.csv"))
 election_data <- read_csv(file = here::here("data/analysis_data/cleaned_election_data.csv"))
 ward_data <- read_csv(file = here::here("data/analysis_data/cleaned_ward_data.csv"))
@@ -89,7 +93,7 @@ Moving on to demographic factors, we use population and number of subdivisions a
 
 Election data is formed by collecting the relevant numbers observed during the phenomenon/process of voting, and ward profiles data is extracted from the 2022 Census data which is collected through a variety of methods such as self-reporting surveys, door-to-door enumeration, online/telephone surveys, administrative  records, and sampling techniques.
 
-## Ward Profiles, 2018 (25-Ward Model)
+## Ward Profiles (25-Ward Model)
 
 Ward profiles such as income and population would be interesting factors to analyze alongside eligible voter turnouts. Therefore, the dataset for ward profiles [@WardProfile] based on 2022 census data has been included in analysis as well. This dataset is published by City Planning, and was last updated on January 3, 2024. This dataset contains demographic, social, and economic information for each ward such as population, households, families, education, ethnocultural composition, spoken languages, income and housing costs. For our purpose of research, we are interested in population, number of citizens with no certificate, diploma, or degree, unemployment rate, and average household income of each ward. A sample of the cleaned dataset for the wards is shown below in @tbl-ward-profile-data. 
 
@@ -533,7 +537,7 @@ demographic_poisson_model <-
 
 @tbl-SEmodelresults and @fig-modelresultsfig shows the results of the socio-economic models.
 
-In the multiple linear regression model, the coefficients represent the change in the response variable (voter turnout) for a one-unit increase in the predictor variable, holding all other variables constant. In this analysis, the coefficient for the percentage of the uneducated population is -0.11, suggesting that for every one-unit increase in the percentage of uneducated individuals within a ward, the voter turnout decreases by 0.11 percentage points, although this effect is not statistically significant at the 99% confidence level. Conversely, the coefficient for income is 0.04, indicating that for every one-unit increase in income, the voter turnout increases by 0.04 percentage points. However, this relationship is also not statistically significant. The coefficient for the unemployment rate is -0.41, implying that for every one-unit increase in the unemployment rate, the voter turnout decreases by 0.41 percentage points. While this coefficient is negative, indicating a decrease in voter turnout with higher unemployment rates, the relationship is not statistically significant either. The intercept term represents the expected voter turnout when all predictor variables are zero, which is 32.47% compared to the mean value of 29.48%. While this may never be practitcal in real life, it tells us that the negative correlation of voter turnout with variables like unemployment rate and uneducated population is relatively stronger than the positive correlation with income.
+In the multiple linear regression model, the coefficients represent the change in the response variable (voter turnout) for a one-unit increase in the predictor variable, holding all other variables constant. In this analysis, the coefficient for the percentage of the uneducated population is -0.11, suggesting that for every one-unit increase in the percentage of uneducated individuals within a ward, the voter turnout decreases by 0.11 percentage points, although this effect is not statistically significant at the 99% confidence level. Conversely, the coefficient for income is 0.04, indicating that for every one-thousand increase in income, the voter turnout increases by 0.04 percentage points. However, this relationship is also not statistically significant. The coefficient for the unemployment rate is -0.41, implying that for every one-unit increase in the unemployment rate, the voter turnout decreases by 0.41 percentage points. While this coefficient is negative, indicating a decrease in voter turnout with higher unemployment rates, the relationship is not statistically significant either. The intercept term represents the expected voter turnout when all predictor variables are zero, which is 32.47% compared to the mean value of 29.48%. While this may never be practical in real life, it tells us that the negative correlation of voter turnout with variables like unemployment rate and uneducated population is relatively stronger than the positive correlation with income.
 
 In the Poisson regression model, the coefficients represent the log-linear relationship between the predictor variables and the expected count of the response variable (number of voters). For the percentage of the uneducated population, the coefficient is -0.08, indicating that a one-unit increase in the percentage of uneducated individuals within a ward is associated with an 8% decrease in the expected count of voters, though this effect is not statistically significant at the 99% confidence level. The coefficient for income is 0.00, which implies that changes in income do not significantly affect the expected count of voters in the Poisson model. Similarly, the coefficient for the unemployment rate is -0.08, suggesting that increases in unemployment may lead to a slight decrease in the expected count of voters, although this effect is also not statistically significant. Overall, the Poisson regression results suggest that the percentage of uneducated individuals within a ward may have a modest impact on the expected count of voters, while income and unemployment rate do not significantly influence voter turnout in terms of the number of voters.
 
