@@ -249,9 +249,9 @@ There are 25 wards in the City of Toronto, each with unique socio-economic and d
 
 Moving on to unemployment rate, the average unemployment rate per ward is 14.13%, with standard deviation of 2.11%. The wards with the highest unemployment rate are wards 7, 23 and 1. The wards with the lowest unemployment rate are wards 10, 12 and 3 The average percentage of uneducated population per ward is 12.43%, with standard deviation of 4.93%. The wards with the highest percentage of uneducated population are wards 7, 5 and 1. The wards with the lowest percentage of uneducated population are wards 10, 11 and 13. 
 
-Voter turnout across the entire city during the 2022 municipal election fell to 30%, with Ward 4 (Parkdale-High Park) having the highest turnout at 38% and Ward 7 (Humber River-Black Creek) having the lowest at 22%. Ward 19 (Beaches-East York) and Ward 14 (Toronto Danforth) were tied for second highest turnout at 36% each. The third highest turnout at 34% was in Ward 12 (Toronto-St. Paul's). The wards with the second lowest turnout were Ward 1 (Etobicoke North) and Ward 10 (Spadina-Fork York) at 24% each. Ward 6 (York Centre) and Ward 23 (Scarborough North) with 25% turnout respectively were tied for third lowest turnout.
+Voter turnout across the entire city during the 2022 municipal election fell to 30%, with Ward 4 having the highest turnout at 38% and Ward 7 having the lowest at 22%. Ward 19 and Ward 14 were tied for second highest turnout at 36% each. The third highest turnout at 34% was in Ward 12. The wards with the second lowest turnout were Ward 1 and Ward 10 at 24% each. Ward 6 and Ward 23 with 25% turnout respectively were tied for third lowest turnout.
 
-During the 2022 municipal election, there were 1,535 subdivisions across Toronto's 25 wards. Ward 10 (Spadina-Fort York) had the highest number of subdivisions at 94, while Ward 23 (Scarborough North) had the lowest number at 38. Ward 13 (Toronto Centre) had the second highest number of subdivisions at 90, with Ward 3 (Etobicoke-Lakeshore) coming in third highest with 83 subdivisions. Ward 7 (Humber River-Black Creek) had the second lowest number of subdivisions at 47, following by Ward 25 (Scarborough-Rouge Park) with 48. 
+During the 2022 municipal election, there were 1,535 subdivisions across Toronto's 25 wards. Ward 10 had the highest number of subdivisions at 94, while Ward 23 had the lowest number at 38. Ward 13 had the second highest number of subdivisions at 90, with Ward 3 coming in third highest with 83 subdivisions. Ward 7 had the second lowest number of subdivisions at 47, following by Ward 25 with 48. 
 
 
 ```{r}
@@ -560,17 +560,6 @@ These coefficient values may be influenced by various factors related to how pre
   fmt = 2)
 ```
 
-```{r}
-#| echo: false
-#| eval: true
-#| label: fig-modelresultsfig
-#| fig-cap: "Explanatory model of voter turnout based on socio-economic factors"
-#| warning: false
-
-modelplot(socioeconomic_gaussian_model, conf_level = 0.99) +
-  labs(x = "99 per cent credibility interval")
-
-```
 
 
 ## Demographic Models
@@ -602,18 +591,6 @@ modelsummary(models,
 
 ```
 
-```{r}
-#| echo: false
-#| eval: true
-#| label: fig-modelresultsfig2
-#| fig-cap: "Explanatory model of voter turnout based on demographic factors"
-#| warning: false
-
-modelplot(demographic_gaussian_model, conf_level = 0.99) +
-  labs(x = "99 per cent credibility interval")
-
-```
-
 # Discussion {#sec-discussion}
 
 ## Key Findings about Socio-Economic Factors
@@ -635,15 +612,15 @@ These results can inform strategies to increase voter turnout in Toronto by high
 
 ## Weaknesses and Next Steps
 
-From the Appendix posterior prediction checks in @fig-ppcheckandposteriorvsprior, and @fig-ppcheckandposteriorvsprior2, we can see that the Poisson regression models do not fit the data well but multiple linear regression does fairly well. This is likely because our data violates an important assumption of the Poisson regression model: equal mean and variance. In the data, we have 25 observations for the variables since we are comparing data at the ward level across the 25 Toronto wards. The small number of observations combined with the model fit indicates a potential data problem in the research. The relatively small sample size of 25 observations is a critical factor to consider, as it might not only impact the robustness of the statistical models but also reflect on the generalizability of the findings. Small sample sizes can lead to higher variability and may affect the model's ability to accurately capture the underlying distribution of the data.
-
-Moreover, the mismatch between the expected model conditions and the observed data characteristics suggests that there may be underlying factors affecting the data quality or distribution that were not accounted for in the initial analysis. This could range from measurement errors to unaccounted-for variables that could significantly influence the outcomes of the ward-level comparisons. Therefore, this analysis does not merely highlight a statistical anomaly but points to a larger data problem that could have implications for the research's validity and reliability.
-
 The cause of not being able to establish statistically significant relationships between most socio-economic and demographic factors and voter turnout could be due to the limitations of the dataset. The lack of detailed information on the specific characteristics of each ward, such as the presence of community organizations, local initiatives, or historical voting patterns, may have limited the depth of the analysis. Future research could benefit from incorporating additional data sources or conducting qualitative research to gain a more comprehensive understanding of the factors influencing voter turnout in Toronto. Additionally, expanding the dataset to include more observations or variables could help address the limitations of the current analysis and provide a more robust foundation for investigating the relationships between socio-economic and demographic factors and voter turnout.
 
 Next, the creation of subdivision boundaries within wards lacks transparency and clarity, while impacting the local democratic process. The City Clerk is responsible for drawing up all subdivisions, however the data and information they use to make these decisions is not public and it is challenging to account for any bias introduced during this process. Moreover, the number of subdivisions and population alone cannot dictate voter behaviour, as there are many other demographic factors which inform why an elector does or does not cast a ballot. The caliber of local candidates and the nature of the election, whether an incumbent is standing for re-election or the seat is open for a new councillor impacts voter turnout and should be accounted for in future analysis. 
 
 As mentioned previously, our small data problem can affect the internal validity of the research in question. Since we have a small data set, there is a reduction in statistical power, the probability of correctly rejecting a false null hypothesis. Additionally, having a small number of observations increases the risk of overfitting. In this case, the model learns the noise in the data instead of the underlying pattern. The data has limited number of observations and is at the ward level in Toronto, so generalizing our findings to cities outside Toronto may raise external validity concerns. Toronto's unique socio-economic, cultural, and environmental characteristics may influence the study's variables in ways that are not replicable in other cities. Factors such as policies and economic conditions vary significantly from one city to another, potentially affecting the applicability of the findings elsewhere. 
+
+From the Appendix posterior prediction checks in @fig-ppcheckandposteriorvsprior, and @fig-ppcheckandposteriorvsprior2, we can see that the Poisson regression models do not fit the data well but multiple linear regression does fairly well. This is likely because our data violates an important assumption of the Poisson regression model: equal mean and variance. In the data, we have 25 observations for the variables since we are comparing data at the ward level across the 25 Toronto wards. The small number of observations combined with the model fit indicates a potential data problem in the research. The relatively small sample size of 25 observations is a critical factor to consider, as it might not only impact the robustness of the statistical models but also reflect on the generalizability of the findings. Small sample sizes can lead to higher variability and may affect the model's ability to accurately capture the underlying distribution of the data.
+
+Moreover, the mismatch between the expected model conditions and the observed data characteristics suggests that there may be underlying factors affecting the data quality or distribution that were not accounted for in the initial analysis. This could range from measurement errors to unaccounted-for variables that could significantly influence the outcomes of the ward-level comparisons. Therefore, this analysis does not merely highlight a statistical anomaly but points to a larger data problem that could have implications for the research's validity and reliability.
 
 With the purpose of investigating the relationship between socioeconomic and demographic factors on voter turnout in Toronto, we find a moderate positive relationship between number of subdivisions and voter turnout in ward and a slight negaitive correlation between unemployment rate and voter turnout supported by data visualization as well as statistical models. The research is unable to conclude any relationship between income and the percentage of uneducated individuals with voter turnout. The research is also unable to conclude any relationship between population and voter turnout. Violation in the Poisson model assumptions as well as a small data set calls for a larger data set in future research to address both internal and external validity concerns. With a larger number of observations, model inferences will improve, addressing internal validity. To expand the data set, we can consider gathering data from other cities. Through this, we are also able to address external validity. With the inclusion of a large data set with many cities, we can gather data with socio-economic diversity. When working with more diverse data, we can potentially generalize our findings to elections across the world, helping us learn more about the factors that affect voter turnout in a variety of contexts.
 
@@ -814,6 +791,31 @@ Extract of the questions from @gebru2021datasheets.
 
 # Model Details {#sec-model-details}
 
+## Model Credibility Intervals
+
+```{r}
+#| echo: false
+#| eval: true
+#| label: fig-modelresultsfig
+#| fig-cap: "Explanatory model of voter turnout based on socio-economic factors"
+#| warning: false
+
+modelplot(socioeconomic_gaussian_model, conf_level = 0.99) +
+  labs(x = "99 per cent credibility interval")
+
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| label: fig-modelresultsfig2
+#| fig-cap: "Explanatory model of voter turnout based on demographic factors"
+#| warning: false
+
+modelplot(demographic_gaussian_model, conf_level = 0.99) +
+  labs(x = "99 per cent credibility interval") 
+
+```
 
 ## Posterior Predictive Check
 
