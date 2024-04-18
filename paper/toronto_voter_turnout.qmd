@@ -75,11 +75,8 @@ While there is existing literature on most of these factors in isolation, there 
 
 Our paper begins with the Data section (@sec-data) to visualize and further understand the measurement, source, methodology, and variables we are examining. Then, we introduce the Model (@sec-model) used to understand the relationships in the data and report the findings in the Results section (@sec-results). Finally, we include the Discussion (@sec-discussion) of the findings, summarizing the takeaway and future of this research.
 
-
-
 # Data {#sec-data}
 
-Data analysis is performed in `R` [@citeR], and additional help is provided by libraries such as `dplyr` [@dplyr], `ggplot2` [@ggplot], `ggrepel` [@ggrepel], `tidyverse` [@thereferencecanbewhatever], `kableExtra` [@kableextra], `knitr` [@knitr], and `sf` [@pebesma2023spatial], `opendatatoronto` [@toronto], `readxl` [@excel], `here` [@here], `rstanarm` [@rstan], `arrow` [@arrow], `tidybayes` [@tidybayes], `modelsummary` [@modelsummary], `broom` [@broom], and `parameters` [@parameters]. 
 Data for this research comes from Open Data Toronto [@toronto], an open source data portal containing various topics of data for the city. 
 For the data involved in this paper, we combine `Elections - Voter Statistics` [@ElectionData] and `Ward Profiles (25-Ward Model)` [@WardProfile]
  
@@ -421,7 +418,11 @@ Next, we examine the relationship between the number of subdivisions in a ward a
 
 ```
 
-Even though we see a slight positive correlation, the data reveals that having more subdivisions within wards does not automatically correlate to higher voter turnout, as illustrated by @fig-turnout-vs-numsub. Ward 4 (Parkdale-High Park) which had the highest voter turnout at 38% has 70 subdivisions within the ward, which falls approximately in the middle of the number of subdivisions across all 25 wards. Ward 19 (Beaches-East York) and Ward 14 (Toronto Danforth) which both saw the second highest voter turnout at 36% had 57 and 52 subdivisions respectively, once again highlighting that more subdivisions does not necessarily correlate to higher voter turnout. 
+Even though we see a slight positive correlation, the data reveals that having more subdivisions within wards does not automatically correlate to higher voter turnout, as illustrated by @fig-turnout-vs-numsub. Ward 4 which had the highest voter turnout at 38% has 70 subdivisions within the ward, which falls approximately in the middle of the number of subdivisions across all 25 wards. Ward 19 and Ward 14 which both saw the second highest voter turnout at 36% had 57 and 52 subdivisions respectively, once again highlighting that more subdivisions does not necessarily correlate to higher voter turnout. 
+
+
+
+*Note*: Data analysis is performed in `R` [@citeR], and additional help is provided by libraries such as `dplyr` [@dplyr], `ggplot2` [@ggplot], `ggrepel` [@ggrepel], `tidyverse` [@thereferencecanbewhatever], `kableExtra` [@kableextra], `knitr` [@knitr], and `sf` [@pebesma2023spatial], `opendatatoronto` [@toronto], `readxl` [@excel], `here` [@here], `rstanarm` [@rstan], `arrow` [@arrow], `tidybayes` [@tidybayes], `modelsummary` [@modelsummary], `broom` [@broom], and `parameters` [@parameters].
 
 
 # Model {#sec-model}
